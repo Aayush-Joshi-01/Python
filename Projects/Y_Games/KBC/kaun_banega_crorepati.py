@@ -455,46 +455,6 @@ class KBCGame:
         else:
             self.final_earnings = self.calculate_final_earnings()
             print(f"Congratulations! You've answered all questions correctly.")
-    # def play_game(self):
-    #     for question in self.questions:
-    #         self.current_question_index += 1
-    #         print(f"\nQuestion: {question['question']}")
-    #         print("Options:")
-    #         for option_id, option in zip('abcd', question["options"]):
-    #             print(f"{option_id}. {option}")
-    #
-    #         while True:
-    #             user_input = input("Enter your answer (or 0 to quit, or 'l' to use a lifeline): ").strip().lower()
-    #             if user_input == "":
-    #                 print("Please provide an answer.")
-    #             elif user_input == 'l':
-    #                 lifeline_choice = self.lifelines_menu()
-    #                 if lifeline_choice == '1':
-    #                     self.use_lifeline("double_dip", question)
-    #                 elif lifeline_choice == '2':
-    #                     self.use_lifeline("50-50", question)
-    #                 elif lifeline_choice == '3':
-    #                     self.use_lifeline("flip_question", question)
-    #             elif user_input not in ['a', 'b', 'c', 'd', '0']:
-    #                 print("Invalid input. Please enter a valid option (a, b, c, d) or 0 to quit.")
-    #             else:
-    #                 break
-    #
-    #         if user_input == "0":
-    #             if self.current_question_index == 1:
-    #                 self.final_earnings = 0
-    #             else:
-    #                 self.final_earnings = question_amount[self.questions_numbers[self.current_question_index - 2]]
-    #                 print(self.final_earnings)
-    #             print(f"You have quit the game with earnings of ₹{self.final_earnings}.")
-    #             return
-    #         elif user_input == 'l':
-    #             continue
-    #         if not self.process_answer(user_input, question):
-    #             break
-    #     else:
-    #         self.final_earnings = self.calculate_final_earnings()
-    #         print(f"Congratulations! You've answered all questions correctly.")
 
     def process_answer(self, user_input, question):
         if user_input in question["answer"]:
