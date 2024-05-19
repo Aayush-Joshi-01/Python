@@ -69,7 +69,7 @@ question_data = {
         },
         {
             "question": "What is the tallest mountain in the world?",
-            "options": ["Lhotse", "K2", "Kangchenjunga", "Mount Everest"],
+            "options": ["Lhotse", "K2", "Kanchenjunga", "Mount Everest"],
             "answer": "d"
         },
         {
@@ -354,7 +354,6 @@ question_data = {
     ]
 }
 
-
 question_amount = {
     "Q1": 1000,
     "Q2": 2000,
@@ -376,7 +375,6 @@ question_amount = {
 }
 
 
-
 class KBCGame:
     def __init__(self):
         self.questions = []
@@ -393,7 +391,7 @@ class KBCGame:
         print("Welcome to Kaun Banega Crorepati!")
         print("You will be asked a series of questions, and you can use lifelines to help you.")
         print("You can quit the game at any time by entering 0.")
-        while True:  # Loop for play-again functionality
+        while True:
             self.select_questions()
             self.play_game()
             play_again = input("Do you want to play again? (yes/no): ").lower()
@@ -498,7 +496,7 @@ class KBCGame:
                     print(f"Correct! You have earned ₹{earnings}.")
                     if current_question_number in self.checkpoints:
                         print("You have reached a checkpoint!")
-                    return True  # Proceed to the next question
+                    return True
                 else:
                     print(f"Sorry, the correct answer is {question['answer']}.")
                     self.game_over()
@@ -524,7 +522,7 @@ class KBCGame:
                     print(f"Correct! You have earned ₹{earnings}.")
                     if current_question_number in self.checkpoints:
                         print("You have reached a checkpoint!")
-                    return True  # Proceed to the next question
+                    return True
                 else:
                     print(f"Sorry, the correct answer is {question['answer']}.")
                     self.game_over()
@@ -537,13 +535,14 @@ class KBCGame:
                 self.lifelines["flip_question"] -= 1
                 print("You have used the Flip Question lifeline. A new question will be presented.")
                 self.questions.remove(question)
-                self.questions.append(question)  # Re-add the question to the end of the list
-                return  # No return value for Flip Question
+                self.questions.append(question)
+                return
             else:
                 print("You have already used the Flip Question lifeline.")
                 return False
 
-    def lifelines_menu(self):
+    @staticmethod
+    def lifelines_menu():
         print("Choose a lifeline:")
         print("1. Double Dip")
         print("2. 50-50")
