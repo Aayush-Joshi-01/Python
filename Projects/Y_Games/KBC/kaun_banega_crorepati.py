@@ -392,6 +392,7 @@ class KBCGame:
 
     def start_game(self):
         print("Welcome to Kaun Banega Crorepati!")
+        playsound('Assets/Intro.mp3')
         print("You will be asked a series of questions, and you can use lifelines to help you.")
         print("You can quit the game at any time by entering 0.")
         while True:
@@ -431,11 +432,11 @@ class KBCGame:
                     if lifeline_choice == '1':
                         correct_answer = self.use_lifeline("double_dip", question)
                         if correct_answer:
-                            return True
+                            break
                     elif lifeline_choice == '2':
                         correct_answer = self.use_lifeline("50-50", question)
                         if correct_answer:
-                            return True
+                            break
                     elif lifeline_choice == '3':
                         self.use_lifeline("flip_question", question)
                 elif user_input not in ['a', 'b', 'c', 'd', '0']:
@@ -454,7 +455,7 @@ class KBCGame:
             if not self.process_answer(user_input, question):
                 break
         else:
-            playsound("7Crore.mp3")
+            playsound("Assets/7Crore.mp3")
             time.sleep(4)
             self.final_earnings = self.calculate_final_earnings()
             print(f"Congratulations! You've answered all questions correctly.")
