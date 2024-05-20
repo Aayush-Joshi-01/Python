@@ -11,7 +11,8 @@ question_data = {
         },
         {
             "question": "Who is the CEO of Tesla?",
-            "options": ["Bill Gates", "Mark Zuckerberg", "Jeff Bezos", "Elon Musk"],
+            "options": ["Bill Gates", "Ma"
+                                      "rk Zuckerberg", "Jeff Bezos", "Elon Musk"],
             "answer": "d"
         },
         {

@@ -1,5 +1,8 @@
 import random
 
+from pydub import AudioSegment
+from pydub.playback import play
+
 question_data = {
     "easy": [
         {
@@ -432,9 +435,9 @@ class KBCGame:
                     elif lifeline_choice == '2':
                         correct_answer = self.use_lifeline("50-50", question)
                         if correct_answer:
-                            return True  # Proceed to the next question
+                            return True
                     elif lifeline_choice == '3':
-                        self.use_lifeline("flip_question", question)  # No return value for Flip Question
+                        self.use_lifeline("flip_question", question)
                 elif user_input not in ['a', 'b', 'c', 'd', '0']:
                     print("Invalid input. Please enter a valid option (a, b, c, d) or 0 to quit.")
                 else:
@@ -452,6 +455,8 @@ class KBCGame:
                 break
         else:
             self.final_earnings = self.calculate_final_earnings()
+            song = AudioSegment.from_wav("7Crore.mp3")
+            play(song)
             print(f"Congratulations! You've answered all questions correctly.")
 
     def process_answer(self, user_input, question):
