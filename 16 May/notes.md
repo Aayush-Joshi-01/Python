@@ -1,5 +1,6 @@
 # Exception Handling
 
+![Error_Hierarchy.png](Error_Hierarchy.png)
 - ## Try 
   - ### Each try block should have one or more than one except block 
 - ## Except
