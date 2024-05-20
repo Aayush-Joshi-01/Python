@@ -1,10 +1,7 @@
-from playsound3 import playsound
 from BLACKJACK import black_jack
+from HANGMAN.main import Hangman
 from Projects.Y_Games.KBC.kaun_banega_crorepati import KBCGame
 from TIC_TAC_TOE import tic_tac_toe
-from HANGMAN.main import Hangman
-from HANGMAN import hangman_art, hangman_words
-
 
 
 def games_menu():
@@ -12,7 +9,6 @@ def games_menu():
     print("2> Tic Tac Toe")
     print("3> Kaun Banega Crorepati")
     print("4> Hangman")
-
 
 
 if __name__ == '__main__':
@@ -34,3 +30,4 @@ if __name__ == '__main__':
         if choice == 0:
             print("Thank you for using the Yash Games Services!!!!")
             break
+        games_menu()
