@@ -1,8 +1,16 @@
-def arrange_emp_acc_to_doj(emp: list) -> list:
-    return sorted(emp, key=lambda d: d["DOJ"])
+import datetime
+
+
+def arrange_emp_acc_to_doj(emp_list: list) -> list:
+    return sorted(emp_list, key=lambda date: date["DOJ"])
 
 
 if __name__ == '__main__':
-    emp = [{"name": "aayush", "DOJ": 2024}, {"name": "vikrant", "DOJ": 2023},
-           {"name": "prankur", "DOJ": 2021}, {"name": "aaditya", "DOJ": 2025}]
-    print(arrange_emp_acc_to_doj(emp))
+    emp = [
+        {"name": "aayush", "DOJ": datetime.datetime(2024, 4, 8)},
+        {"name": "vikrant", "DOJ": datetime.datetime(2022, 2, 8)},
+        {"name": "prankur", "DOJ": datetime.datetime(2023, 12, 5)},
+        {"name": "aaditya", "DOJ": datetime.datetime(2022, 1, 8)}
+    ]
+    for temps in emp:
+        print(temps)
