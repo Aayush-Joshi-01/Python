@@ -1,6 +1,7 @@
 import random
 import time
-
+import os
+import gtts
 from playsound3 import playsound
 
 question_data = {
@@ -378,6 +379,14 @@ question_amount = {
 }
 
 
+def convert_text_to_speech(text):
+    tts = gtts.gTTS(text, lang='en')
+    filename = 'output.mp3'
+    tts.save(filename)
+    playsound(filename)
+    os.remove(filename)
+
+
 class KBCGame:
     def __init__(self):
         self.questions = []
@@ -391,7 +400,7 @@ class KBCGame:
         self.current_question_index = 0
 
     def start_game(self):
-        ascii_art = """
+        ascii_art = r"""
             .------------------------------------------------------------.
             |                                                            |
             | _  __                   ____                               |
@@ -409,7 +418,7 @@ class KBCGame:
         """
         print(ascii_art)
         print("Welcome to Kaun Banega Crorepati!")
-        playsound('Assets/Intro.mp3')
+        playsound("Assets/Intro.mp3")
         print("You will be asked a series of questions, and you can use lifelines to help you.")
         print("You can quit the game at any time by entering 0.")
         while True:
@@ -436,15 +445,19 @@ class KBCGame:
         for question in self.questions:
             self.current_question_index += 1
             print(f"\nQuestion: {question['question']}")
+            convert_text_to_speech(question['question'])
             print("Options:")
+            convert_text_to_speech("Options are ")
             for option_id, option in zip('abcd', question["options"]):
                 print(f"{option_id}. {option}")
+                convert_text_to_speech(f"{option_id}. {option}")
 
             while True:
                 user_input = input("Enter your answer (or 0 to quit, or 'l' to use a lifeline): ").strip().lower()
                 if user_input == "":
                     print("Please provide an answer.")
                 elif user_input == 'l':
+
                     lifeline_choice = self.lifelines_menu()
                     if lifeline_choice == '1':
                         correct_answer = self.use_lifeline("double_dip", question)
@@ -484,6 +497,7 @@ class KBCGame:
             print(f"Correct! You have earned ₹{earnings}.")
             if current_question_number in self.checkpoints:
                 print("You have reached a checkpoint!")
+                convert_text_to_speech("You have reached a checkpoint!")
             return True
         else:
             correct_option = question["options"][ord(question["answer"]) - ord('a')]
