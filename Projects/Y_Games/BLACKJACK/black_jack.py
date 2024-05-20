@@ -36,7 +36,6 @@ class BlackJack:
         else:
             return "You lose 😤"
 
-    @staticmethod
     def play_game(self):
         global computer_score, user_score
         user_cards = []
@@ -68,3 +67,10 @@ class BlackJack:
         print(f"   Your final hand: {user_cards}, final score: {user_score}")
         print(f"   Computer's final hand: {computer_cards}, final score: {computer_score}")
         print(self.compare())
+
+
+def main():
+    print("Welcome to the Game of Black Jack")
+    while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y":
+        obj = BlackJack()
+        obj.play_game()

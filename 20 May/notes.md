@@ -26,3 +26,7 @@
 ```python
 f = open(filename, mode)
 ```
+
+## Serializing or Pickling
+
+Converts python Objects into Byte Streams to be stored in a binary format
