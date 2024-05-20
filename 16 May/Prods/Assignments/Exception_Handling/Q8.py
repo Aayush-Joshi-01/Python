@@ -1,6 +1,7 @@
 class ItemNotFoundException(Exception):
     pass
 
+
 class InventoryItem:
     def __init__(self, name, quantity):
         self.name = name
@@ -13,6 +14,7 @@ class InventoryItem:
 
     def __str__(self):
         return f"{self.name}: {self.quantity} unit(s)"
+
 
 class GroceryStoreInventory:
     def __init__(self):
@@ -47,6 +49,7 @@ class GroceryStoreInventory:
         else:
             raise ItemNotFoundException(f"Item '{name}' not found in inventory.")
 
+
 def get_positive_integer(prompt):
     while True:
         try:
@@ -56,6 +59,7 @@ def get_positive_integer(prompt):
             return value
         except ValueError as e:
             print(f"Invalid input: {e}")
+
 
 def main():
     inventory = GroceryStoreInventory()
@@ -106,6 +110,7 @@ def main():
             break
         else:
             print("Invalid choice. Please select a valid option.")
+
 
 if __name__ == "__main__":
     main()
