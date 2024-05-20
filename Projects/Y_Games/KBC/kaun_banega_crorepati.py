@@ -1,7 +1,7 @@
 import random
+import time
 
-from pydub import AudioSegment
-from pydub.playback import play
+from playsound3 import playsound
 
 question_data = {
     "easy": [
@@ -454,9 +454,9 @@ class KBCGame:
             if not self.process_answer(user_input, question):
                 break
         else:
+            playsound("7Crore.mp3")
+            time.sleep(4)
             self.final_earnings = self.calculate_final_earnings()
-            song = AudioSegment.from_wav("7Crore.mp3")
-            play(song)
             print(f"Congratulations! You've answered all questions correctly.")
 
     def process_answer(self, user_input, question):
