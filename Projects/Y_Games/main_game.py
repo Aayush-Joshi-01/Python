@@ -1,13 +1,10 @@
 from playsound3 import playsound
-
 from BLACKJACK import black_jack
 from Projects.Y_Games.KBC.kaun_banega_crorepati import KBCGame
-from TIC_TAC_TOE.tic_tac_toe import TicTacToe as TicTacToe, HumanPlayer, ComputerPlayer
+from TIC_TAC_TOE import tic_tac_toe
+from HANGMAN.main import Hangman
+from HANGMAN import hangman_art, hangman_words
 
-
-def kbc():
-    kbc_game = KBCGame()
-    kbc_game.start_game()
 
 
 def games_menu():
@@ -16,26 +13,6 @@ def games_menu():
     print("3> Kaun Banega Crorepati")
     print("4> Hangman")
 
-
-def tictactoe():
-    ttt = TicTacToe()
-    player1 = HumanPlayer('Player 1', 'X')
-    mode = input("Choose mode: 1 for 2-player, 2 for computer: ")
-    if mode == '1':
-        player2 = HumanPlayer('Player 2', 'O')
-    else:
-        player2 = ComputerPlayer('Computer', 'O')
-
-    while True:
-        result = ttt.play_game(player1, player2)
-        print(f"Scores: {ttt.scores}")
-        play_again = input("Play again? (y/n): ")
-        if play_again.lower() != 'y':
-            break
-
-
-def black_jack_game():
-    black_jack.main()
 
 
 if __name__ == '__main__':
@@ -47,13 +24,13 @@ if __name__ == '__main__':
             print("Enter a valid Choice!!")
             continue
         if choice == 1:
-            black_jack_game()
+            black_jack.main()
         if choice == 2:
-            tictactoe()
+            tic_tac_toe.main()
         if choice == 3:
-            kbc()
+            KBCGame().start_game()
         if choice == 4:
-            pass
+            Hangman().play()
         if choice == 0:
             print("Thank you for using the Yash Games Services!!!!")
             break
