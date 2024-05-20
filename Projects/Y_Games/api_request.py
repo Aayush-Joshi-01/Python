@@ -1,3 +1,5 @@
+from flask import Flask
+
 from BLACKJACK import black_jack
 from Projects.Y_Games.KBC.kaun_banega_crorepati import KBCGame
 from TIC_TAC_TOE.tic_tac_toe import TicTacToe as TicTacToe, HumanPlayer, ComputerPlayer
@@ -36,7 +38,11 @@ def black_jack_game():
     black_jack.main()
 
 
-if __name__ == '__main__':
+app = Flask(__name__)
+
+
+@app.route('/game', methods=['GET'])
+def play_game():
     print("Welcome to the Yash Games Services!!!!")
     games_menu()
     while True:
@@ -50,8 +56,7 @@ if __name__ == '__main__':
             tictactoe()
         if choice == 3:
             kbc()
-        if choice == 4:
-            pass
-        if choice == 0:
-            print("Thank you for using the Yash Games Services!!!!")
-            break
+
+
+if __name__ == "__main__":
+    app.run(debug=True, port=5000)
