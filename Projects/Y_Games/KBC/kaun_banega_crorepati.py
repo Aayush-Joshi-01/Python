@@ -464,12 +464,10 @@ class KBCGame:
                     lifeline_choice = self.lifelines_menu()
                     if lifeline_choice == '1':
                         correct_answer = self.use_lifeline("double_dip", question)
-                        if correct_answer:
-                            break
+                        break
                     elif lifeline_choice == '2':
                         correct_answer = self.use_lifeline("50-50", question)
-                        if correct_answer:
-                            break
+                        break
                     elif lifeline_choice == '3':
                         self.use_lifeline("flip_question", question)
                 elif user_input not in ['a', 'b', 'c', 'd', '0']:
