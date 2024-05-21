@@ -1,4 +1,8 @@
+import os
 import random
+
+import gtts
+from playsound3 import playsound
 
 word_list = [
     'abruptly',
@@ -285,6 +289,14 @@ logo = r'''
                    |___/    '''
 
 
+def convert_text_to_speech(text):
+    tts = gtts.gTTS(text, lang='en')
+    filename = 'output.mp3'
+    tts.save(filename)
+    playsound(filename)
+    os.remove(filename)
+
+
 class Hangman:
     def __init__(self):
         self.chosen_word = random.choice(word_list)
@@ -296,16 +308,21 @@ class Hangman:
     def play(self):
         print(logo)
         # print(f'Pssst, the solution is {self.chosen_word}.')
+        convert_text_to_speech("Welcome to the Game Hangman")
 
         while not self.end_of_game:
+            convert_text_to_speech("Guess the letter")
             guess = input("Guess a letter: ").lower()
             self.process_guess(guess)
             self.print_status()
             self.check_game_end()
+        print(self.chosen_word)
+        return
 
     def process_guess(self, guess):
         if guess in self.display:
             print(f"You've already guessed {guess}")
+            convert_text_to_speech(f"You've already guessed {guess}")
             return
 
         if guess in self.chosen_word:
@@ -314,7 +331,9 @@ class Hangman:
                     self.display[position] = guess
         else:
             print(f"You guessed {guess}, that's not in the word. You lose a life.")
+            convert_text_to_speech(f"You guessed {guess}, that's not in the word. You lose a life.")
             self.lives -= 1
+            convert_text_to_speech(f"You have {self.lives} lives remaining!")
 
     def print_status(self):
         print(f"{' '.join(self.display)}")
@@ -323,9 +342,11 @@ class Hangman:
     def check_game_end(self):
         if "_" not in self.display:
             self.end_of_game = True
+            convert_text_to_speech("You saved him Congratulations!")
             print("You win.")
         elif self.lives == 0:
             self.end_of_game = True
+            convert_text_to_speech("Oh ho you let him die! You lost!")
             print("You lose.")
 
 

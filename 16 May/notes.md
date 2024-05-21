@@ -418,7 +418,9 @@ if __name__ == '__main__':
 Process finished with exit code 0
 ```
 
+## Why should we not put all the code in try block?
 
+## What is the hierarchy of except?
 
 
 

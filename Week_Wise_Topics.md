@@ -7,3 +7,5 @@
   - ### Python Functions, Scope of Variable, Exception Handling, User Defined Exceptions, Exception Chaining, Modules
 ---
 
+- ## Week 3 (20th May - 24th May)
+    - ### Python file handling and Advanced Python

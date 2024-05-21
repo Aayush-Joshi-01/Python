@@ -475,7 +475,6 @@ class KBCGame:
                 elif user_input not in ['a', 'b', 'c', 'd', '0']:
                     print("Invalid input. Please enter a valid option (a, b, c, d) or 0 to quit.")
                 else:
-                    playsound("Assets/Wrong_Question_KBC.mp3")
                     break
             if user_input == "0":
                 if self.current_question_index == 1:
@@ -493,12 +492,12 @@ class KBCGame:
             time.sleep(4)
             self.final_earnings = self.calculate_final_earnings()
             print(f"Congratulations! You've answered all questions correctly.")
-        playsound("Assets/Next_Question.mp3")
 
     def process_answer(self, user_input, question):
         if user_input in question["answer"]:
             current_question_number = self.get_current_question_number()
             earnings = question_amount[current_question_number]
+            playsound("Assets/Next_Question.mp3")
             print(f"Correct! You have earned ₹{earnings}.")
             if current_question_number in self.checkpoints:
                 print("You have reached a checkpoint!")
@@ -507,6 +506,7 @@ class KBCGame:
         else:
             correct_option = question["options"][ord(question["answer"]) - ord('a')]
             print(f"Sorry, the correct answer is {correct_option}.")
+            playsound("Assets/Wrong_Question_KBC.mp3")
             self.game_over()
             return False
 

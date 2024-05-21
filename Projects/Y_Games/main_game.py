@@ -1,6 +1,7 @@
 from BLACKJACK import black_jack
 from HANGMAN.main import Hangman
 from KBC.kaun_banega_crorepati import KBCGame
+from Stone_Paper_Scissor.sps import Game
 from TIC_TAC_TOE import tic_tac_toe
 
 
@@ -9,6 +10,7 @@ def games_menu():
     print("2> Tic Tac Toe")
     print("3> Kaun Banega Crorepati")
     print("4> Hangman")
+    print("5> Stone Paper Scissor")
 
 
 if __name__ == '__main__':
@@ -16,7 +18,7 @@ if __name__ == '__main__':
     games_menu()
     while True:
         choice = int(input("Enter the game you want to play: "))
-        if not choice in [1, 2, 3, 4, 0]:
+        if not choice in [1, 2, 3, 4, 5, 0]:
             print("Enter a valid Choice!!")
             continue
         if choice == 1:
@@ -27,6 +29,8 @@ if __name__ == '__main__':
             KBCGame().start_game()
         if choice == 4:
             Hangman().play()
+        if choice == 5:
+            Game().play()
         if choice == 0:
             print("Thank you for using the Yash Games Services!!!!")
             break
