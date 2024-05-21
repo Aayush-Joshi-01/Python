@@ -1,6 +1,7 @@
+import os
 import random
 import time
-import os
+
 import gtts
 from playsound3 import playsound
 
@@ -400,6 +401,7 @@ class KBCGame:
         self.current_question_index = 0
 
     def start_game(self):
+        playsound("Assets/KBC_Intro.mp3")
         ascii_art = r"""
             .------------------------------------------------------------.
             |                                                            |
@@ -423,6 +425,7 @@ class KBCGame:
         print("You can quit the game at any time by entering 0.")
         while True:
             self.select_questions()
+            playsound("Assets/Question.mp3")
             self.play_game()
             play_again = input("Do you want to play again? (yes/no): ").lower()
             if play_again != 'yes':
@@ -472,6 +475,7 @@ class KBCGame:
                 elif user_input not in ['a', 'b', 'c', 'd', '0']:
                     print("Invalid input. Please enter a valid option (a, b, c, d) or 0 to quit.")
                 else:
+                    playsound("Assets/Wrong_Question_KBC.mp3")
                     break
             if user_input == "0":
                 if self.current_question_index == 1:
@@ -489,6 +493,7 @@ class KBCGame:
             time.sleep(4)
             self.final_earnings = self.calculate_final_earnings()
             print(f"Congratulations! You've answered all questions correctly.")
+        playsound("Assets/Next_Question.mp3")
 
     def process_answer(self, user_input, question):
         if user_input in question["answer"]:

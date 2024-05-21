@@ -307,6 +307,9 @@ Inner Function
 # Scope of a Variable
 - ## Global Variable
 - ## Local Variable
+
+---
+
 ```python
 global num
 num = 100

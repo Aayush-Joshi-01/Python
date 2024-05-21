@@ -1,6 +1,6 @@
 from BLACKJACK import black_jack
 from HANGMAN.main import Hangman
-from Projects.Y_Games.KBC.kaun_banega_crorepati import KBCGame
+from KBC.kaun_banega_crorepati import KBCGame
 from TIC_TAC_TOE import tic_tac_toe
 
 
