@@ -1,13 +1,12 @@
+import os
+
+from colorama import Fore, Style
+
 from BLACKJACK import black_jack
 from HANGMAN.main import Hangman
 from KBC.kaun_banega_crorepati import KBCGame
 from Stone_Paper_Scissor.sps import Game
 from TIC_TAC_TOE import tic_tac_toe
-
-import os
-import random
-import colorama
-from colorama import Fore, Back, Style
 
 
 def clear_screen():
@@ -29,12 +28,18 @@ def games_menu():
     print(Fore.CYAN + Style.BRIGHT + "\t6> Exit")
 
 
+def get_terminal_size():
+    try:
+        return os.get_terminal_size()
+    except OSError:
+        return 80, 24  # Default terminal size
+
+
 def print_centered(text):
-    os.system('color 0A')  # change bg color to light blue
-    clear_screen()
+    terminal_size = get_terminal_size()
     length = len(text)
-    start_pos = (os.get_terminal_size().columns - length) // 2
-    print(Fore.CYAN + Style.BRIGHT + "\t" + " " * start_pos + text)
+    start_pos = (terminal_size[0] - length) // 2
+    print(" " * start_pos + text)
 
 
 if __name__ == '__main__':
@@ -43,7 +48,7 @@ if __name__ == '__main__':
         games_menu()
         choice = int(input(Fore.GREEN + Style.BRIGHT + "\tEnter the game you want to play: "))
         if not choice in [1, 2, 3, 4, 5, 6]:
-            print_centered("Enter a valid Choice!!")
+            print(Fore.RED + "Invalid input. Please enter a number." + Fore.RESET)
             continue
         if choice == 1:
             black_jack.main()
