@@ -389,6 +389,7 @@ def convert_text_to_speech(text):
 
 
 class KBCGame:
+
     def __init__(self):
         self.questions = []
         self.question_types = ["easy", "medium", "hard"]
