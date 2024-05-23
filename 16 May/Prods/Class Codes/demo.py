@@ -203,7 +203,6 @@ questions = [
 
 quiz_game(questions)
 
-#
 # import threading
 # import time
 #
