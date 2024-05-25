@@ -15,3 +15,4 @@ if __name__ == '__main__':
     mm = Male()
     print(id(m))
     print(id(mm))
+

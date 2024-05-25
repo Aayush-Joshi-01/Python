@@ -421,7 +421,10 @@ class KBCGame:
         """
         print(ascii_art)
         print("Welcome to Kaun Banega Crorepati!")
+        name = input("Enter your name")
         playsound("Assets/Intro.mp3")
+        # print(f"Welcome {name}!!!")
+        # playsound(f"Welcome {name}!!!")
         print("You will be asked a series of questions, and you can use lifelines to help you.")
         print("You can quit the game at any time by entering 0.")
         while True:
@@ -496,8 +499,8 @@ class KBCGame:
         if user_input in question["answer"]:
             current_question_number = self.get_current_question_number()
             earnings = question_amount[current_question_number]
-            playsound("Assets/Next_Question.mp3")
             print(f"Correct! You have earned ₹{earnings}.")
+            playsound("Assets/Next_Question.mp3")
             if current_question_number in self.checkpoints:
                 print("You have reached a checkpoint!")
                 convert_text_to_speech("You have reached a checkpoint!")
@@ -577,6 +580,8 @@ class KBCGame:
                 print("You have used the Flip Question lifeline. A new question will be presented.")
                 self.questions.remove(question)
                 self.questions.append(question)
+                self.current_question_index -= 1
+                self.play_game()
                 return
             else:
                 print("You have already used the Flip Question lifeline.")

@@ -95,6 +95,13 @@ class BlackJack:
 
 
 def main():
+    print(r""" 
+ ____  _            _          _            _    
+| __ )| | __ _  ___| | __     | | __ _  ___| | __
+|  _ \| |/ _` |/ __| |/ /  _  | |/ _` |/ __| |/ /
+| |_) | | (_| | (__|   <  | |_| | (_| | (__|   < 
+|____/|_|\__,_|\___|_|\_\  \___/ \__,_|\___|_|\_\
+""")
     print("Welcome to the Game of Black Jack")
     convert_text_to_speech("Welcome to the game Blackjack!")
     while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y":

@@ -47,19 +47,19 @@ if __name__ == '__main__':
     while True:
         games_menu()
         choice = int(input(Fore.GREEN + Style.BRIGHT + "\tEnter the game you want to play: "))
-        if not choice in [1, 2, 3, 4, 5, 6]:
-            print(Fore.RED + "Invalid input. Please enter a number." + Fore.RESET)
+        if choice in [1, 2, 3, 4, 5, 6]:
+            if choice == 1:
+                black_jack.main()
+            elif choice == 2:
+                tic_tac_toe.main()
+            elif choice == 3:
+                KBCGame().start_game()
+            elif choice == 4:
+                Hangman().play()
+            elif choice == 5:
+                Game().play()
+            elif choice == 6:
+                print_centered("Thank you for using the Yash Games Services!!!!")
+                break
             continue
-        if choice == 1:
-            black_jack.main()
-        elif choice == 2:
-            tic_tac_toe.main()
-        elif choice == 3:
-            KBCGame().start_game()
-        elif choice == 4:
-            Hangman().play()
-        elif choice == 5:
-            Game().play()
-        elif choice == 6:
-            print_centered("Thank you for using the Yash Games Services!!!!")
-            break
+        print(Fore.RED + "Invalid input. Please enter a number." + Fore.RESET)
