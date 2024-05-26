@@ -77,8 +77,8 @@ class BlackJack:
             if user_score == 0 or computer_score == 0 or user_score > 21:
                 is_game_over = True
             else:
-                user_should_deal = input("Type 'y' to get another card or hit, type 'n' to pass or stall: ")
                 convert_text_to_speech("Type 'y' to get another card or hit, type 'n' to pass or stall: ")
+                user_should_deal = input("Type 'y' to get another card or hit, type 'n' to pass or stall: ")
                 if user_should_deal == "y":
                     user_cards.append(self.deal_card())
                 else:
