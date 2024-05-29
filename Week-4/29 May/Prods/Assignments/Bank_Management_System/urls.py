@@ -1,17 +1,19 @@
-urlpatterns = [
-    ("deposit", "bank/deposit"),
-    ("withdraw", "bank/withdraw"),
-    ("transfer", "bank/transfer"),
-    ("balance", "bank/balance"),
-    ("add_account", "bank/add_account"),
+from bank import Bank
+from transaction import Transaction
+from typing import Callable, List, Tuple
+
+urlpatterns: List[Tuple[str, Callable]] = [
+    ("create_account", Bank.create_account),
+    ("deposit", Bank.deposit),
+    ("credit", Bank.credit),
+    ("statement", Bank.statement),
+    ("transfer", Bank.transfer),
+    ("view_transactions", Transaction.view_transactions),
 ]
 
 
-def route(url, *args, **kwargs):
+def route(url: str, *args: object, **kwargs: object) -> None:
     for pattern, view in urlpatterns:
-        if pattern == url:
-            module_name, func_name = view.split("/")
-            module = globals()[module_name]
-            func = getattr(module, func_name)
-            return func(*args, **kwargs)
-        raise Exception("404 Not Found!")
+        if url == pattern:
+            return view(*args, **kwargs)
+    raise Exception("404 Not Found")
