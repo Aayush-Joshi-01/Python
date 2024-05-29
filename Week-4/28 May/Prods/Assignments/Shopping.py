@@ -40,7 +40,9 @@ class ShoppingCart:
     def add_item(self, item: Item) -> None:
         if not isinstance(item, Item):
             raise TypeError("Only Item instances can be added to the cart.")
-        self._items.append(item)
+        quantity = input("Enter the quantity: ")
+        for _ in range(int(quantity)):
+            self._items.append(item)
         print(f"Added {item} to the cart.")
 
     def remove_item(self, item: Item) -> None:
