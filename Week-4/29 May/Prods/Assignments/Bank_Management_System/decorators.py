@@ -1,39 +1,46 @@
-import json
-from datetime import datetime
 from functools import wraps
-from account import Account
-from bank import Bank
+from transactions import Transactions
 
 
 def save_accounts_decorator(func):
+    """
+    A decorator that saves the accounts after calling the decorated function.
+
+    Args:
+        func: The function to decorate.
+
+    Returns:
+        A wrapped function that saves the accounts after calling the decorated function.
+    """
+
     @wraps(func)
     def wrapper(*args, **kwargs):
         result = func(*args, **kwargs)
-        with open(Account.accounts_file, 'w') as f:
-            accounts_data = {acc_number: acc.__dict__ for acc_number, acc in Account.accounts.items()}
-            json.dump(accounts_data, f)
+        Transactions.save_accounts()
         return result
 
     return wrapper
 
 
 def log_transaction_decorator(transaction_type):
+    """
+    A decorator that logs a transaction after calling the decorated function.
+
+    Args:
+        transaction_type: The type of transaction to log.
+
+    Returns:
+        A decorator function that logs the transaction after calling the decorated function.
+    """
+
     def decorator(func):
         @wraps(func)
-        def wrapper(account_number, *args, **kwargs):
-            result = func(account_number, *args, **kwargs)
-            transactions = Bank.load_transactions()
-            if account_number not in transactions:
-                transactions[account_number] = []
-            transaction_details = {
-                "transaction_type": transaction_type,
-                "amount": args[0],
-                "date": str(datetime.now()),
-                "target_account": kwargs.get('target_account')
-            }
-            transactions[account_number].append(transaction_details)
-            with open(Bank.transactions_file, 'w') as f:
-                json.dump(transactions, f)
+        def wrapper(*args, **kwargs):
+            result = func(*args, **kwargs)
+            account_number = args[0]
+            amount = args[1]
+            target_account = kwargs.get('target_account')
+            Transactions.log_transaction(transaction_type, account_number, amount, target_account)
             return result
 
         return wrapper
