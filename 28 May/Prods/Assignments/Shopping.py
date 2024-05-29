@@ -60,6 +60,9 @@ class ShoppingCart:
         final_total = total - discount
         return final_total, discount
 
+    def clear_list(self):
+        self._items = []
+
     def __str__(self) -> str:
         item_list = "\n".join(str(item) for item in self._items)
         total, discount = self.get_total()
@@ -124,16 +127,21 @@ class Menu:
             print(f"Error: {e}")
 
     def remove_item(self) -> None:
+        self.view_cart()
         name = input("Enter item name to remove: ")
-        items_to_remove = [item for item in self.cart._items if item.name == name]
-        if not items_to_remove:
-            print(f"Item '{name}' not found in the cart.")
-            return
-        item = items_to_remove[0]
-        try:
-            self.cart.remove_item(item)
-        except ValueError as e:
-            print(f"Error: {e}")
+        validate = input("Are you sure you want to remove the item [y/n]: ")
+        if validate in ['y', 'yes']:
+            items_to_remove = [item for item in self.cart._items if item.name == name]
+            if not items_to_remove:
+                print(f"Item '{name}' not found in the cart.")
+                return
+            item = items_to_remove[0]
+            try:
+                self.cart.remove_item(item)
+            except ValueError as e:
+                print(f"Error: {e}")
+        else:
+            print("Removal cancelled.")
 
     def view_cart(self) -> None:
         print(self.cart)
@@ -144,6 +152,7 @@ class Menu:
         print(f"Discount applied: {discount:.2f}")
         print(f"Total cost (after discount): {total:.2f}")
         print("Thank you for shopping!")
+        self.cart.clear_list()
 
 
 if __name__ == '__main__':

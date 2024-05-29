@@ -1,6 +1,12 @@
 import random
 
 
+# class Accounts:
+#     account = []
+#     def __init__(self, acc) -> None:
+#         self.account.append(acc)
+    
+
 class SBI:
     """
     Class for a Bank
