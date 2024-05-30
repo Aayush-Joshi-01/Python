@@ -32,5 +32,13 @@
       "date": "2024-05-30 08:39:45.013581",
       "target_account": "1100673"
     }
+  ],
+  "11000": [
+    {
+      "transaction_type": "create_account",
+      "amount": 2000.0,
+      "date": "2024-05-30 10:50:04.024312",
+      "target_account": null
+    }
   ]
 }

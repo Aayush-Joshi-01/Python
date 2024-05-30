@@ -1,24 +1,13 @@
 {
-  "1100673": {
-    "account_number": "1100673",
-    "name": "aayush",
-    "ifsc_code": "",
-    "branch_name": "",
-    "state": "",
-    "district": "",
-    "country": "",
-    "account_type": "savings",
-    "balance": 18400.0
-  },
-  "1100666": {
-    "account_number": "1100666",
-    "name": "shubham",
+  "11000": {
+    "account_number": "11000",
+    "name": "prankur",
     "ifsc_code": "",
     "branch_name": "",
     "state": "",
     "district": "",
     "country": "",
     "account_type": "zero_balance_savings",
-    "balance": 3000.0
+    "balance": 0.0
   }
 }

@@ -64,13 +64,11 @@ class Account:
         Raises:
             InvalidInitialBalanceError: If the initial balance is less than the minimum required for the account type.
         """
-        if self.account_type == 'savings' and self.balance < 5000:
+        if self.account_type == 'avings' and self.balance < 5000:
             raise InvalidInitialBalanceError("Savings accounts must have a minimum balance of 5000.")
         if self.account_type == 'zero_balance_savings' and self.balance < 2000:
             raise InvalidInitialBalanceError(
                 "Zero balance savings accounts must have a minimum initial balance of 2000.")
-        if self.account_type == 'zero_balance_savings' and self.balance >= 2000:
-            self.balance -= 2000
 
     def credit(self, amount: float) -> None:
         """
@@ -104,17 +102,17 @@ class Account:
         """
         return f"Account({self.account_number}, {self.name}, {self.balance}, {self.account_type})"
 
-    # @classmethod
-    # def load_accounts(cls) -> None:
-    #     """
-    #     Loads the accounts from the accounts file.
-    #     """
-    #     try:
-    #         with open(cls.accounts_file, 'r') as f:
-    #             accounts_data = json.load(f)
-    #             cls.accounts = {acc_number: cls(**data) for acc_number, data in accounts_data.items()}
-    #     except FileNotFoundError:
-    #         cls.accounts = {}
+    @classmethod
+    def load_accounts(cls) -> None:
+        """
+        Loads the accounts from the accounts file.
+        """
+        try:
+            with open(cls.accounts_file, 'r') as f:
+                accounts_data = json.load(f)
+                cls.accounts = {acc_number: cls(**data) for acc_number, data in accounts_data.items()}
+        except FileNotFoundError:
+            cls.accounts = {}
 
     @classmethod
     def save_accounts(cls) -> None:
