@@ -1,8 +1,6 @@
-from typing import Callable, List, Tuple
-
 from bank import Bank
 
-urlpatterns: List[Tuple[str, Callable]] = [
+urlpatterns = [
     ("create_account", Bank.create_account),
     ("deposit", Bank.deposit),
     ("credit", Bank.credit),

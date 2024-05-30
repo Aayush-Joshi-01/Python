@@ -1,6 +1,6 @@
 import sys
 
-from Bank_Utility.bank import Bank
+from bank import Bank
 
 
 class BankingSystem:
@@ -80,7 +80,7 @@ class BankingSystem:
                 sys.exit(0)
 
             else:
-                print("Invalid choice. Please try again.")
+                print("Error 404 - Not Found")
 
 
 if __name__ == "__main__":

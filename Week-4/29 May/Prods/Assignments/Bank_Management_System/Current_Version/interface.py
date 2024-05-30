@@ -1,6 +1,6 @@
 import sys
 
-from bank import Bank
+import urls
 
 
 class BankingSystem:
@@ -9,18 +9,17 @@ class BankingSystem:
             view statements, transfer money, and view transactions.
             """
 
-    def __init__(self):
-        self.bank = Bank()
-
-    def main(self) -> None:
+    @staticmethod
+    def main() -> None:
         """
         The main function that runs the banking system.
         """
         while True:
-            print("1: Create Account\n2: Deposit\n3: Credit\n4: Statement\n5: Transfer\n6: View Transactions\n7: Exit")
+            print("Create Account - create_account \nDeposit - deposit \nCredit - credit \nStatement - "
+                  "statement\nTransfer - transfer\nView Transactions - view_transactions\nExit - 0")
             choice = input("Enter choice: ")
 
-            if choice == "1":
+            if choice == "create_account":
                 account_number = input("Enter new account number: ")
                 name = input("Enter name: ")
                 ifsc_code = input("Enter IFSC code: ")
@@ -31,56 +30,53 @@ class BankingSystem:
                 account_type = input("Enter account type (savings/zero_balance_savings): ")
                 initial_balance = float(input("Enter initial balance: "))
                 try:
-                    self.bank.create_account(account_number, name, ifsc_code, branch_name, state, district, country,
-                                             account_type, initial_balance)
+                    urls.route("create_account", account_number, name, ifsc_code, branch_name, state,
+                               district, country, account_type, initial_balance)
                 except Exception as e:
                     print(e)
 
-            elif choice == "2":
+            elif choice == "deposit":
                 account_number = input("Enter account number: ")
                 amount = float(input("Enter amount: "))
                 try:
-                    self.bank.deposit(account_number, amount)
+                    urls.route("deposit", account_number, amount)
                 except Exception as e:
                     print(e)
 
-            elif choice == "3":
+            elif choice == "credit":
                 account_number = input("Enter account number: ")
                 amount = float(input("Enter amount: "))
                 try:
-                    self.bank.credit(account_number, amount)
+                    urls.route("credit", account_number, amount)
                 except Exception as e:
                     print(e)
 
-            elif choice == "4":
+            elif choice == "statement":
                 account_number = input("Enter account number: ")
                 try:
-                    self.bank.statement(account_number)
+                    urls.route("statement", account_number)
                 except Exception as e:
                     print(e)
 
-            elif choice == "5":
+            elif choice == "transfer":
                 from_account = input("Enter from account number: ")
                 to_account = input("Enter to account number: ")
                 amount = float(input("Enter amount: "))
                 try:
-                    self.bank.transfer(from_account, to_account, amount)
+                    urls.route("transfer", from_account, to_account, amount)
                 except Exception as e:
                     print(e)
 
-            elif choice == "6":
+            elif choice == "view_transactions":
                 account_number = input("Enter account number: ")
                 try:
-                    self.bank.view_transactions(account_number)
+                    urls.route("view_transactions", account_number)
                 except Exception as e:
                     print(e)
 
-            elif choice == "7":
+            elif choice == "0":
                 print("Exiting...")
                 sys.exit(0)
-
-            else:
-                print("Invalid choice. Please try again.")
 
 
 if __name__ == "__main__":

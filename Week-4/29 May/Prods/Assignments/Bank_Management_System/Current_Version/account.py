@@ -104,18 +104,6 @@ class Account:
         """
         return f"Account({self.account_number}, {self.name}, {self.balance}, {self.account_type})"
 
-    # @classmethod
-    # def load_accounts(cls) -> None:
-    #     """
-    #     Loads the accounts from the accounts file.
-    #     """
-    #     try:
-    #         with open(cls.accounts_file, 'r') as f:
-    #             accounts_data = json.load(f)
-    #             cls.accounts = {acc_number: cls(**data) for acc_number, data in accounts_data.items()}
-    #     except FileNotFoundError:
-    #         cls.accounts = {}
-
     @classmethod
     def save_accounts(cls) -> None:
         """

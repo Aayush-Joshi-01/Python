@@ -18,14 +18,16 @@ class Item:
 
 class ShoppingCart:
     """
-    This is the shopping cart storing all the items to be saved in the cart for item management
-    the functions involved are :
+        This is the shopping cart storing all the items to be saved in the cart for item management
+        the functions involved are :
         def add_item(self, item: Item) -> None
         def remove_item(self, item: Item) -> None
         def get_total(self) -> tuple[int | float, int]
         def __str__(self) -> str
         def __len__(self) -> int
         we have using len() as well in this
+
+
 
     Here _items is a protected member
     """
