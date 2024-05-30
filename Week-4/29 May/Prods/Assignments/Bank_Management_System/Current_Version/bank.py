@@ -27,7 +27,8 @@ class Bank:
                     initial_balance (float): The initial balance of the account.
                 """
 
-        Transactions.create_account(account_number, name, ifsc_code, branch_name, state, district, country, account_type,
+        Transactions.create_account(account_number, name, ifsc_code, branch_name, state, district, country,
+                                    account_type,
                                     initial_balance)
 
     @staticmethod
