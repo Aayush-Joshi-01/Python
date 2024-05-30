@@ -1,6 +1,8 @@
+from typing import Callable, Tuple, List
+
 from bank import Bank
 
-urlpatterns = [
+urlpatterns: List[Tuple[str, Callable]] = [
     ("create_account", Bank.create_account),
     ("deposit", Bank.deposit),
     ("credit", Bank.credit),
@@ -10,7 +12,7 @@ urlpatterns = [
 ]
 
 
-def route(url: str, *args, **kwargs) -> None:
+def route(url: str, *args, **kwargs) -> None | Callable:
     """
         Routes a URL to a view function.
 
@@ -25,7 +27,10 @@ def route(url: str, *args, **kwargs) -> None:
         Returns:
             Any: The result of the view function.
         """
-    for pattern, view in urlpatterns:
-        if url == pattern:
-            return view(*args, **kwargs)
-    raise Exception("404 Not Found")
+    try:
+        for pattern, view in urlpatterns:
+            if url == pattern:
+                return view(*args, **kwargs)
+        raise Exception("404 Not Found\n")
+    except Exception as e:
+        print(e)

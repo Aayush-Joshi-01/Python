@@ -3,7 +3,7 @@ from datetime import datetime
 from typing import Optional
 
 from account import Account
-from exceptions import AccountNotFoundError, AccountAlreadyExistsError
+from utility.exceptions import AccountNotFoundError, AccountAlreadyExistsError
 
 
 class Transactions:
@@ -13,7 +13,7 @@ class Transactions:
         Attributes:
             transactions_file (str): The file where transactions are stored.
         """
-    transactions_file = "transactions.json"
+    transactions_file = "Data/transactions.json"
 
     @staticmethod
     def load_transactions() -> dict:
@@ -90,7 +90,7 @@ class Transactions:
         new_account = Account(account_number, name, ifsc_code, branch_name, state, district, country, account_type,
                               initial_balance)
         Account.accounts[account_number] = new_account
-        print(f"Account {account_number} created with initial balance {initial_balance}")
+        print(f"Account {account_number} created with initial balance {initial_balance}\n")
         Account.save_accounts()
         Transactions.log_transaction("create_account", account_number, initial_balance)
         return new_account
@@ -126,7 +126,7 @@ class Transactions:
         account.credit(amount)
         Account.save_accounts()
         Transactions.log_transaction("deposit", account_number, amount)
-        print(f"Deposited {amount} to {account}")
+        print(f"Deposited {amount} to {account}\n")
 
     @staticmethod
     def credit(account_number: str, amount: float) -> None:
@@ -171,7 +171,7 @@ class Transactions:
         Account.save_accounts()
         Transactions.log_transaction("transfer_out", from_account, amount, target_account=to_account)
         Transactions.log_transaction("transfer_in", to_account, amount, target_account=from_account)
-        print(f"Transferred {amount} from {from_acc} to {to_acc}")
+        print(f"Transferred {amount} from {from_acc} to {to_acc}\n")
 
     @staticmethod
     def view_transactions(account_number: str) -> None:
@@ -186,4 +186,4 @@ class Transactions:
             for transaction in transactions[account_number]:
                 print(transaction)
         else:
-            print("No transactions found for this account.")
+            print("No transactions found for this account.\n")

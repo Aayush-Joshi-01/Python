@@ -1,7 +1,7 @@
 import json
 from typing import Dict
 
-from exceptions import InvalidInitialBalanceError, InsufficientFundsError
+from utility.exceptions import InvalidInitialBalanceError, InsufficientFundsError
 
 
 class Account:
@@ -24,7 +24,7 @@ class Account:
         debit(amount: float): Debits the account with the given amount.
     """
 
-    accounts_file = "accounts.json"
+    accounts_file = "Data/accounts.json"
     accounts: Dict[str, 'Account'] = {}
 
     def __init__(self, account_number: str, name: str, ifsc_code: str, branch_name: str, state: str, district: str,
