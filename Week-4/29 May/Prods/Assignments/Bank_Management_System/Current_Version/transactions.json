@@ -17,6 +17,18 @@
       "amount": 1000.0,
       "date": "2024-05-30 08:39:45.001004",
       "target_account": "1100666"
+    },
+    {
+      "transaction_type": "create_account",
+      "amount": 4000.0,
+      "date": "2024-05-30 14:55:08.535634",
+      "target_account": null
+    },
+    {
+      "transaction_type": "transfer_in",
+      "amount": 500.0,
+      "date": "2024-05-30 14:55:46.618354",
+      "target_account": "9999"
     }
   ],
   "1100666": [
@@ -39,6 +51,20 @@
       "amount": 2000.0,
       "date": "2024-05-30 10:50:04.024312",
       "target_account": null
+    }
+  ],
+  "9999": [
+    {
+      "transaction_type": "create_account",
+      "amount": 45780.0,
+      "date": "2024-05-30 14:52:53.627133",
+      "target_account": null
+    },
+    {
+      "transaction_type": "transfer_out",
+      "amount": 500.0,
+      "date": "2024-05-30 14:55:46.608650",
+      "target_account": "1100673"
     }
   ]
 }

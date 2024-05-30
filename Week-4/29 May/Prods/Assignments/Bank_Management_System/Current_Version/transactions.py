@@ -46,12 +46,10 @@ class Transactions:
         """
                 Logs a transaction.
 
-                Args:
-                    transaction_type (str): The type of transaction.
-                    account_number (str): The account number.
-                    amount (float): The amount of the transaction.
-                    target_account (Optional[str], optional): The target account number for transfer transactions. Defaults to None.
-                """
+                Args: transaction_type (str): The type of transaction. account_number (str): The account number.
+                amount (float): The amount of the transaction. target_account (Optional[str], optional): The target
+                account number for transfer transactions. Defaults to None.
+        """
         transactions = Transactions.load_transactions()
         if account_number not in transactions:
             transactions[account_number] = []
