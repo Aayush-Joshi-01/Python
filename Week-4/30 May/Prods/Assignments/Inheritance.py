@@ -65,7 +65,8 @@ class OrbitingStation(CelestialObject, SpaceStation):
         self.orbital_period = orbital_period
 
     def describe(self):
-        return f"{CelestialObject.describe(self)} It orbits every {self.orbital_period} days. Operated by {self.country}."
+        return (f"{CelestialObject.describe(self)} It orbits every {self.orbital_period} days. Operated by "
+                f"{self.country}.")
 
 
 # Hybrid Inheritance
@@ -78,7 +79,8 @@ class Comet(CelestialObject):
         self.tail_length = tail_length
 
     def describe(self):
-        return f"{super().describe()} It has an orbital period of {self.orbital_period} days and a tail length of {self.tail_length} km."
+        return (f"{super().describe()} It has an orbital period of {self.orbital_period} days and a tail length of "
+                f"{self.tail_length} km.")
 
 
 if __name__ == '__main__':
