@@ -1,6 +1,7 @@
 import sys
 
 from routes import urls
+from utility.decorators import login_banking_system
 
 
 class BankingSystem:
@@ -10,6 +11,7 @@ class BankingSystem:
             """
 
     @staticmethod
+    @login_banking_system
     def main() -> None:
         """
         The main function that runs the banking system.
