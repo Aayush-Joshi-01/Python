@@ -1,7 +1,7 @@
 from flask import Flask
 
 from BLACKJACK import black_jack
-from Projects.Y_Games.KBC.kaun_banega_crorepati import KBCGame
+from Projects.Experimentals.Y_Games.KBC.kaun_banega_crorepati import KBCGame
 from TIC_TAC_TOE.tic_tac_toe import TicTacToe as TicTacToe, HumanPlayer, ComputerPlayer
 
 
