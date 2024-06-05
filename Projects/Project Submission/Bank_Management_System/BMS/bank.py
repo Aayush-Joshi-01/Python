@@ -32,7 +32,7 @@ class Bank:
                                     initial_balance)
 
     @staticmethod
-    def deposit(account_number: str, amount: float) -> None:
+    def debit(account_number: str, amount: float) -> None:
         """
                 Deposits money into an existing bank account.
 
@@ -40,7 +40,7 @@ class Bank:
                     account_number (str): The account number.
                     amount (float): The amount to deposit.
                 """
-        Transactions.deposit(account_number, amount)
+        Transactions.debit(account_number, amount)
 
     @staticmethod
     def credit(account_number: str, amount: float) -> None:

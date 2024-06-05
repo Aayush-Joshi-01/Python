@@ -114,7 +114,7 @@ class Transactions:
         return Account.accounts[account_number]
 
     @staticmethod
-    def deposit(account_number: str, amount: float) -> None:
+    def debit(account_number: str, amount: float) -> None:
         """
                 Deposits money into an account.
 
@@ -123,10 +123,10 @@ class Transactions:
                     amount (float): The amount to deposit.
                 """
         account = Transactions.get_account(account_number)
-        account.credit(amount)
+        account.debit(amount)
         Account.save_accounts()
-        Transactions.log_transaction("deposit", account_number, amount)
-        print(f"Deposited {amount} to {account}\n")
+        Transactions.log_transaction("debit", account_number, amount)
+        print(f"Debited {amount} to {account}\n")
 
     @staticmethod
     def credit(account_number: str, amount: float) -> None:

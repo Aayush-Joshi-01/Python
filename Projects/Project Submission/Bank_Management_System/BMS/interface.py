@@ -18,7 +18,7 @@ class BankingSystem:
         """
         while True:
             print("************************************************************************************************\n")
-            print("Create Account - create_account/ \nDeposit - deposit/ \nCredit - credit/ \nStatement - "
+            print("Create Account - create_account/ \nDebit - debit/ \nCredit - credit/ \nStatement - "
                   "statement/\nTransfer - transfer/\nView Transactions - view_transactions/\nExit - 0/\n")
             print("************************************************************************************************\n")
             choice = input("Enter choice: ")
@@ -39,11 +39,11 @@ class BankingSystem:
                     except Exception as e:
                         print(e)
 
-                elif choice == "deposit":
+                elif choice == "debit":
                     account_number = input("Enter account number: ")
                     amount = float(input("Enter amount: "))
                     try:
-                        urls.route("deposit", account_number, amount)
+                        urls.route("debit", account_number, amount)
                     except Exception as e:
                         print(e)
 
@@ -85,7 +85,7 @@ class BankingSystem:
                 else:
                     urls.route(choice)
             except ValueError as e:
-                print(e)
+                pass
 
 
 if __name__ == "__main__":

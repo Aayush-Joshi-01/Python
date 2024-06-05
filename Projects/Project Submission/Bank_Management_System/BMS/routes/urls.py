@@ -4,7 +4,7 @@ from bank import Bank
 
 urlpatterns: List[Tuple[str, Callable]] = [
     ("create_account", Bank.create_account),
-    ("deposit", Bank.deposit),
+    ("debit", Bank.debit),
     ("credit", Bank.credit),
     ("statement", Bank.statement),
     ("transfer", Bank.transfer),
@@ -33,4 +33,4 @@ def route(url: str, *args, **kwargs) -> None | Callable:
                 return view(*args, **kwargs)
         raise Exception("404 Not Found\n")
     except Exception as e:
-        print(e)
+        pass
