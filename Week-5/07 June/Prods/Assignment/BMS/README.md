@@ -9,6 +9,12 @@ This is a simple command-line based Bank Management System implemented in Python
 ```
 bank_management/
 │
+├── .venv/
+│   ├── Include
+│   ├── Lib/..
+│   ├── Scripts/..
+│   ├── pyvenv.cfg
+│
 ├── models/
 │   ├── __init__.py
 │   ├── account.py
@@ -39,6 +45,10 @@ bank_management/
 ├── routes/
 │   ├── __init__.py
 │   ├── url.py
+│
+├── views/
+│   ├── __init__.py
+│   ├── interface.py
 │
 ├── requirements.txt
 ├── README.md
