@@ -81,3 +81,8 @@ class Account:
             connection.commit()
         finally:
             connection.close()
+
+    def __str__(self):
+        return (f"Account(account_number={self.account_number}, name={self.name}, ifsc_code={self.ifsc_code}, "
+                f"branch_name={self.branch_name}, state={self.state}, district={self.district}, "
+                f"country={self.country}, account_type={self.account_type}, balance={self.balance})")

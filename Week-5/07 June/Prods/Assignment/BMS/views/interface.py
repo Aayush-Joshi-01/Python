@@ -1,6 +1,8 @@
+from decorators.login_decorator import login_banking_system
 from routes.url import route
 
 
+@login_banking_system
 def main() -> None:
     while True:
         print(
@@ -51,7 +53,7 @@ def main() -> None:
         elif choice == "5":
             account_number = input("Enter account number: ")
             try:
-                route("get_account_details", account_number)
+                print(route("get_account_details", account_number))
             except Exception as e:
                 print(e)
 
@@ -67,7 +69,7 @@ def main() -> None:
         elif choice == "7":
             account_number = input("Enter account number: ")
             try:
-                route("view_transactions", account_number)
+                print(route("view_transactions", account_number))
             except Exception as e:
                 print(e)
 

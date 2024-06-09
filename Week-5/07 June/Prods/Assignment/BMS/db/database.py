@@ -24,6 +24,7 @@ def initialize_db():
     """
     connection = get_db_connection()
     try:
+
         with connection.cursor() as cursor:
             # Create accounts table
             cursor.execute("""
@@ -71,5 +72,6 @@ def initialize_db():
         connection.close()
 
 
-# Call this function once to initialize the database
-initialize_db()
+if __name__ == '__main__':
+    # Call this function once to initialize the database
+    initialize_db()
