@@ -12,7 +12,10 @@ class AccountNotFoundError(AccountError):
     Attributes:
         message (str): The error message.
     """
-    pass
+
+    def __init__(self, message: str) -> None:
+        self.message = message
+        super().__init__(message)
 
 
 class InsufficientFundsError(AccountError):
@@ -22,7 +25,10 @@ class InsufficientFundsError(AccountError):
     Attributes:
         message (str): The error message.
     """
-    pass
+
+    def __init__(self, message: str) -> None:
+        self.message = message
+        super().__init__(message)
 
 
 class AccountAlreadyExistsError(AccountError):
@@ -32,7 +38,10 @@ class AccountAlreadyExistsError(AccountError):
     Attributes:
         message (str): The error message.
     """
-    pass
+
+    def __init__(self, message: str) -> None:
+        self.message = message
+        super().__init__(message)
 
 
 class InvalidInitialBalanceError(AccountError):
@@ -42,4 +51,7 @@ class InvalidInitialBalanceError(AccountError):
     Attributes:
         message (str): The error message.
     """
-    pass
+
+    def __init__(self, message: str) -> None:
+        self.message = message
+        super().__init__(message)

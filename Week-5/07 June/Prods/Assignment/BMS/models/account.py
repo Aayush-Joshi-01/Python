@@ -33,10 +33,12 @@ class Account:
 
                 # Create account
                 cursor.execute("""
-                INSERT INTO accounts (account_number, name, ifsc_code, branch_name, state, district, country, account_type, balance)
+                INSERT INTO accounts 
+                (account_number, name, ifsc_code, branch_name, state, district, country, account_type, balance)
                 VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)
                 """, (
-                account_number, name, ifsc_code, branch_name, state, district, country, account_type, initial_balance))
+                    account_number, name, ifsc_code, branch_name, state, district, country, account_type,
+                    initial_balance))
 
             connection.commit()
         finally:
@@ -82,7 +84,7 @@ class Account:
         finally:
             connection.close()
 
-    def __str__(self):
+    def __str__(self) -> str:
         return (f"Account(account_number={self.account_number}, name={self.name}, ifsc_code={self.ifsc_code}, "
                 f"branch_name={self.branch_name}, state={self.state}, district={self.district}, "
                 f"country={self.country}, account_type={self.account_type}, balance={self.balance})")

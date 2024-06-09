@@ -1,8 +1,9 @@
-from typing import Any
+from typing import Any, Callable, Dict
+
 from controllers.bank_controller import BankController
 from controllers.transaction_controller import TransactionController
 
-urlpatterns = {
+urlpatterns: Dict[str, Callable[..., Any]] = {
     "create_account": BankController.create_account,
     "get_account_details": BankController.get_account_details,
     "deposit": TransactionController.deposit,
@@ -11,6 +12,7 @@ urlpatterns = {
     "transfer": TransactionController.transfer,
     "view_transactions": BankController.view_transactions,
 }
+
 
 def route(url: str, *args: Any, **kwargs: Any) -> Any:
     """
@@ -28,7 +30,7 @@ def route(url: str, *args: Any, **kwargs: Any) -> Any:
         Any: The result of the view function.
     """
     try:
-        view = urlpatterns.get(url)
+        view: Callable[..., Any] = urlpatterns.get(url)
         if view:
             return view(*args, **kwargs)
         raise Exception("404 Not Found\n")

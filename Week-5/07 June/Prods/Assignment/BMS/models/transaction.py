@@ -81,14 +81,15 @@ class Transaction:
                 cursor.execute("SELECT balance FROM accounts WHERE account_number = %s", (from_account,))
                 balance = cursor.fetchone()['balance']
                 if balance < amount:
-                    raise InsufficientFundsError()
+                    raise InsufficientFundsError("Insufficient funds")
 
                 cursor.execute("UPDATE accounts SET balance = balance - %s WHERE account_number = %s",
                                (amount, from_account))
                 cursor.execute("UPDATE accounts SET balance = balance + %s WHERE account_number = %s",
                                (amount, to_account))
                 cursor.execute(
-                    "INSERT INTO transactions (account_number, type, amount, target_account) VALUES (%s, 'transfer', %s, %s)",
+                    "INSERT INTO transactions (account_number, type, amount, target_account) VALUES (%s, 'transfer', "
+                    "%s, %s)",
                     (from_account, amount, to_account))
             connection.commit()
         finally:

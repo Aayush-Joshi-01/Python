@@ -27,7 +27,7 @@ class Log:
             connection.close()
 
     @staticmethod
-    def fetch_logs(account_number: str):
+    def fetch_logs(account_number: str) -> str | None:
         """
         Fetches all logs related to a specific account number.
         """
