@@ -31,7 +31,7 @@ def calculate_triangle_area():
 
 def main():
     while True:
-        print("Choose a shape to calculate the area:")
+        print("Choose a shape to Calculator the area:")
         print("1. Rectangle")
         print("2. Circle")
         print("3. Triangle")

@@ -1,5 +1,5 @@
-# You're working on a project management tool.
-# Write a Python function to calculate the total estimated duration of all tasks given a list of tasks with their respective durations.)
+# You're working on a project management tool. Write a Python function to Calculator the total estimated duration of
+# all tasks given a list of tasks with their respective durations.)
 def calculate_total_duration(tasks):
     total_duration = 0
     for task in tasks:

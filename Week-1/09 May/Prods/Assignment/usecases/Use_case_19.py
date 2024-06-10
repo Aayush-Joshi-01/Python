@@ -1,5 +1,5 @@
 # You're developing a program to analyze website traffic.
-# Write a Python function to calculate the percentage of mobile users among all visitors given a list of user agents.
+# Write a Python function to Calculator the percentage of mobile users among all visitors given a list of user agents.
 
 def percentage_of_mobile_users(user_agents):
     mobile_user_agents = [ua for ua in user_agents if "Mobile" in ua]

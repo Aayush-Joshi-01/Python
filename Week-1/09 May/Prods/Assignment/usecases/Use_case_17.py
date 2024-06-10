@@ -1,5 +1,5 @@
 # You're working on a program to analyze survey responses.
-# Write a Python function to calculate the mode of a list of responses.
+# Write a Python function to Calculator the mode of a list of responses.
 
 def mode(responses):
     from collections import Counter

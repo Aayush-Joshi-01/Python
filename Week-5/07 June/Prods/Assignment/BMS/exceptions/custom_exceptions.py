@@ -2,6 +2,10 @@ class AccountError(Exception):
     """
     Base class for all account-related exceptions.
     """
+    def __init__(self, message) -> None:
+        self.message = message
+        print(self.message)
+        super().__init__(message)
     pass
 
 

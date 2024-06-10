@@ -103,11 +103,11 @@ def choose_service(service):
         print("Enter a Valid Service ID")
 
 
-# 1-	Write a program to calculate Factorial of any number.
+# 1-	Write a program to Calculator Factorial of any number.
 # 2-	Write a program to print table of any number.
 # 3-	Write a program to print Fibonacci Series.
-# 4-	Write a program to calculate sum of digits of a number.
-# 5-	Write a program to calculate number entered  is a perfect number or not.
+# 4-	Write a program to Calculator sum of digits of a number.
+# 5-	Write a program to Calculator number entered  is a perfect number or not.
 # 6-	Write a program that accept a three digit number from user and check whether it is palindrome or not?
 # 7-	Write a program that accept a three digit number from user and check whether it is Armstrong or not?
 def view_menu():

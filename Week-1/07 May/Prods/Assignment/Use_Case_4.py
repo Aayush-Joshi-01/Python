@@ -1,4 +1,4 @@
-# Write a program to calculate the electricity bill( accept number of units user) according to the following criteria:
+# Write a program to Calculator the electricity bill( accept number of units user) according to the following criteria:
 #
 # unit:                     price:
 # First 100 units.    No Charge.
