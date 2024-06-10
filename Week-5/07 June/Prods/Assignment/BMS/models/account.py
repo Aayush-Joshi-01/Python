@@ -1,3 +1,4 @@
+from Projects.Experimentals.Bank_Management_System.transactions import Transactions
 from db.database import get_db_connection
 from exceptions.custom_exceptions import AccountAlreadyExistsError, AccountNotFoundError, InvalidInitialBalanceError
 
@@ -20,8 +21,10 @@ class Account:
                        district: str, country: str, account_type: str, initial_balance: float) -> None:
         if account_type == 'zero_balance_savings' and initial_balance < 2000:
             raise InvalidInitialBalanceError("Initial balance must be at least 2000 for zero balance savings accounts.")
-        elif account_type == 'savings' and initial_balance < 5000:
-            raise InvalidInitialBalanceError("Initial balance must be at least 5000 for savings accounts.")
+        elif account_type == 'savings' and initial_balance < 7000:
+            raise InvalidInitialBalanceError("Initial balance must be at least 7000 for savings accounts.")
+        elif account_type == 'zero_balance_savings' and initial_balance >= 2000:
+            initial_balance -= 2000
 
         connection = get_db_connection()
         try:
@@ -31,7 +34,7 @@ class Account:
                 if cursor.fetchone():
                     raise AccountAlreadyExistsError(account_number)
 
-                # Create account
+                # create new account
                 cursor.execute("""
                 INSERT INTO accounts 
                 (account_number, name, ifsc_code, branch_name, state, district, country, account_type, balance)
@@ -39,7 +42,7 @@ class Account:
                 """, (
                     account_number, name, ifsc_code, branch_name, state, district, country, account_type,
                     initial_balance))
-
+                print(f"Account {account_number} created with initial balance {initial_balance}")
             connection.commit()
         finally:
             connection.close()
@@ -53,7 +56,7 @@ class Account:
                 account_data = cursor.fetchone()
                 if not account_data:
                     raise AccountNotFoundError(account_number)
-
+                # returns Account object
                 return Account(
                     account_number=account_data['account_number'],
                     name=account_data['name'],

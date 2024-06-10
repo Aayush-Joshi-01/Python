@@ -92,7 +92,7 @@ class BankController:
     @staticmethod
     def transfer(from_account: str, to_account: str, amount: float) -> None:
         """
-        Transfers the specified amount from one account to another.
+        Transfers amount from one account to another.
 
         :param from_account: The account number to transfer from.
         :param to_account: The account number to transfer to.

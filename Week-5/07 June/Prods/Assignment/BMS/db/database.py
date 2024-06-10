@@ -26,6 +26,29 @@ def initialize_db():
     try:
 
         with connection.cursor() as cursor:
+
+            # Create bank_management database
+            cursor.execute("""
+                        CREATE DATABASE IF NOT EXISTS bank_management
+                        """)
+            connection.select_db('bank_management')
+
+            # Create accounts table
+            cursor.execute("""
+            CREATE TABLE IF NOT EXISTS accounts (
+                account_number VARCHAR(20) PRIMARY KEY,
+                name VARCHAR(255),
+                ifsc_code VARCHAR(20),
+                branch_name VARCHAR(255),
+                state VARCHAR(255),
+                district VARCHAR(255),
+                country VARCHAR(255),
+                account_type ENUM('savings', 'zero_balance_savings'),
+                balance FLOAT
+            )
+            """)
+
+            # Create transactions tabl
             # Create accounts table
             cursor.execute("""
             CREATE TABLE IF NOT EXISTS accounts (
