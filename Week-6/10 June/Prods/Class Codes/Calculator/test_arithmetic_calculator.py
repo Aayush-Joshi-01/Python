@@ -1,5 +1,5 @@
 import pytest
-from calculator import addition, subtraction, multiplication, division, main
+from calculator import addition, subtraction, multiplication, division
 
 
 def test_addition():
@@ -26,5 +26,3 @@ def test_division():
     assert division(-6, -3) == 2
     with pytest.raises(ZeroDivisionError):
         division(6, 0)
-
-
