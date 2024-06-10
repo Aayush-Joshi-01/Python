@@ -1,4 +1,3 @@
-from Projects.Experimentals.Bank_Management_System.transactions import Transactions
 from db.database import get_db_connection
 from exceptions.custom_exceptions import AccountAlreadyExistsError, AccountNotFoundError, InvalidInitialBalanceError
 

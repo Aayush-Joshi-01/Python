@@ -67,7 +67,7 @@ bank_management/
 
 1. Install the required packages:
 
-    ```sh
+    ```shell
     pip install -r requirements.txt
     ```
 
@@ -77,19 +77,41 @@ bank_management/
 
 3. Run the application:
 
-    ```sh
-    python views/interface.py
+    ```shell
+    cd views
+    python interface.py
     ```
 
 ## Usage
 
 1. Run the application:
 
-    ```sh
-    python views/interface.py
+    ```shell
+    cd views
+    python interface.py
     ```
 
-2. Follow the on-screen instructions to perform various banking operations.
+2. Use the following username and password
+   ```commandline
+   username: admin
+   password: 123
+   ```
+
+3. Follow the on-screen instructions to perform various banking operations.
+   ```commandline
+   Enter the admin Username: admin
+   Enter the admin Password: 123
+   1: Create Account
+   2: Deposit
+   3: Debit
+   4: Credit
+   5: Get Account Details
+   6: Transfer
+   7: View Transactions
+   8: Exit
+   Enter choice:
+   ```
+
 
 ## Requirements
 

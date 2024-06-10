@@ -21,8 +21,7 @@ def main() -> None:
             account_type: str = input("Enter account type (savings/zero_balance_savings): ")
             initial_balance: float = float(input("Enter initial balance: "))
             try:
-                route("create_account", account_number, name, ifsc_code, branch_name, state, district, country,
-                      account_type, initial_balance)
+                route("create_account", account_number, name, ifsc_code, branch_name, state, district, country, account_type, initial_balance)
             except Exception as e:
                 print(e)
 

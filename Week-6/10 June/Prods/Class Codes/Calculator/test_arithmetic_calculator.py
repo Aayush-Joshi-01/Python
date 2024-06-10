@@ -6,6 +6,7 @@ def test_addition():
     assert addition(2, 3) == 5
     assert addition(-2, 3) == 1
     assert addition(-2, -3) == -5
+    # assert addition(2, -3) == 0
 
 
 def test_subtraction():
