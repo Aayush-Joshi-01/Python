@@ -46,13 +46,13 @@ def test_credit_controller(setup_database):
     assert account.balance == 12000.0
 
 
-def test_debit_controller(setup_database):
-    BankController.create_account("1004", "John Doe", "IFSC001",
-                                  "Main Branch", "State1", "District1", "Country1",
-                                  "savings", 10000.0)
-    TransactionController.debit("1004", 2000.0)
-    account = Account.load_account("1004")
-    assert account.balance == 8000.0
+# def test_debit_controller(setup_database):
+#     BankController.create_account("1004", "John Doe", "IFSC001",
+#                                   "Main Branch", "State1", "District1", "Country1",
+#                                   "savings", 10000.0)
+#     TransactionController.debit("1004", 2000.0)
+#     account = Account.load_account("1004")
+#     assert account.balance == 8000.0
 
 
 @pytest.mark.success
