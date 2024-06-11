@@ -98,10 +98,15 @@ class BankController:
         :param to_account: The account number to transfer to.
         :param amount: The amount to transfer.
         """
+        if not Account.exists(from_account):
+            raise AccountNotFoundError
+        if not Account.exists(to_account):
+            raise AccountNotFoundError
+
         try:
             Transaction.transfer(from_account, to_account, amount)
             Log.log_action('transfer', from_account, amount, target_account=to_account)
-        except (AccountNotFoundError, InsufficientFundsError) as e:
+        except InsufficientFundsError as e:
             print(e)
             raise e
 
@@ -115,5 +120,4 @@ class BankController:
         try:
             return Log.fetch_logs(account_number)
         except AccountNotFoundError as e:
-            print(e)
             raise e

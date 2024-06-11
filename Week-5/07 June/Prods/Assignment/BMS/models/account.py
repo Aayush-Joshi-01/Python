@@ -86,6 +86,16 @@ class Account:
         finally:
             connection.close()
 
+    @staticmethod
+    def exists(account_number: str) -> bool:
+        connection = get_db_connection()
+        cursor = connection.cursor()
+        query = "SELECT 1 FROM accounts WHERE account_number = %s"
+        cursor.execute(query, (account_number,))
+        result = cursor.fetchone()
+        connection.close()
+        return result is not None
+
     def __str__(self) -> str:
         return (f"Account(account_number={self.account_number}, name={self.name}, ifsc_code={self.ifsc_code}, "
                 f"branch_name={self.branch_name}, state={self.state}, district={self.district}, "

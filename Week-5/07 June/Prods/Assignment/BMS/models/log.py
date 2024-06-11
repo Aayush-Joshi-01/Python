@@ -1,3 +1,5 @@
+from typing import Any
+
 from db.database import get_db_connection
 
 
@@ -27,7 +29,7 @@ class Log:
             connection.close()
 
     @staticmethod
-    def fetch_logs(account_number: str) -> str | None:
+    def fetch_logs(account_number: str) -> tuple[tuple[Any, ...], ...]:
         """
         Fetches all logs related to a specific account number.
         """

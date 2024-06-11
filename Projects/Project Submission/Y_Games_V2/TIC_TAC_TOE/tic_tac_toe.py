@@ -8,7 +8,6 @@ class TicTacToe:
         self.scores = {'Player 1': 0, 'Player 2': 0, 'Computer': 0}
 
     def print_board(self):
-        j = 0
         for row in [self.board[i * 3:(i + 1) * 3] for i in range(3)]:
             print('| ' + ' | '.join(row) + ' |')
         print('\n')
@@ -100,7 +99,8 @@ class ComputerPlayer:
         self.name = name
         self.letter = letter
 
-    def get_move(self, game):
+    @staticmethod
+    def get_move(game):
         square = random.choice(game.available_moves())
         return square
 
@@ -115,7 +115,7 @@ def main():
         player2 = ComputerPlayer('Computer', 'O')
 
     while True:
-        result = ttt.play_game(player1, player2)
+        ttt.play_game(player1, player2)
         print(f"Scores: {ttt.scores}")
         play_again = input("Play again? (y/n): ")
         if play_again.lower() != 'y':

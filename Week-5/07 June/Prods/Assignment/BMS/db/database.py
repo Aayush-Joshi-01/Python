@@ -35,23 +35,7 @@ def initialize_db():
 
             # Create accounts table
             cursor.execute("""
-            CREATE TABLE IF NOT EXISTS accounts (
-                account_number VARCHAR(20) PRIMARY KEY,
-                name VARCHAR(255),
-                ifsc_code VARCHAR(20),
-                branch_name VARCHAR(255),
-                state VARCHAR(255),
-                district VARCHAR(255),
-                country VARCHAR(255),
-                account_type ENUM('savings', 'zero_balance_savings'),
-                balance FLOAT
-            )
-            """)
-
-            # Create transactions tabl
-            # Create accounts table
-            cursor.execute("""
-            CREATE TABLE IF NOT EXISTS accounts (
+            CREATE TABLE IF NOT EXISTS bank_management.accounts (
                 account_number VARCHAR(20) PRIMARY KEY,
                 name VARCHAR(255),
                 ifsc_code VARCHAR(20),
@@ -66,7 +50,7 @@ def initialize_db():
 
             # Create transactions table
             cursor.execute("""
-            CREATE TABLE IF NOT EXISTS transactions (
+            CREATE TABLE IF NOT EXISTS bank_management.transactions (
                 id INT AUTO_INCREMENT PRIMARY KEY,
                 account_number VARCHAR(20),
                 type ENUM('deposit', 'credit', 'transfer'),
@@ -79,7 +63,7 @@ def initialize_db():
 
             # Create logs table
             cursor.execute("""
-            CREATE TABLE IF NOT EXISTS logs (
+            CREATE TABLE IF NOT EXISTS bank_management.logs (
                 id INT AUTO_INCREMENT PRIMARY KEY,
                 action VARCHAR(255),
                 account_number VARCHAR(20),

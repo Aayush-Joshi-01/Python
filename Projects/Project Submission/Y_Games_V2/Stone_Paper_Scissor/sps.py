@@ -15,7 +15,8 @@ class Game:
     def get_computer_choice(self):
         return random.choice(self.options)
 
-    def determine_winner(self, user_choice, computer_choice):
+    @staticmethod
+    def determine_winner(user_choice, computer_choice):
         if user_choice == computer_choice:
             return "tie"
         elif (user_choice == "rock" and computer_choice == "scissors") or \

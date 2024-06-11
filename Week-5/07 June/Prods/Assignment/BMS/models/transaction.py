@@ -1,5 +1,5 @@
 from db.database import get_db_connection
-from exceptions.custom_exceptions import InsufficientFundsError
+from exceptions.custom_exceptions import InsufficientFundsError, AccountNotFoundError
 
 
 class Transaction:
@@ -39,10 +39,19 @@ class Transaction:
         connection = get_db_connection()
         try:
             with connection.cursor() as cursor:
-                cursor.execute("UPDATE accounts SET balance = balance - %s WHERE account_number = %s",
-                               (amount, account_number))
-                cursor.execute("INSERT INTO transactions (account_number, type, amount) VALUES (%s, 'debit', %s)",
-                               (account_number, amount))
+                cursor.execute("SELECT balance FROM accounts WHERE account_number = %s", account_number)
+                result = cursor.fetchone()
+                print(result['balance'])
+                if result is not None and len(result) > 0:
+                    balance = float(result["balance"])
+                    if float(amount) > balance:
+                        raise InsufficientFundsError
+                    cursor.execute("UPDATE accounts SET balance = balance - %s WHERE account_number = %s",
+                                   (float(amount), account_number))
+                    cursor.execute("INSERT INTO transactions (account_number, type, amount) VALUES (%s, 'debit', %s)",
+                                   (account_number, float(amount)))
+                else:
+                    raise AccountNotFoundError
             connection.commit()
         finally:
             connection.close()
@@ -58,7 +67,7 @@ class Transaction:
         connection = get_db_connection()
         try:
             with connection.cursor() as cursor:
-                cursor.execute("UPDATE accounts SET balance = balance - %s WHERE account_number = %s",
+                cursor.execute("UPDATE accounts SET balance = balance + %s WHERE account_number = %s",
                                (amount, account_number))
                 cursor.execute("INSERT INTO transactions (account_number, type, amount) VALUES (%s, 'credit', %s)",
                                (account_number, amount))
