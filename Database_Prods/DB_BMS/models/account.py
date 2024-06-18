@@ -106,3 +106,13 @@ class Account:
         return (f"Account(account_number={self.account_number}, name={self.name}, ifsc_code={self.ifsc_code}, "
                 f"branch_name={self.branch_name}, state={self.state}, district={self.district}, "
                 f"country={self.country}, account_type={self.account_type}, balance={self.balance})")
+
+    @classmethod
+    def delete_account(cls, account_number):
+        connection = get_db_connection()
+        try:
+            with connection.cursor() as cursor:
+                cursor.execute("DELETE FROM accounts WHERE account_number = %s", (account_number,))
+            connection.commit()
+        finally:
+            connection.close()

@@ -106,9 +106,9 @@ class Transaction:
         finally:
             connection.close()
 
-    @classmethod
+    @staticmethod
     @logger_v
-    def get_all(cls, account_number):
+    def get_all(account_number):
         """
         Fetches all transactions related to a specific account number.
 

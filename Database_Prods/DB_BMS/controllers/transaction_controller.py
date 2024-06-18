@@ -1,6 +1,6 @@
 from ..exceptions.custom_exceptions import AccountNotFoundError, InsufficientFundsError
 from ..models.transaction import Transaction
-from ..decorators.generate_logs import logger_v, log_nested_calls
+from ..decorators.generate_logs import logger_v
 
 
 class TransactionController:

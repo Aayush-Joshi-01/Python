@@ -61,6 +61,7 @@ Bank_Management_System/
 - **Get Account Details:** View the details of an account.
 - **Transfer:** Transfer money between accounts.
 - **View Transactions:** View the transaction history of an account.
+- **Logging:** Logs all the Debug Information.
 
 ## Setup
 

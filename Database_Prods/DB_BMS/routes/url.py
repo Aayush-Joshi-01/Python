@@ -10,6 +10,7 @@ urlpatterns: Dict[str, Callable[..., Any]] = {
     "credit": BankController.credit,
     "transfer": BankController.transfer,
     "view_transactions": BankController.view_transactions,
+    "get_logs": BankController.get_logs,
 }
 
 

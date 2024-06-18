@@ -14,7 +14,7 @@ class Log:
 
     @staticmethod
     @logger_v
-    def log_action(action: str, account_number: str, amount: float, target_account: str = None,
+    def log_action(action: str, account_number: str = None, amount: float = None, target_account: str = None,
                    error: str = None) -> None:
         """
         Logs an action to the logs table.
@@ -31,15 +31,14 @@ class Log:
             connection.close()
 
     @staticmethod
-    def fetch_logs(account_number: str) -> tuple[tuple[Any, ...], ...]:
+    def fetch_logs() -> tuple[tuple[Any, ...], ...]:
         """
         Fetches all logs related to a specific account number.
         """
         connection = get_db_connection()
         try:
             with connection.cursor() as cursor:
-                cursor.execute("SELECT * FROM logs WHERE account_number = %s ORDER BY timestamp DESC",
-                               (account_number,))
+                cursor.execute("SELECT * FROM logs ORDER BY timestamp DESC")
                 return cursor.fetchall()
         finally:
             connection.close()

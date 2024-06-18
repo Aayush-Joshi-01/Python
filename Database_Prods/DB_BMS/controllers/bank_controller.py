@@ -1,4 +1,4 @@
-from ..decorators.generate_logs import log_nested_calls
+from ..decorators.generate_logs import logger_v
 from ..exceptions.custom_exceptions import InsufficientFundsError, AccountNotFoundError, \
     AccountAlreadyExistsError, InvalidInitialBalanceError
 from ..models.account import Account
@@ -7,8 +7,9 @@ from ..models.transaction import Transaction
 
 
 class BankController:
+
     @staticmethod
-    @log_nested_calls
+    @logger_v
     def create_account(account_number: str, name: str, ifsc_code: str, branch_name: str, state: str,
                        district: str, country: str, account_type: str, initial_balance: float) -> None:
         """
@@ -33,7 +34,7 @@ class BankController:
             raise e
 
     @staticmethod
-    @log_nested_calls
+    @logger_v
     def get_account_details(account_number: str) -> Account:
         """
         Retrieves the account details for the specified account number.
@@ -48,7 +49,7 @@ class BankController:
             raise e
 
     @staticmethod
-    @log_nested_calls
+    @logger_v
     def deposit(account_number: str, amount: float) -> None:
         """
         Deposits the specified amount into the account.
@@ -64,7 +65,7 @@ class BankController:
             raise e
 
     @staticmethod
-    @log_nested_calls
+    @logger_v
     def debit(account_number: str, amount: float) -> None:
         """
         Debits the specified amount from the account.
@@ -80,7 +81,7 @@ class BankController:
             raise e
 
     @staticmethod
-    @log_nested_calls
+    @logger_v
     def credit(account_number: str, amount: float) -> None:
         """
         Credits the specified amount into the account.
@@ -96,7 +97,7 @@ class BankController:
             raise e
 
     @staticmethod
-    @log_nested_calls
+    @logger_v
     def transfer(from_account: str, to_account: str, amount: float) -> None:
         """
         Transfers amount from one account to another.
@@ -118,7 +119,7 @@ class BankController:
             raise e
 
     @staticmethod
-    @log_nested_calls
+    @logger_v
     def view_transactions(account_number: str):
         """
         View all transactions for the specified account number.
@@ -126,6 +127,34 @@ class BankController:
         :param account_number: The account number.
         """
         try:
-            return Log.fetch_logs(account_number)
+            return Transaction.get_all(account_number)
         except AccountNotFoundError as e:
+            raise e
+
+    @staticmethod
+    @logger_v
+    def delete_account(account_number: str) -> None:
+        """
+        Deletes the account with the specified account number.
+
+        :param account_number: The account number.
+        """
+        try:
+            Account.delete_account(account_number)
+            Log.log_action('delete_account', account_number)
+        except AccountNotFoundError as e:
+            print(e)
+            raise e
+
+    @staticmethod
+    @logger_v
+    def get_logs():
+        """
+        View all logs.
+        """
+        try:
+            Log.log_action('get_logs', "")
+            return Log.fetch_logs()
+        except Exception as e:
+            print(e)
             raise e
