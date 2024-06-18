@@ -1,0 +1,62 @@
+2024-06-18 12:41:40,978 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - logger_v
+2024-06-18 12:41:40,978 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - logger_v
+2024-06-18 12:41:40,978 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling initialize_db with args () and kwargs {}
+2024-06-18 12:41:40,978 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling get_db_connection with args () and kwargs {}
+2024-06-18 12:41:41,014 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x0000019618FC6D20>
+2024-06-18 12:41:41,045 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - initialize_db returned None
+2024-06-18 12:42:27,956 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling route with args ('create_account', '1', 'Aayush', 'IFSC', 'BRANCH', 'STATE', 'DISTRICT', 'COUNTRY', 'savings', 100000.0) and kwargs {}
+2024-06-18 12:42:27,956 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling create_account with args ('1', 'Aayush', 'IFSC', 'BRANCH', 'STATE', 'DISTRICT', 'COUNTRY', 'savings', 100000.0) and kwargs {}
+2024-06-18 12:42:27,956 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling create_account with args ('1', 'Aayush', 'IFSC', 'BRANCH', 'STATE', 'DISTRICT', 'COUNTRY', 'savings', 100000.0) and kwargs {}
+2024-06-18 12:42:27,956 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling get_db_connection with args () and kwargs {}
+2024-06-18 12:42:27,984 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x000001C4A7404230>
+2024-06-18 12:42:27,990 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - create_account returned None
+2024-06-18 12:42:27,990 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling log_action with args ('create_account', '1', 100000.0) and kwargs {}
+2024-06-18 12:42:27,990 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling get_db_connection with args () and kwargs {}
+2024-06-18 12:42:28,017 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x000001C4A59DEF30>
+2024-06-18 12:42:28,021 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - log_action returned None
+2024-06-18 12:42:28,021 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - create_account returned None
+2024-06-18 12:42:28,021 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - route returned None
+2024-06-18 12:43:30,906 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - main returned None
+2024-06-18 13:05:47,158 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - logger_v
+2024-06-18 13:05:47,158 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - logger_v
+2024-06-18 13:05:47,158 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - logger_v
+2024-06-18 13:05:47,158 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - logger_v
+2024-06-18 13:05:47,158 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - logger_v
+2024-06-18 13:05:47,158 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - logger_v
+2024-06-18 13:05:47,160 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - logger_v
+2024-06-18 13:05:47,161 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - logger_v
+2024-06-18 13:05:47,162 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - logger_v
+2024-06-18 13:05:47,162 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - logger_v
+2024-06-18 13:05:47,162 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - logger_v
+2024-06-18 13:05:47,162 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - logger_v
+2024-06-18 13:05:47,162 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Nested function calls decorator
+2024-06-18 13:05:47,190 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Nested function calls: ['log_nested_calls', 'BankController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-06-18 13:05:47,190 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Nested function calls decorator
+2024-06-18 13:05:47,192 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Nested function calls: ['log_nested_calls', 'BankController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-06-18 13:05:47,192 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Nested function calls decorator
+2024-06-18 13:05:47,194 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Nested function calls: ['log_nested_calls', 'BankController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-06-18 13:05:47,194 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Nested function calls decorator
+2024-06-18 13:05:47,196 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Nested function calls: ['log_nested_calls', 'BankController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-06-18 13:05:47,196 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Nested function calls decorator
+2024-06-18 13:05:47,198 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Nested function calls: ['log_nested_calls', 'BankController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-06-18 13:05:47,198 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Nested function calls decorator
+2024-06-18 13:05:47,200 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Nested function calls: ['log_nested_calls', 'BankController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-06-18 13:05:47,200 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Nested function calls decorator
+2024-06-18 13:05:47,203 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Nested function calls: ['log_nested_calls', 'BankController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-06-18 13:05:47,203 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - logger_v
+2024-06-18 13:05:47,203 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Nested function calls decorator
+2024-06-18 13:05:47,203 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Nested function calls: ['log_nested_calls', '<module>']
+2024-06-18 13:05:52,543 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling main with args () and kwargs {}
+2024-06-18 13:06:38,683 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling route with args ('debit', '1', 150.0) and kwargs {}
+2024-06-18 13:06:38,683 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling debit with args ('1', 150.0) and kwargs {}
+2024-06-18 13:06:38,683 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling debit with args ('1', 150.0) and kwargs {}
+2024-06-18 13:06:38,684 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling get_db_connection with args () and kwargs {}
+2024-06-18 13:06:38,707 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x00000222F7C742F0>
+2024-06-18 13:06:38,724 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - debit returned None
+2024-06-18 13:06:38,725 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling log_action with args ('debit', '1', 150.0) and kwargs {}
+2024-06-18 13:06:38,725 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling get_db_connection with args () and kwargs {}
+2024-06-18 13:06:38,728 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x00000222F5FBA660>
+2024-06-18 13:06:38,734 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - log_action returned None
+2024-06-18 13:06:38,734 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - debit returned None
+2024-06-18 13:06:38,734 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - route returned None
+2024-06-18 13:07:18,181 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - main returned None

@@ -1,5 +1,13 @@
+import sys
+
 import pytest
 from accounts_ops import accounts, create_account, update_account, deposit, withdraw
+
+
+@pytest.mark.skipif(sys.version > '3.9', reason="version is low")
+def test_version_account():
+    create_account("1234", "John Doe", 1000, "Savings")
+    assert accounts["1234"] == {"name": "John Doe", "balance": 1000, "account_type": "Savings"}
 
 
 @pytest.mark.account
