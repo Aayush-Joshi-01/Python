@@ -92,6 +92,11 @@ class Transaction:
             with connection.cursor() as cursor:
                 cursor.execute("SELECT balance FROM accounts WHERE account_number = %s", (from_account,))
                 balance = cursor.fetchone()['balance']
+                cursor.execute("SELECT account_number FROM accounts WHERE account_number = %s or account_number = %s",
+                               (from_account, to_account))
+                rows = cursor.fetchall()
+                if len(rows) != 2:
+                    raise AccountNotFoundError("Account not found")
                 if balance < amount:
                     raise InsufficientFundsError("Insufficient funds")
                 cursor.execute("UPDATE accounts SET balance = balance - %s WHERE account_number = %s",

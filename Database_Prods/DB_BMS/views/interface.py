@@ -80,7 +80,6 @@ def main() -> None:
                 logs = route("get_logs",)
                 for log in logs:
                     print(log)
-                break
 
             elif choice == "9":
                 print("Exiting...")

@@ -7,7 +7,8 @@ This is a simple command-line based Bank Management System implemented in Python
 ## Project Structure
 
 ```
-Bank_Management_System/
+Database_Prods/
+DB_BMS/
 │
 ├── models/
 │   ├── __init__.py

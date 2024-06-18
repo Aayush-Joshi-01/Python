@@ -1,9 +1,9 @@
 import pytest
 
-from ..controllers.bank_controller import BankController
-from ..controllers.transaction_controller import TransactionController
-from ..db.database import initialize_db, get_db_connection
-from ..exceptions.custom_exceptions import InsufficientFundsError, AccountNotFoundError
+from Database_Prods.DB_BMS.controllers.bank_controller import BankController
+from Database_Prods.DB_BMS.controllers.transaction_controller import TransactionController
+from Database_Prods.DB_BMS.db.database import initialize_db, get_db_connection
+from Database_Prods.DB_BMS.exceptions.custom_exceptions import InsufficientFundsError, AccountNotFoundError
 
 
 @pytest.fixture(scope="module")
@@ -11,6 +11,11 @@ def setup_database():
     initialize_db()
     yield
     connection = get_db_connection()
+    with connection.cursor() as cursor:
+        cursor.execute("DROP TABLE logs")
+        cursor.execute("DROP TABLE transactions")
+        cursor.execute("DROP TABLE accounts")
+    initialize_db()
     connection.close()
 
 
@@ -62,7 +67,7 @@ def test_credit_controller(setup_database):
                                   "savings", 10000.0)
     TransactionController.credit("1004", 2000.0)
     account = BankController.get_account_details("1004")
-    assert account.balance == 8000.0
+    assert account.balance == 12000.0
 
 
 @pytest.mark.success
@@ -98,7 +103,7 @@ def test_transfer_account_not_found_controller(setup_database):
                                   "Main Branch", "State1", "District1", "Country1",
                                   "savings", 10000.0)
     with pytest.raises(AccountNotFoundError):
-        BankController.transfer("1011", "101010", 2000.0)
+        BankController.transfer("10100", "101010", 2000.0)
 
 
 @pytest.mark.success
@@ -109,9 +114,11 @@ def test_view_transactions_controller(setup_database):
     BankController.deposit("1012", 1000.0)
     BankController.debit("1012", 500.0)
     transactions = BankController.view_transactions("1012")
-    assert len(transactions) == 3
-    assert transactions[0]['type'] == 'debit'
-    assert transactions[0]['amount'] == 500.0
+    assert len(transactions) == 2
+    assert transactions[0]['type'] == 'deposit'
+    assert transactions[0]['amount'] == 1000.0
+    assert transactions[1]['type'] == 'debit'
+    assert transactions[1]['amount'] == 500.0
 
 
 @pytest.mark.failure

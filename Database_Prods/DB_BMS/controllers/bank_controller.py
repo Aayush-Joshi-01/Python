@@ -107,9 +107,9 @@ class BankController:
         :param amount: The amount to transfer.
         """
         if not Account.exists(from_account):
-            raise AccountNotFoundError
+            raise AccountNotFoundError("Account not found")
         if not Account.exists(to_account):
-            raise AccountNotFoundError
+            raise AccountNotFoundError("Account not found")
 
         try:
             Transaction.transfer(from_account, to_account, amount)
@@ -126,6 +126,8 @@ class BankController:
 
         :param account_number: The account number.
         """
+        if not Account.exists(account_number):
+            raise AccountNotFoundError("Account not found")
         try:
             return Transaction.get_all(account_number)
         except AccountNotFoundError as e:

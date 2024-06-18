@@ -59,7 +59,7 @@ class Account:
                 account_data = cursor.fetchone()
                 if not account_data:
                     raise AccountNotFoundError(account_number)
-                # returns Account object
+                # Returns the account object
                 return Account(
                     account_number=account_data['account_number'],
                     name=account_data['name'],
@@ -100,7 +100,7 @@ class Account:
         cursor.execute(query, (account_number,))
         result = cursor.fetchone()
         connection.close()
-        return result is not None
+        return result
 
     def __str__(self) -> str:
         return (f"Account(account_number={self.account_number}, name={self.name}, ifsc_code={self.ifsc_code}, "

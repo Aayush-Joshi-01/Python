@@ -1,1 +1,1 @@
-pymysql
+PyMySQL==1.1.1

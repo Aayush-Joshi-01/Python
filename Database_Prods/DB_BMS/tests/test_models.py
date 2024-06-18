@@ -1,9 +1,10 @@
 import pytest
 
-from ..db.database import initialize_db, get_db_connection
-from ..exceptions.custom_exceptions import InsufficientFundsError
-from ..models.account import Account
-from ..models.transaction import Transaction
+from Database_Prods.DB_BMS.db.database import initialize_db, get_db_connection
+from Database_Prods.DB_BMS.exceptions.custom_exceptions import InsufficientFundsError
+from Database_Prods.DB_BMS.models.account import Account
+from Database_Prods.DB_BMS.models.log import Log
+from Database_Prods.DB_BMS.models.transaction import Transaction
 
 
 @pytest.fixture(scope="module")
@@ -118,7 +119,10 @@ def test_transfer(setup_database):
                               "savings", 10000.0)
         receiver.create_account("1003", "Jake Doe", "IFSC003", "Branch3", "State3", "District3", "Country3",
                                 "savings", 10000.0)
-        # sender.transfer("1003", 2000.0)
+
+        Transaction.transfer("1001", "1003", 2000.0)
+        sender = sender.load_account(sender.account_number)
+        receiver = receiver.load_account(receiver.account_number)
         assert sender.balance == 8000.0
         assert receiver.balance == 12000.0
         print("test_transfer passed")
@@ -134,8 +138,8 @@ def test_view_transactions(setup_database):
                           "savings", 10000.0)
         Account.create_account("1001", "John Doe", "IFSC001", "Main Branch", "State1", "District1", "Country1",
                                "savings", 10000.0)
-        # account.credit(1000.0)
-        # account.debit(500.0)
+        Transaction.credit("1001", 1000.0)
+        Transaction.debit("1001", 500.0)
         transactions = Transaction.get_all(account.account_number)
         assert len(transactions) == 2
         print("test_view_transactions passed")

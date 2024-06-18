@@ -32,8 +32,8 @@ def logger_v(func: Callable[..., Any]) -> Callable[..., Any]:
             raise
 
     call_stack: list[str] = []
-    # for frame in inspect.getouterframes(inspect.currentframe()):
-    #     call_stack.append(frame.function)
-    # logger.debug(f'function calls: {call_stack}')
+    for frame in inspect.getouterframes(inspect.currentframe()):
+        call_stack.append(frame.function)
+    logger.debug(f'function calls: {call_stack}')
 
     return wrapper
