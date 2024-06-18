@@ -81,3 +81,41 @@ TypeError: Log.log_action() missing 2 required positional arguments: 'account_nu
 2024-06-18 15:06:44,811 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_logs returned [{'id': 3, 'action': 'get_logs', 'account_number': '', 'amount': None, 'target_account': None, 'error': None, 'timestamp': datetime.datetime(2024, 6, 18, 15, 6, 44)}, {'id': 2, 'action': 'debit', 'account_number': '1', 'amount': 150.0, 'target_account': None, 'error': None, 'timestamp': datetime.datetime(2024, 6, 18, 13, 6, 38)}, {'id': 1, 'action': 'create_account', 'account_number': '1', 'amount': 100000.0, 'target_account': None, 'error': None, 'timestamp': datetime.datetime(2024, 6, 18, 12, 42, 28)}]
 2024-06-18 15:06:44,811 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - route returned [{'id': 3, 'action': 'get_logs', 'account_number': '', 'amount': None, 'target_account': None, 'error': None, 'timestamp': datetime.datetime(2024, 6, 18, 15, 6, 44)}, {'id': 2, 'action': 'debit', 'account_number': '1', 'amount': 150.0, 'target_account': None, 'error': None, 'timestamp': datetime.datetime(2024, 6, 18, 13, 6, 38)}, {'id': 1, 'action': 'create_account', 'account_number': '1', 'amount': 100000.0, 'target_account': None, 'error': None, 'timestamp': datetime.datetime(2024, 6, 18, 12, 42, 28)}]
 2024-06-18 15:06:44,812 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - main returned None
+2024-06-18 15:09:53,539 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the main with args () and kwargs {}
+2024-06-18 15:10:21,082 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the route with args ('create_account', '1100', 'Prankur', 'IFSC1', 'BRANCH1', 'STATE1', 'DIST1', 'COUNTRy1', 'savings', 1000000.0) and kwargs {}
+2024-06-18 15:10:21,082 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the create_account with args ('1100', 'Prankur', 'IFSC1', 'BRANCH1', 'STATE1', 'DIST1', 'COUNTRy1', 'savings', 1000000.0) and kwargs {}
+2024-06-18 15:10:21,082 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the create_account with args ('1100', 'Prankur', 'IFSC1', 'BRANCH1', 'STATE1', 'DIST1', 'COUNTRy1', 'savings', 1000000.0) and kwargs {}
+2024-06-18 15:10:21,082 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_db_connection with args () and kwargs {}
+2024-06-18 15:10:21,144 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x0000025245874A10>
+2024-06-18 15:10:21,160 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - create_account returned None
+2024-06-18 15:10:21,160 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the log_action with args ('create_account', '1100', 1000000.0) and kwargs {}
+2024-06-18 15:10:21,160 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_db_connection with args () and kwargs {}
+2024-06-18 15:10:21,169 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x0000025243FFC1D0>
+2024-06-18 15:10:21,175 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - log_action returned None
+2024-06-18 15:10:21,175 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - create_account returned None
+2024-06-18 15:10:21,175 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - route returned None
+2024-06-18 15:11:09,359 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the route with args ('view_transactions', '1100') and kwargs {}
+2024-06-18 15:11:09,360 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the view_transactions with args ('1100',) and kwargs {}
+2024-06-18 15:11:09,360 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_all with args ('1100',) and kwargs {}
+2024-06-18 15:11:09,360 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_db_connection with args () and kwargs {}
+2024-06-18 15:11:09,376 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x0000025243BC98E0>
+2024-06-18 15:11:09,381 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_all returned ()
+2024-06-18 15:11:09,381 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - view_transactions returned ()
+2024-06-18 15:11:09,381 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - route returned ()
+2024-06-18 15:11:15,957 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the route with args ('view_transactions', '1000') and kwargs {}
+2024-06-18 15:11:15,957 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the view_transactions with args ('1000',) and kwargs {}
+2024-06-18 15:11:15,957 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_all with args ('1000',) and kwargs {}
+2024-06-18 15:11:15,957 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_db_connection with args () and kwargs {}
+2024-06-18 15:11:15,981 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x0000025243F975F0>
+2024-06-18 15:11:15,984 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_all returned ()
+2024-06-18 15:11:15,984 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - view_transactions returned ()
+2024-06-18 15:11:15,984 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - route returned ()
+2024-06-18 15:11:28,547 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the route with args ('view_transactions', '1') and kwargs {}
+2024-06-18 15:11:28,547 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the view_transactions with args ('1',) and kwargs {}
+2024-06-18 15:11:28,547 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_all with args ('1',) and kwargs {}
+2024-06-18 15:11:28,547 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_db_connection with args () and kwargs {}
+2024-06-18 15:11:28,594 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x0000025243FFC1D0>
+2024-06-18 15:11:28,598 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_all returned [{'id': 1, 'account_number': '1', 'type': 'debit', 'amount': 150.0, 'timestamp': datetime.datetime(2024, 6, 18, 13, 6, 38), 'target_account': None}]
+2024-06-18 15:11:28,599 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - view_transactions returned [{'id': 1, 'account_number': '1', 'type': 'debit', 'amount': 150.0, 'timestamp': datetime.datetime(2024, 6, 18, 13, 6, 38), 'target_account': None}]
+2024-06-18 15:11:28,599 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - route returned [{'id': 1, 'account_number': '1', 'type': 'debit', 'amount': 150.0, 'timestamp': datetime.datetime(2024, 6, 18, 13, 6, 38), 'target_account': None}]
+2024-06-18 15:11:33,426 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - main returned None
