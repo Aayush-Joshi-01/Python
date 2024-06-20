@@ -2,13 +2,15 @@ import logging
 import functools
 import os
 from typing import Callable, Any
+
 # import inspect
 
 
 logger: logging.Logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 file_handler: logging.FileHandler = logging.FileHandler(
-    os.path.join(os.path.dirname(__file__), '..', 'logs', 'logs.json'))
+    os.path.join(os.path.dirname(__file__), '..', 'logs', 'logs''.json')
+)
 file_handler.setLevel(logging.DEBUG)
 formatter: logging.Formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 file_handler.setFormatter(formatter)
