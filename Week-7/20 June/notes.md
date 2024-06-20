@@ -1,6 +1,5 @@
-Certainly! Let's structure the SQL queries for each operation you've listed, along with sample outputs.
-
-### Create a New Table
+# SQL OPERATIONS
+## Create a New Table
 
 ```sql
 CREATE TABLE Employees (
@@ -22,7 +21,7 @@ Query OK, 0 rows affected (0.13 sec)
 Query OK, 0 rows affected (0.04 sec)
 ```
 
-### Insert Data into Both Tables
+## Insert Data into Both Tables
 
 ```sql
 INSERT INTO Employees (EmployeeID, EmployeeName, Department, Salary)
@@ -54,6 +53,8 @@ Records: 10  Duplicates: 0  Warnings: 0
 Query OK, 5 rows affected (0.00 sec)
 Records: 5  Duplicates: 0  Warnings: 0
 ```
+
+## Joins
 
 ### Equi Join
 
@@ -193,7 +194,6 @@ RIGHT JOIN Departments d ON e.Department = d.DepartmentName;
 ```
 
 ```commandline
--- Output
 +-------------------+----------------+
 | EmployeeName      | DepartmentName |
 +-------------------+----------------+
@@ -312,9 +312,9 @@ CROSS JOIN Departments d;
 50 rows in set (0.00 sec)
 ```
 
-### Using Aggregate Functions in SQL
+## Using Aggregate Functions in SQL
 
-#### MIN()
+### MIN()
 
 ```sql
 SELECT MIN(Salary) AS MinSalary
@@ -330,7 +330,7 @@ FROM Employees;
 1 row in set (0.00 sec)
 ```
 
-#### MAX()
+### MAX()
 
 ```sql
 SELECT MAX(Salary) AS MaxSalary
@@ -346,7 +346,7 @@ FROM Employees;
 1 row in set (0.00 sec)
 ```
 
-#### AVG()
+### AVG()
 
 ```sql
 SELECT AVG(Salary) AS AvgSalary
@@ -362,7 +362,7 @@ FROM Employees;
 1 row in set (0.00 sec)
 ```
 
-#### COUNT()
+### COUNT()
 
 ```sql
 SELECT COUNT(*) AS EmployeeCount
@@ -378,7 +378,7 @@ FROM Employees;
 1 row in set (0.02 sec)
 ```
 
-#### DISTINCT()
+### DISTINCT()
 
 ```sql
 SELECT DISTINCT Department
