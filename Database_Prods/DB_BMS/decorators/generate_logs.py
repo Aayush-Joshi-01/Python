@@ -30,10 +30,4 @@ def logger_v(func: Callable[..., Any]) -> Callable[..., Any]:
         except Exception as e:
             logger.exception(f'Error in {func.__name__}: {e}')
             raise
-
-    call_stack: list[str] = []
-    for frame in inspect.getouterframes(inspect.currentframe()):
-        call_stack.append(frame.function)
-    logger.debug(f'function calls: {call_stack}')
-
     return wrapper
