@@ -72,7 +72,10 @@ def main() -> None:
             elif choice == "7":
                 account_number: str = input("Enter account number: ")
                 try:
-                    print(route("view_transactions", account_number))
+                    transactions = route("view_transactions", account_number)
+                    for transaction in transactions:
+                        print(transaction)
+
                 except Exception as e:
                     print(e)
 

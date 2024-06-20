@@ -41,3 +41,62 @@
 2024-06-20 15:03:22,671 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - log_action returned None
 2024-06-20 15:03:22,671 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - create_account returned None
 2024-06-20 15:03:22,671 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - route returned None
+2024-06-20 15:04:43,973 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the route with args ('deposit', '1', 10000.0) and kwargs {}
+2024-06-20 15:04:43,973 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the deposit with args ('1', 10000.0) and kwargs {}
+2024-06-20 15:04:43,973 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the deposit with args ('1', 10000.0) and kwargs {}
+2024-06-20 15:04:43,974 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_db_connection with args () and kwargs {}
+2024-06-20 15:04:43,997 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x000002CEEABB6810>
+2024-06-20 15:04:44,019 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - deposit returned None
+2024-06-20 15:04:44,019 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the log_action with args ('deposit', '1', 10000.0) and kwargs {}
+2024-06-20 15:04:44,019 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_db_connection with args () and kwargs {}
+2024-06-20 15:04:44,022 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x000002CEEABB4A70>
+2024-06-20 15:04:44,029 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - log_action returned None
+2024-06-20 15:04:44,029 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - deposit returned None
+2024-06-20 15:04:44,029 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - route returned None
+2024-06-20 15:05:13,073 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the route with args ('transfer', '1', '2', 5000.0) and kwargs {}
+2024-06-20 15:05:13,073 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the transfer with args ('1', '2', 5000.0) and kwargs {}
+2024-06-20 15:05:13,073 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the exists with args ('1',) and kwargs {}
+2024-06-20 15:05:13,074 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_db_connection with args () and kwargs {}
+2024-06-20 15:05:13,094 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x000002CEEABB6810>
+2024-06-20 15:05:13,096 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - exists returned {'1': 1}
+2024-06-20 15:05:13,096 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the exists with args ('2',) and kwargs {}
+2024-06-20 15:05:13,096 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_db_connection with args () and kwargs {}
+2024-06-20 15:05:13,110 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x000002CEEABB5010>
+2024-06-20 15:05:13,111 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - exists returned {'1': 1}
+2024-06-20 15:05:13,111 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the transfer with args ('1', '2', 5000.0) and kwargs {}
+2024-06-20 15:05:13,112 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_db_connection with args () and kwargs {}
+2024-06-20 15:05:13,126 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x000002CEEABB4AD0>
+2024-06-20 15:05:13,139 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - transfer returned None
+2024-06-20 15:05:13,140 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the log_action with args ('transfer', '1', 5000.0) and kwargs {'target_account': '2'}
+2024-06-20 15:05:13,140 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_db_connection with args () and kwargs {}
+2024-06-20 15:05:13,158 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x000002CEEABB4B00>
+2024-06-20 15:05:13,164 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - log_action returned None
+2024-06-20 15:05:13,164 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - transfer returned None
+2024-06-20 15:05:13,164 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - route returned None
+2024-06-20 15:06:09,430 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the route with args ('view_transactions', '1') and kwargs {}
+2024-06-20 15:06:09,430 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the view_transactions with args ('1',) and kwargs {}
+2024-06-20 15:06:09,430 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the exists with args ('1',) and kwargs {}
+2024-06-20 15:06:09,430 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_db_connection with args () and kwargs {}
+2024-06-20 15:06:09,453 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x000002CEEABB4AD0>
+2024-06-20 15:06:09,455 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - exists returned {'1': 1}
+2024-06-20 15:06:09,455 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_all with args ('1',) and kwargs {}
+2024-06-20 15:06:09,455 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_db_connection with args () and kwargs {}
+2024-06-20 15:06:09,470 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x000002CEEABB64E0>
+2024-06-20 15:06:09,475 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_all returned [{'id': 2, 'account_number': '1', 'type': 'transfer', 'amount': 5000.0, 'timestamp': datetime.datetime(2024, 6, 20, 15, 5, 13), 'target_account': '2'}, {'id': 1, 'account_number': '1', 'type': 'deposit', 'amount': 10000.0, 'timestamp': datetime.datetime(2024, 6, 20, 15, 4, 44), 'target_account': None}]
+2024-06-20 15:06:09,475 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - view_transactions returned [{'id': 2, 'account_number': '1', 'type': 'transfer', 'amount': 5000.0, 'timestamp': datetime.datetime(2024, 6, 20, 15, 5, 13), 'target_account': '2'}, {'id': 1, 'account_number': '1', 'type': 'deposit', 'amount': 10000.0, 'timestamp': datetime.datetime(2024, 6, 20, 15, 4, 44), 'target_account': None}]
+2024-06-20 15:06:09,475 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - route returned [{'id': 2, 'account_number': '1', 'type': 'transfer', 'amount': 5000.0, 'timestamp': datetime.datetime(2024, 6, 20, 15, 5, 13), 'target_account': '2'}, {'id': 1, 'account_number': '1', 'type': 'deposit', 'amount': 10000.0, 'timestamp': datetime.datetime(2024, 6, 20, 15, 4, 44), 'target_account': None}]
+2024-06-20 15:06:48,805 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the login_banking_system with args (<function main at 0x000001D5C9568A40>,) and kwargs {}
+2024-06-20 15:06:48,805 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - login_banking_system returned <function login_banking_system.<locals>.wrapper at 0x000001D5CB56FF60>
+2024-06-20 15:06:52,677 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the main with args () and kwargs {}
+2024-06-20 15:06:56,535 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the route with args ('view_transactions', '1') and kwargs {}
+2024-06-20 15:06:56,537 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the view_transactions with args ('1',) and kwargs {}
+2024-06-20 15:06:56,537 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the exists with args ('1',) and kwargs {}
+2024-06-20 15:06:56,537 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_db_connection with args () and kwargs {}
+2024-06-20 15:06:56,578 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x000001D5C98C99D0>
+2024-06-20 15:06:56,580 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - exists returned {'1': 1}
+2024-06-20 15:06:56,580 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_all with args ('1',) and kwargs {}
+2024-06-20 15:06:56,580 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - Calling the get_db_connection with args () and kwargs {}
+2024-06-20 15:06:56,594 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x000001D5C989EE40>
+2024-06-20 15:06:56,598 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - get_all returned [{'id': 2, 'account_number': '1', 'type': 'transfer', 'amount': 5000.0, 'timestamp': datetime.datetime(2024, 6, 20, 15, 5, 13), 'target_account': '2'}, {'id': 1, 'account_number': '1', 'type': 'deposit', 'amount': 10000.0, 'timestamp': datetime.datetime(2024, 6, 20, 15, 4, 44), 'target_account': None}]
+2024-06-20 15:06:56,598 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - view_transactions returned [{'id': 2, 'account_number': '1', 'type': 'transfer', 'amount': 5000.0, 'timestamp': datetime.datetime(2024, 6, 20, 15, 5, 13), 'target_account': '2'}, {'id': 1, 'account_number': '1', 'type': 'deposit', 'amount': 10000.0, 'timestamp': datetime.datetime(2024, 6, 20, 15, 4, 44), 'target_account': None}]
+2024-06-20 15:06:56,599 - Database_Prods.DB_BMS.decorators.generate_logs - DEBUG - route returned [{'id': 2, 'account_number': '1', 'type': 'transfer', 'amount': 5000.0, 'timestamp': datetime.datetime(2024, 6, 20, 15, 5, 13), 'target_account': '2'}, {'id': 1, 'account_number': '1', 'type': 'deposit', 'amount': 10000.0, 'timestamp': datetime.datetime(2024, 6, 20, 15, 4, 44), 'target_account': None}]
