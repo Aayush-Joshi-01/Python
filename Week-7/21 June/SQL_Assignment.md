@@ -565,18 +565,23 @@ WHERE e1.EmpID <> e2.EmpID ORDER BY e1.Department, e1.EmpLastName, e1.EmpFirstNa
 ### Q24. Write a query to retrieve the last 3 records from the EmployeeInfo table.
 
 ```sql
-SELECT * FROM EmployeeInfo ORDER BY EmpID DESC LIMIT 3;
+WITH ranked_rows AS (
+  SELECT *, ROW_NUMBER() OVER () AS row_num
+  FROM employee.employeeinfo
+  ORDER BY row_num desc limit 3
+)
+select * from ranked_rows order by row_num;
 ```
 
 ```commandline
-+-------+--------------+-------------+------------+---------+-----------------+------------+--------+
-| EmpID | EmpFirstName | EmpLastName | Department | Project | Address         | DOB        | Gender |
-+-------+--------------+-------------+------------+---------+-----------------+------------+--------+
-|     5 | Ankit        | Kapoor      | Admin      | P2      | Delhi (DEL)     | 1994-07-03 | M      |
-|     4 | Sonia        | Kulkarni    | HR         | P1      | Hyderabad (HYD) | 1992-05-02 | F      |
-|     3 | Rohan        | Diwan       | Account    | P3      | Mumbai (BOM)    | 1980-01-01 | M      |
-+-------+--------------+-------------+------------+---------+-----------------+------------+--------+
-3 rows in set (0.00 sec)
++-------+--------------+-------------+------------+---------+-----------------+------------+--------+---------+
+| EmpID | EmpFirstName | EmpLastName | Department | Project | Address         | DOB        | Gender | row_num |
++-------+--------------+-------------+------------+---------+-----------------+------------+--------+---------+
+|     3 | Rohan        | Diwan       | Account    | P3      | Mumbai (BOM)    | 1980-01-01 | M      |       3 |
+|     4 | Sonia        | Kulkarni    | HR         | P1      | Hyderabad (HYD) | 1992-05-02 | F      |       4 |
+|     5 | Ankit        | Kapoor      | Admin      | P2      | Delhi (DEL)     | 1994-07-03 | M      |       5 |
++-------+--------------+-------------+------------+---------+-----------------+------------+--------+---------+
+3 rows in set (0.03 sec)
 ```
 
 ### Q25. Write a query to find the third-highest salary from the EmpPosition table.
