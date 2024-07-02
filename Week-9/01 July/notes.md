@@ -439,3 +439,5 @@ print(a2)
 - **Memory Efficiency**: `ravel()` does not create a copy, so it saves memory especially with large arrays.
 - **Original Array Impact**: Changes to `ravel()` affect the original array because it shares the same data, while `flatten()` creates a separate copy.
 - **View vs. Copy**: `ravel()` returns a view of the original array, while `flatten()` returns a copy.
+
+
