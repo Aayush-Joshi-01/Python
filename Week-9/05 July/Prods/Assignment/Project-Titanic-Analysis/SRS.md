@@ -20,4 +20,4 @@
 
 pclass,survived,name,sex,age,sibsp,parch,ticket,fare,cabin,embarked,boat,body,home.dest
 
-![alt text](image.png)
+![alt text](Assets/image.png)

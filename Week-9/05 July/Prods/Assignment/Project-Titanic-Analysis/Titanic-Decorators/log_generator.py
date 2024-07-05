@@ -7,7 +7,7 @@ from typing import Callable, Any
 logger: logging.Logger = logging.getLogger(__name__)
 logger.setLevel(logging.DEBUG)
 file_handler: logging.FileHandler = logging.FileHandler(
-    os.path.join(os.path.dirname(__file__), '..', 'Titanic-logs', 'logs''.json')
+    os.path.join(os.path.dirname(__file__), '..', 'Titanic-Logs', 'logs''.json')
 )
 file_handler.setLevel(logging.DEBUG)
 formatter: logging.Formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
