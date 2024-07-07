@@ -1,20 +1,23 @@
 from typing import Any, Callable, Dict
 from ..Titanic_routes.url import route
 
+
 class C_Survival:
-    def routes(self, url: str):
+
+    @staticmethod
+    def routes(url: str):
         print("\nSurvival Analysis:")
         print("/overall for overall analysis")
         print("/class for class analysis")
-        print("/gender for gneder analysis")
+        print("/gender for gender analysis")
         print("/age for age analysis")
         print("/f_size for family size analyis")
         sub_choice = input("\nEnter your choice url with /: ")
         url = url + sub_choice
         route(url)
-    
+
     def overall_survival_rate(self):
-        print("Overall Survival Rate")
+
 
     def survival_by_class(self):
         print("Survival by Class")
@@ -28,7 +31,6 @@ class C_Survival:
     def survival_by_family_size(self):
         print("Survival by Family Size")
 
-        
 
 class C_Demographic:
     def routes(self, url: str):
@@ -40,7 +42,7 @@ class C_Demographic:
         sub_choice = input("\nEnter your choice url with /: ")
         url = url + sub_choice
         route(url)
-    
+
     def passenger_count_by_class(self):
         print("Passenger Count by Class")
 
@@ -53,6 +55,7 @@ class C_Demographic:
     def embarkation_port_analysis(self):
         print("Embarkation Port Analysis")
 
+
 class C_Financial:
     def routes(self, url: str):
         print("\nFinancial Analysis:")
@@ -61,7 +64,8 @@ class C_Financial:
         print("/fare_vs_survival for fare vs survival")
         sub_choice = input("\nEnter your choice url with /: ")
         url = url + sub_choice
-        route(url)    
+        route(url)
+
     def ticket_fare_distribution(self):
         print("Ticket Fare Distribution")
 
@@ -70,7 +74,7 @@ class C_Financial:
 
     def fare_vs_survival(self):
         print("Fare vs Survival")
-        
+
 
 class C_Class:
     def route(self, url: str):
@@ -81,6 +85,7 @@ class C_Class:
         sub_choice = input("\nEnter your choice url with /: ")
         url = url + sub_choice
         route(url)
+
     def pass_demo_by_cls(self):
         print("Passenger Demographics by Class")
 
@@ -98,5 +103,6 @@ class C_Additonal:
         sub_choice = input("\nEnter your choice url with /: ")
         url = url + sub_choice
         route(url)
+
     def family_relationships_and_survival(self):
         print("Family Relationships and Survival")

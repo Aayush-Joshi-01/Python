@@ -1,5 +1,6 @@
 from Titanic_routes.url import route
 
+
 def main():
     while True:
         print("\nTitanic Dataset Analysis Menu:")
