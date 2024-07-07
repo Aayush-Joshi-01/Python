@@ -1,8 +1,18 @@
 from typing import Any, Callable, Dict
 from ..Titanic_routes.url import route
+from ..Titanic_Analysis.load_data import data_structuring
+from ..Titanic_Controllers.survival_controller import Survival_Controller
+from ..Titanic_Controllers.demographic_controller import Demographic_Controller
+from ..Titanic_Controllers.financial_controller import Financial_Controller
+from ..Titanic_Controllers.class_controller import Class_Controller
+from ..Titanic_Controllers.additonal_controller import Additonal_Controller
 
 
 class C_Survival:
+    def __init__(self):
+        df = data_structuring()
+        self.df = df
+        
 
     @staticmethod
     def routes(url: str):
@@ -17,19 +27,19 @@ class C_Survival:
         route(url)
 
     def overall_survival_rate(self):
-        pass
+        print(Survival_Controller().overall_survival_rate(self.df))
 
     def survival_by_class(self):
-        print("Survival by Class")
+        print(Survival_Controller().survival_by_class(self.df))
 
     def survival_by_gender(self):
-        print("Survival by Gender")
+        print(Survival_Controller().survival_by_gender(self.df))
 
     def survival_by_age_group(self):
-        print("Survival by Age Group")
+        print(Survival_Controller().survival_by_age_group(self.df))
 
     def survival_by_family_size(self):
-        print("Survival by Family Size")
+        print(Survival_Controller().survival_by_family_size(self.df))
 
 
 class C_Demographic:
@@ -44,16 +54,16 @@ class C_Demographic:
         route(url)
 
     def passenger_count_by_class(self):
-        print("Passenger Count by Class")
+        print(Demographic_Controller().passenger_count_by_class(self.df))
 
     def gender_distribution(self):
-        print("Gender Distribution")
+        print(Demographic_Controller().gender_distribution(self.df))
 
     def age_distribution(self):
-        print("Age Distribution")
+        Demographic_Controller().age_distribution(self.df)
 
     def embarkation_port_analysis(self):
-        print("Embarkation Port Analysis")
+        print(Demographic_Controller().embarkation_port_analysis(self.df))
 
 
 class C_Financial:
@@ -67,13 +77,13 @@ class C_Financial:
         route(url)
 
     def ticket_fare_distribution(self):
-        print("Ticket Fare Distribution")
+        Financial_Controller().ticket_fare_distribution(self.df)
 
     def average_fare_by_class(self):
-        print("Average Fare by Class")
+        print(Financial_Controller().average_fare_by_class(self.df))
 
     def fare_vs_survival(self):
-        print("Fare vs Survival")
+        Financial_Controller().fare_vs_survival(self.df)
 
 
 class C_Class:
@@ -87,13 +97,13 @@ class C_Class:
         route(url)
 
     def pass_demo_by_cls(self):
-        print("Passenger Demographics by Class")
+        print(Class_Controller().passenger_demographics_by_class(self.df))
 
     def survival_by_cls(self):
-        print("Survival Rate by Class")
+        print(Class_Controller().survival_rates_by_class_and_gender(self.df))
 
     def fare_by_cls(self):
-        print("Fare Analysis by Class")
+        Class_Controller().fare_analysis_by_class(self.df)
 
 
 class C_Additonal:
@@ -105,4 +115,9 @@ class C_Additonal:
         route(url)
 
     def family_relationships_and_survival(self):
-        print("Family Relationships and Survival")
+        print(Additonal_Controller().family_relationships_and_survival(self.df))
+    
+    # def survival_rate_by_category(self):
+    #     print(Additonal_Controller().custom_class_survival(self.df))
+
+    
