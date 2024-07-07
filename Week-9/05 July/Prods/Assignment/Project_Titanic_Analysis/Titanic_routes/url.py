@@ -1,5 +1,6 @@
 from typing import Any, Callable, Dict
-from Project_Titanic_Analysis.Titanic_Controllers.route_controllers import C_Survival, C_Demographic, C_Financial, C_Class, C_Additonal
+from ..Titanic_Controllers.survival_controller import Survival_Controller
+from ..Titanic_Controllers.route_controllers import C_Survival, C_Demographic, C_Financial, C_Class, C_Additonal
 
 
 urlpatterns: Dict[str, Callable[..., Any]] = {
