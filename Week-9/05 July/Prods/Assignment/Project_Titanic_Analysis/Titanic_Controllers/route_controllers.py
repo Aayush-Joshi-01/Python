@@ -17,7 +17,7 @@ class C_Survival:
         route(url)
 
     def overall_survival_rate(self):
-
+        pass
 
     def survival_by_class(self):
         print("Survival by Class")
