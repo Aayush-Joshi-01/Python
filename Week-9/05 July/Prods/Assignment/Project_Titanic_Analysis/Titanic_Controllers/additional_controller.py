@@ -3,8 +3,8 @@ class Additonal_Controller:
         pass
 
     def family_relationships_and_survival(self, df):
-        df['FamilySize'] = df['SibSp'] + df['Parch'] + 1
-        family_survival = df.groupby('FamilySize')['Survived'].mean() * 100
+        df['FamilySize'] = df['sibsp'] + df['parch'] + 1
+        family_survival = df.groupby('FamilySize')['survived'].mean() * 100
         return family_survival
 
     def survival_rate_by_category(self, data, category_col):

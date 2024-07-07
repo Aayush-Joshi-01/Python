@@ -1,3 +1,6 @@
+import pandas as pd
+
+
 # dtype = np.dtype([
 #     ('pclass', int),
 #     ('survived', int),
@@ -16,7 +19,7 @@
 # ])
 
 def data_structuring():
-    df = pd.read_csv('titanic3.csv')
+    df = pd.read_csv('Week-9/05 July/Prods/Assignment/Project_Titanic_Analysis/Titanic_CSV/titanic3.csv')
     # data = []
     # with open('titanic3.csv', 'r') as file:
     #     read = csv.reader(file)
@@ -29,4 +32,9 @@ def data_structuring():
     #             print(f"Error processing row: {row}, Error: {e}")
     # structured_data = np.array(data, dtype=dtype)
     # return structured_data
+    print(df)
     return df
+
+
+if __name__ == '__main__':
+    data_structuring()
