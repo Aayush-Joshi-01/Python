@@ -1,4 +1,4 @@
-from typing import Any, Callable, Dict
+from typing import Any, Callable, Dict, Optional
 from Titanic_Analysis.load_data import data_structuring
 from Titanic_Controllers.survival_controller import Survival_Controller
 from Titanic_Controllers.demographic_controller import Demographic_Controller
@@ -56,8 +56,8 @@ class C_Survival:
         print("/age for survival rate by age group analysis")
         print("/f_size for survival rate by family size analysis")
         sub_choice: str = input("\nEnter your choice url with /: ")
-        url: str = url + sub_choice
-        controller_route(url)
+        route_url: str = url + sub_choice
+        controller_route(route_url)
 
     def overall_survival_rate(self, url: str) -> None:
         """Print overall survival rate."""
@@ -97,8 +97,8 @@ class C_Demographic:
         print("/age_dist for age distribution analysis")
         print("/embark for embarkation port analysis")
         sub_choice: str = input("\nEnter your choice url with /: ")
-        url: str = url + sub_choice
-        controller_route(url)
+        route_url: str = url + sub_choice
+        controller_route(route_url)
 
     def passenger_count_by_class(self, url: str) -> None:
         """Print passenger count by class."""
@@ -133,8 +133,8 @@ class C_Financial:
         print("/avg_fare for average fare analysis")
         print("/fare_vs_survival for fare vs survival analysis")
         sub_choice: str = input("\nEnter your choice url with /: ")
-        url: str = url + sub_choice
-        controller_route(url)
+        route_url: str = url + sub_choice
+        controller_route(route_url)
 
     def ticket_fare_distribution(self, url: str) -> None:
         """Display ticket fare distribution plot."""
@@ -165,8 +165,8 @@ class C_Class:
         print("/survival_by_cls for survival rate by class analysis")
         print("/fare_by_cls for fare analysis by class analysis")
         sub_choice: str = input("\nEnter your choice url with /: ")
-        url: str = url + sub_choice
-        controller_route(url)
+        route_url: str = url + sub_choice
+        controller_route(route_url)
 
     def pass_demo_by_cls(self, url: str) -> None:
         """Print passenger demographics by class."""
@@ -207,30 +207,30 @@ class C_Additional:
         print("/fam_rel_survival for family relationships and survival analysis")
         print("/survival_rate_by_category for survival rate by category analysis")
         sub_choice: str = input("\nEnter your choice url with /: ")
-        url: str = url + sub_choice
-        controller_route(url)
+        route_url: str = url + sub_choice
+        controller_route(route_url)
 
     def family_relationships_and_survival(self, url: str) -> None:
         """Print family relationships and survival analysis."""
-        print(Additonal_Controller().family_relationships_and_survival(self.arr))
+        print(Additional_Controller().family_relationships_and_survival(self.arr))
 
     def survival_rate_by_category(self, url: str) -> None:
         """Print survival rate by specified category."""
         category = input("Enter the category (case sensitive): ")
-        print(Additonal_Controller().survival_rate_by_category(self.arr, category))
+        print(Additional_Controller().survival_rate_by_category(self.arr, category))
 
 
 def controller_route(url: str, *args: Any, **kwargs: Any) -> Any:
     """
     Routes a URL to a view function.
     """
-    try:
-        view: Callable[..., Any] = urlpatterns.get(url)
-        if view:
-            return view(url, *args, **kwargs)
-        raise Exception("404 Not Found\n")
-    except Exception as e:
-        print(e)
+# try:
+    view: Optional[Callable[..., Any]] = urlpatterns.get(url)
+    if view:
+        return view(url, *args, **kwargs)
+    raise Exception("404 Not Found\n")
+# except Exception as e:
+#     print(e)
 
 
 if __name__ == '__main__':

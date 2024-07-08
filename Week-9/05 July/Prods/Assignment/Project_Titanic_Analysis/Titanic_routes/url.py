@@ -1,5 +1,5 @@
-from typing import Any, Callable, Dict
-from Titanic_Controllers.route_controllers import C_Survival, C_Demographic, C_Financial, C_Class, C_Additonal
+from typing import Any, Callable, Dict, Optional
+from Titanic_Controllers.route_controllers import C_Survival, C_Demographic, C_Financial, C_Class, C_Additional
 
 # Dictionary mapping URLs to controller methods
 urlpatterns: Dict[str, Callable[..., Any]] = {
@@ -7,7 +7,7 @@ urlpatterns: Dict[str, Callable[..., Any]] = {
     "/demographic": C_Demographic.routes,
     "/finance": C_Financial.routes,
     "/class": C_Class.routes,
-    "/additional": C_Additonal.routes,
+    "/additional": C_Additional.routes,
 }
 
 def route(url: str, *args: Any, **kwargs: Any) -> Any:
@@ -25,13 +25,13 @@ def route(url: str, *args: Any, **kwargs: Any) -> Any:
     Returns:
         Any: The result of the view function.
     """
-    try:
-        view: Callable[..., Any] = urlpatterns.get(url)
-        if view:
-            return view(url, *args, **kwargs)
-        raise Exception("404 Not Found\n")
-    except Exception as e:
-        print(e)
+# try:
+    view: Optional[Callable[..., Any]] = urlpatterns.get(url)
+    if view:
+        return view(url, *args, **kwargs)
+    raise Exception("404 Not Found\n")
+# except Exception as e:
+#     print(e)
 
 if __name__ == '__main__':
     # Example usage:
