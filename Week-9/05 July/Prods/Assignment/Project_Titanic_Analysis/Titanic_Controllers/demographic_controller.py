@@ -6,26 +6,27 @@ from typing import Dict
 
 class Demographic_Controller:
 
-    def __init__(self):
-        pass
-
-    def passenger_count_by_class(self, arr: np.ndarray) -> Dict[int, int]:
+    @staticmethod
+    def passenger_count_by_class(arr: np.ndarray) -> Dict[int, int]:
         class_counts = np.bincount(arr['pclass'])
         passenger_count_by_class: Dict[int, int] = {}
         for pclass in np.unique(arr['pclass']):
             passenger_count_by_class[int(pclass)] = int(class_counts[pclass])
         return passenger_count_by_class
 
+    @staticmethod
     def gender_distribution(self, arr: np.ndarray) -> Dict[str, int]:
         gender_counts = dict(zip(*np.unique(arr['sex'], return_counts=True)))
         return gender_counts
 
+    @staticmethod
     def age_distribution(self, arr: np.ndarray) -> None:
         plt.hist(arr['age'], bins=20, edgecolor='black')
         plt.xlabel('Age')
         plt.title('Age Distribution of Passengers')
         plt.show()
 
+    @staticmethod
     def embarkation_port_analysis(self, arr: np.ndarray) -> Dict[str, int]:
         embarkation_port_counts = dict(zip(*np.unique(arr['embarked'], return_counts=True)))
         return embarkation_port_counts

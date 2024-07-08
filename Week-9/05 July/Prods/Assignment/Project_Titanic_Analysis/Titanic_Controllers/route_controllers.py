@@ -7,6 +7,7 @@ from ..Titanic_Controllers.financial_controller import Financial_Controller
 from ..Titanic_Controllers.class_controller import Class_Controller
 from ..Titanic_Controllers.additonal_controller import Additonal_Controller
 
+
 class C_Survival:
     def __init__(self):
         self.arr: Any = data_structuring()

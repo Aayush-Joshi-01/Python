@@ -1,3 +1,8 @@
+import numpy as np
+import seaborn as sns
+import matplotlib.pyplot as plt
+import csv
+
 from Titanic_routes.url import route
 
 
@@ -8,6 +13,7 @@ def main():
         print("/demographic for demographic analysis")
         print("/finance for financial analysis")
         print("/class for class based analysis")
+        print("/additional for additional analysis")
         print("exit to exit")
         choice = input("\nEnter your Url Choice with / : ")
         if choice == "exit":
