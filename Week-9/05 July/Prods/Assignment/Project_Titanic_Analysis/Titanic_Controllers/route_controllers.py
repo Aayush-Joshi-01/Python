@@ -4,7 +4,7 @@ from Titanic_Controllers.survival_controller import Survival_Controller
 from Titanic_Controllers.demographic_controller import Demographic_Controller
 from Titanic_Controllers.financial_controller import Financial_Controller
 from Titanic_Controllers.class_controller import Class_Controller
-from Titanic_Controllers.additional_controller import Additonal_Controller
+from Titanic_Controllers.additional_controller import Additional_Controller
 
 # URL patterns dictionary mapping URLs to controller methods
 urlpatterns: Dict[str, Callable[..., Any]] = {
@@ -33,37 +33,21 @@ urlpatterns: Dict[str, Callable[..., Any]] = {
     "/class/fare_by_cls": Class_Controller().fare_analysis_by_class,
 
     # Additional Routes
-    "/additional/fam_rel_survival": Additonal_Controller().family_relationships_and_survival,
-    "/additional/survival_rate_by_category": Additonal_Controller().survival_rate_by_category,
+    "/additional/fam_rel_survival": Additional_Controller().family_relationships_and_survival,
+    "/additional/survival_rate_by_category": Additional_Controller().survival_rate_by_category,
 }
 
 
 class C_Survival:
     """
     Controller for handling survival-related analyses.
-
-    Attributes:
-        arr (Any): Processed Titanic dataset.
-
-    Methods:
-        routes(url: str) -> None:
-            Interactive method to display available survival analyses.
-        overall_survival_rate(url: str) -> None:
-            Print overall survival rate.
-        survival_by_class(url: str) -> None:
-            Print survival rates by passenger class.
-        survival_by_gender(url: str) -> None:
-            Print survival rates by gender.
-        survival_by_age_group(url: str) -> None:
-            Print survival rates by age group.
-        survival_by_family_size(url: str) -> None:
-            Print survival rates by family size.
     """
 
     def __init__(self):
         self.arr: Any = data_structuring()  # Load Titanic dataset using data_structuring function
 
-    def routes(self, url: str) -> None:
+    @staticmethod
+    def routes(url: str) -> None:
         """Interactive method to display available survival analyses."""
         print("\nSurvival Analysis:")
         print("/overall for overall survival rate analysis")
@@ -99,27 +83,13 @@ class C_Survival:
 class C_Demographic:
     """
     Controller for handling demographic-related analyses.
-
-    Attributes:
-        arr (Any): Processed Titanic dataset.
-
-    Methods:
-        routes(url: str) -> None:
-            Interactive method to display available demographic analyses.
-        passenger_count_by_class(url: str) -> None:
-            Print passenger count by class.
-        gender_distribution(url: str) -> None:
-            Print gender distribution.
-        age_distribution(url: str) -> None:
-            Display age distribution plot.
-        embarkation_port_analysis(url: str) -> None:
-            Print embarkation port analysis.
     """
 
     def __init__(self):
         self.arr: Any = data_structuring()
 
-    def routes(self, url: str) -> None:
+    @staticmethod
+    def routes(url: str) -> None:
         """Interactive method to display available demographic analyses."""
         print("\nDemographic Analysis:")
         print("/p_count_by_cls for passenger count by class analysis")
@@ -150,25 +120,13 @@ class C_Demographic:
 class C_Financial:
     """
     Controller for handling financial-related analyses.
-
-    Attributes:
-        arr (Any): Processed Titanic dataset.
-
-    Methods:
-        routes(url: str) -> None:
-            Interactive method to display available financial analyses.
-        ticket_fare_distribution(url: str) -> None:
-            Display ticket fare distribution plot.
-        average_fare_by_class(url: str) -> None:
-            Print average fare by class.
-        fare_vs_survival(url: str) -> None:
-            Display fare vs survival plot.
     """
 
     def __init__(self):
         self.arr: Any = data_structuring()
 
-    def routes(self, url: str) -> None:
+    @staticmethod
+    def routes(url: str) -> None:
         """Interactive method to display available financial analyses."""
         print("\nFinancial Analysis:")
         print("/ticket_fare_dist for ticket fare distribution analysis")
@@ -194,25 +152,13 @@ class C_Financial:
 class C_Class:
     """
     Controller for handling class-related analyses.
-
-    Attributes:
-        arr (Any): Processed Titanic dataset.
-
-    Methods:
-        routes(url: str) -> None:
-            Interactive method to display available class-related analyses.
-        pass_demo_by_cls(url: str) -> None:
-            Print passenger demographics by class.
-        survival_by_cls(url: str) -> None:
-            Print survival rates by class and gender.
-        fare_by_cls(url: str) -> None:
-            Print fare analysis by class.
     """
 
     def __init__(self):
         self.arr: Any = data_structuring()
 
-    def routes(self, url: str) -> None:
+    @staticmethod
+    def routes(url: str) -> None:
         """Interactive method to display available class-related analyses."""
         print("\nClass Analysis:")
         print("/pass_demo_by_cls for passenger demographics by class analysis")
@@ -254,7 +200,8 @@ class C_Additional:
     def __init__(self):
         self.arr: Any = data_structuring()
 
-    def routes(self, url: str) -> None:
+    @staticmethod
+    def routes(url: str) -> None:
         """Interactive method to display available additional analyses."""
         print("\nAdditional Analysis:")
         print("/fam_rel_survival for family relationships and survival analysis")
@@ -276,17 +223,6 @@ class C_Additional:
 def controller_route(url: str, *args: Any, **kwargs: Any) -> Any:
     """
     Routes a URL to a view function.
-
-    Args:
-        url (str): The URL to route.
-        *args: Variable length arguments to pass to the view function.
-        **kwargs: Variable keyword arguments to pass to the view function.
-
-    Raises:
-        Exception: If the URL is not found.
-
-    Returns:
-        Any: The result of the view function.
     """
     try:
         view: Callable[..., Any] = urlpatterns.get(url)
@@ -298,6 +234,5 @@ def controller_route(url: str, *args: Any, **kwargs: Any) -> Any:
 
 
 if __name__ == '__main__':
-    # Main execution part
     choice: str = input("Enter the URL for analysis: ")
     controller_route(choice)

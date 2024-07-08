@@ -2,6 +2,7 @@ import numpy as np
 from typing import Dict, List
 from Titanic_Analysis.load_data import data_structuring  # Loads the data for testing
 
+
 class Survival_Controller:
 
     @staticmethod
@@ -101,6 +102,7 @@ class Survival_Controller:
             survival_rate = np.mean(arr['survived'][mask]) * 100  # Calculate survival rate for this family size
             survival_by_family_size[int(size)] = float(survival_rate)  # Store survival rate in dictionary
         return survival_by_family_size  # Return dictionary of survival rates by family size
+
 
 if __name__ == '__main__':
     # Main execution part

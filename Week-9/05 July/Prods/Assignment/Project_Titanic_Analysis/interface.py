@@ -1,9 +1,5 @@
-import numpy as np
-import seaborn as sns
-import matplotlib.pyplot as plt
-import csv
 from Titanic_Decorators.log_generator import titanic_logger
-from Titanic_routes.url import route  # Assuming route function from Titanic_routes.url
+from Titanic_routes.url import route
 
 
 @titanic_logger

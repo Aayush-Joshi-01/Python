@@ -1,7 +1,8 @@
 import numpy as np
 import matplotlib.pyplot as plt
 from typing import Dict
-from Titanic_Analysis.load_data import data_structuring  # Loads the data for testing
+from Titanic_Analysis.load_data import data_structuring
+
 
 class Demographic_Controller:
 
@@ -9,12 +10,6 @@ class Demographic_Controller:
     def passenger_count_by_class(arr: np.ndarray) -> Dict[int, int]:
         """
         Calculate the count of passengers by passenger class.
-
-        Parameters:
-        - arr (np.ndarray): Numpy array containing structured data of passengers.
-
-        Returns:
-        - Dict[int, int]: Dictionary where keys are passenger classes (integers) and values are passenger counts (integers).
         """
         class_counts = np.bincount(arr['pclass'])  # Count occurrences of each passenger class
         passenger_count_by_class: Dict[int, int] = {}
@@ -26,12 +21,6 @@ class Demographic_Controller:
     def gender_distribution(arr: np.ndarray) -> Dict[str, int]:
         """
         Calculate the distribution of passengers by gender.
-
-        Parameters:
-        - arr (np.ndarray): Numpy array containing structured data of passengers.
-
-        Returns:
-        - Dict[str, int]: Dictionary where keys are genders (strings) and values are counts of passengers of each gender (integers).
         """
         gender_counts = dict(zip(*np.unique(arr['sex'], return_counts=True)))  # Count occurrences of each gender
         return gender_counts  # Return dictionary of gender distribution
@@ -40,12 +29,6 @@ class Demographic_Controller:
     def age_distribution(arr: np.ndarray) -> None:
         """
         Display a histogram showing the age distribution of passengers.
-
-        Parameters:
-        - arr (np.ndarray): Numpy array containing structured data of passengers.
-
-        Returns:
-        - None
         """
         plt.hist(arr['age'], bins=20, edgecolor='black')  # Plot histogram of passenger ages
         plt.xlabel('Age')
@@ -57,15 +40,11 @@ class Demographic_Controller:
     def embarkation_port_analysis(arr: np.ndarray) -> Dict[str, int]:
         """
         Analyze the count of passengers embarked from each port.
-
-        Parameters:
-        - arr (np.ndarray): Numpy array containing structured data of passengers.
-
-        Returns:
-        - Dict[str, int]: Dictionary where keys are embarkation ports (strings) and values are counts of passengers embarked from each port (integers).
         """
-        embarkation_port_counts = dict(zip(*np.unique(arr['embarked'], return_counts=True)))  # Count occurrences of each embarkation port
+        embarkation_port_counts = dict(zip(*np.unique(arr['embarked'], return_counts=True)))
+        # Count occurrences of each embarkation port
         return embarkation_port_counts  # Return dictionary of embarkation port counts
+
 
 if __name__ == '__main__':
     data = data_structuring()  # Load Titanic dataset using data_structuring function

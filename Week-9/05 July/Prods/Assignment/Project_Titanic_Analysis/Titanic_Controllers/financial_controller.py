@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import numpy as np
 from typing import Dict
-from Titanic_Analysis.load_data import data_structuring  # Loads the data for testing
+from Titanic_Analysis.load_data import data_structuring
 
 
 class Financial_Controller:
@@ -11,12 +11,6 @@ class Financial_Controller:
     def ticket_fare_distribution(arr: np.ndarray) -> None:
         """
         Plot a histogram showing the distribution of ticket fares.
-
-        Parameters:
-        - arr (np.ndarray): Numpy array containing structured data of passengers.
-
-        Returns:
-        - None
         """
         plt.hist(arr['fare'], bins=20, edgecolor='black')  # Plot histogram of ticket fares
         plt.xlabel('Fare')
@@ -28,12 +22,6 @@ class Financial_Controller:
     def average_fare_by_class(arr: np.ndarray) -> Dict[int, float]:
         """
         Calculate the average fare by passenger class.
-
-        Parameters:
-        - arr (np.ndarray): Numpy array containing structured data of passengers.
-
-        Returns:
-        - Dict[int, float]: Dictionary where keys are passenger classes (integers) and values are average fares (floats).
         """
         pclasses = np.unique(arr['pclass'])  # Unique passenger classes
         average_fare_by_class: Dict[int, float] = {}
@@ -47,12 +35,6 @@ class Financial_Controller:
     def fare_vs_survival(arr: np.ndarray) -> None:
         """
         Plot a boxplot comparing ticket fare distribution between survivors and non-survivors.
-
-        Parameters:
-        - arr (np.ndarray): Numpy array containing structured data of passengers.
-
-        Returns:
-        - None
         """
         sns.boxplot(x=arr['survived'], y=arr['fare'])  # Plot boxplot of fare vs. survival
         plt.title('Fare vs. Survival')
