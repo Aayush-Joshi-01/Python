@@ -1,8 +1,8 @@
-from Titanic_Decorators.log_generator import titanic_logger
+# from Titanic_Decorators.log_generator import titanic_logger
 from Titanic_routes.url import route
 
 
-@titanic_logger
+# @titanic_logger
 def main():
     """
     Main function to provide a menu-driven interface for Titanic dataset analysis.
