@@ -7,7 +7,7 @@ from Titanic_Controllers.class_controller import Class_Controller
 from Titanic_Controllers.additional_controller import Additional_Controller
 
 # URL patterns dictionary mapping URLs to controller methods
-urlpatterns: Dict[str, Callable[..., Any]] = {
+urlpatterns_controller: Dict[str, Callable[..., Any]] = {
 
     # Survival Routes
     "/survival/overall": Survival_Controller().overall_survival_rate,
@@ -44,7 +44,7 @@ class C_Survival:
     """
 
     def __init__(self):
-        self.arr: Any = data_structuring()  # Load Titanic dataset using data_structuring function
+        self.arr: Any = data_structuring()
 
     @staticmethod
     def routes(url: str) -> None:
@@ -224,13 +224,13 @@ def controller_route(url: str, *args: Any, **kwargs: Any) -> Any:
     """
     Routes a URL to a view function.
     """
-# try:
-    view: Optional[Callable[..., Any]] = urlpatterns.get(url)
-    if view:
-        return view(url, *args, **kwargs)
-    raise Exception("404 Not Found\n")
-# except Exception as e:
-#     print(e)
+    try:
+        view: Optional[Callable[..., Any]] = urlpatterns_controller.get(url)
+        if view:
+            return view(url, *args, **kwargs)
+        raise Exception("404 Not Found\n")
+    except Exception as e:
+        print(e)
 
 
 if __name__ == '__main__':

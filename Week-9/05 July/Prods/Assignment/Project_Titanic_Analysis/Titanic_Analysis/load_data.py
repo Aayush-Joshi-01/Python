@@ -50,7 +50,6 @@ def data_structuring():
 
     # Convert the list of tuples into a structured numpy array using defined dtype
     structured_data = np.array(data, dtype=dtype)
-
     return structured_data
 
 
