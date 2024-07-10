@@ -854,7 +854,7 @@ if __name__ == '__main__':
 
 # Exception Handling
 
-![Error_Hierarchy.png](Assets/Error_Hierarchy.png)
+![Error Hierarchy](<../Week-02/16 May/Assets/Error_Hierarchy.png>)
 
 - ## Try
     - ### Each try block should have one or more than one except block
