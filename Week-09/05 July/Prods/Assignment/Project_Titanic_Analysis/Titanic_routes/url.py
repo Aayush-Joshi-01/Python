@@ -25,13 +25,13 @@ def route(url: str, *args: Any, **kwargs: Any) -> Any:
     Returns:
         Any: The result of the view function.
     """
-    try:
-        view: Optional[Callable[..., Any]] = urlpatterns.get(url)
-        if view:
-            return view(url, *args, **kwargs)
-        raise Exception("404 Not Found\n")
-    except Exception as e:
-        print(e)
+    # try:
+    view: Optional[Callable[..., Any]] = urlpatterns.get(url)
+    if view:
+        return view(url, *args, **kwargs)
+    raise Exception("404 Not Found\n")
+    # except Exception as e:
+    #     print(e)
 
 if __name__ == '__main__':
     # Example usage:

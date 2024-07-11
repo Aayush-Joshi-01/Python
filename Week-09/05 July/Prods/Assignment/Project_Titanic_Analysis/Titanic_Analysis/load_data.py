@@ -29,7 +29,7 @@ def data_structuring():
     # Insert your own relative path from Titanic_CSV
     #
     #
-    with open('Week-9/05 July/Prods/Assignment/Project_Titanic_Analysis/Titanic_CSV/titanic3.csv', 'r') as file:
+    with open('/home/user/Python_Training/Week-09/05 July/Prods/Assignment/Project_Titanic_Analysis/Titanic_CSV/titanic3.csv', 'r') as file:
         read = csv.reader(file)
 
         # Skip the header row
@@ -54,4 +54,8 @@ def data_structuring():
 
 
 if __name__ == '__main__':
-    print(data_structuring())
+    arr = data_structuring()
+    survived_count = np.sum(arr['survived'])  # Count of passengers who survived (survived = 1)
+    total_passengers = len(arr)  # Total number of passengers
+    survival_rate = (survived_count / total_passengers) * 100  # Calculate survival rate as a percentage
+    print(float(survival_rate))
