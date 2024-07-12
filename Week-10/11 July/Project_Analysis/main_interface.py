@@ -1,5 +1,6 @@
 import sys
 from Controller.analysis_controller import AnalysisController
+from Decorators.Logger_Analysis import logger_analysis
 
 
 class Interface:
@@ -18,6 +19,7 @@ class Interface:
         print("7. Predictive Analysis")
         print("8. Exit")
 
+    @logger_analysis
     def run(self):
         while True:
             self.display_menu()

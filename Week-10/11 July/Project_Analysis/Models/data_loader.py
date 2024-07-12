@@ -1,5 +1,5 @@
 import pandas as pd
-
+from tqdm import tqdm
 
 class DataLoader:
     def __init__(self, file_path='Data/fitness_tracker_dataset.csv'):
