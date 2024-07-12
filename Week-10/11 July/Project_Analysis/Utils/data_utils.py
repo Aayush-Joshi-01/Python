@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
-from data_loader import DataLoader
+from Models.data_loader import DataLoader
 
 
 class DataUtils:

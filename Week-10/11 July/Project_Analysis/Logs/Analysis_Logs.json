@@ -1,0 +1,509 @@
+2024-07-12 08:53:37,718 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataLoader', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:53:57,311 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataLoader', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:02,998 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,017 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,033 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,049 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,064 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,080 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,094 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,112 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,134 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,153 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,168 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,183 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,198 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,213 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,228 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,243 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,258 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,265 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,275 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,284 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,292 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,306 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,317 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:03,325 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:06,753 - Logger_Analysis - DEBUG - Calling the perform_descriptive_analysis with args (<analysis_controller.AnalysisController object at 0x00000159EB707290>,) and kwargs {}
+2024-07-12 08:54:06,753 - Logger_Analysis - DEBUG - Calling the load_data with args (<data_loader.DataLoader object at 0x000001599177B1D0>,) and kwargs {}
+2024-07-12 08:54:06,758 - Logger_Analysis - DEBUG - load_data returned None
+2024-07-12 08:54:06,758 - Logger_Analysis - DEBUG - perform_descriptive_analysis returned None
+2024-07-12 08:54:26,860 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataLoader', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,369 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,388 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,409 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,423 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,437 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,451 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,465 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,479 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,494 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,509 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,523 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,539 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,553 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,567 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,581 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,597 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,612 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,620 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,628 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,635 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,645 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,652 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,659 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:30,667 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:54:31,573 - Logger_Analysis - DEBUG - Calling the perform_descriptive_analysis with args (<analysis_controller.AnalysisController object at 0x0000024831957290>,) and kwargs {}
+2024-07-12 08:54:31,573 - Logger_Analysis - DEBUG - Calling the load_data with args (<data_loader.DataLoader object at 0x0000024857A2B4A0>,) and kwargs {}
+2024-07-12 08:54:32,891 - Logger_Analysis - DEBUG - load_data returned         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns]
+2024-07-12 08:54:32,908 - Logger_Analysis - DEBUG - Calling the calculate_basic_statistics with args (<data_processor.DataProcessor object at 0x0000024857A2B470>,         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns]) and kwargs {}
+2024-07-12 08:54:33,283 - Logger_Analysis - ERROR - Error in calculate_basic_statistics: Cannot save file into a non-existent directory: 'Reports\statistical_summaries'
+Traceback (most recent call last):
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\data_processor.py", line 35, in calculate_basic_statistics
+    basic_stats.to_csv('Reports/statistical_summaries/basic_statistics.csv', index=True)
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\pandas\util\_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\pandas\core\generic.py", line 3967, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\pandas\io\formats\format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\pandas\io\formats\csvs.py", line 251, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\pandas\io\common.py", line 749, in get_handle
+    check_parent_directory(str(handle))
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\pandas\io\common.py", line 616, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'Reports\statistical_summaries'
+2024-07-12 08:54:33,328 - Logger_Analysis - DEBUG - perform_descriptive_analysis returned None
+2024-07-12 08:54:39,607 - Logger_Analysis - DEBUG - Calling the perform_temporal_analysis with args (<analysis_controller.AnalysisController object at 0x0000024831957290>,) and kwargs {}
+2024-07-12 08:54:39,608 - Logger_Analysis - DEBUG - Calling the load_data with args (<data_loader.DataLoader object at 0x0000024857A2B4A0>,) and kwargs {}
+2024-07-12 08:54:40,739 - Logger_Analysis - DEBUG - load_data returned         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns]
+2024-07-12 08:54:40,752 - Logger_Analysis - DEBUG - Calling the analyze_trends_over_time with args (<data_processor.DataProcessor object at 0x0000024857A2B470>,         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns]) and kwargs {}
+2024-07-12 08:54:42,837 - Logger_Analysis - ERROR - Error in analyze_trends_over_time: [Errno 2] No such file or directory: 'D:\\Python\\Week-10\\11 July\\Project_Analysis\\Experimental\\Reports\\visualizations\\Daily_Steps_Trend.png'
+Traceback (most recent call last):
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\data_processor.py", line 54, in analyze_trends_over_time
+    self.plot_utils.plot_line_chart(steps_daily.index, steps_daily.values, 'Date', 'Steps', 'Daily Steps Trend')
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\plot_utils.py", line 30, in plot_line_chart
+    plt.savefig(f'Reports/visualizations/{title.replace(" ", "_")}.png')
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\pyplot.py", line 1228, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\figure.py", line 3395, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\backend_bases.py", line 2204, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\backend_bases.py", line 2054, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\backends\backend_agg.py", line 496, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\backends\backend_agg.py", line 445, in _print_pil
+    mpl.image.imsave(
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\image.py", line 1676, in imsave
+    image.save(fname, **pil_kwargs)
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\PIL\Image.py", line 2563, in save
+    fp = builtins.open(filename, "w+b")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Python\\Week-10\\11 July\\Project_Analysis\\Experimental\\Reports\\visualizations\\Daily_Steps_Trend.png'
+2024-07-12 08:54:42,884 - Logger_Analysis - DEBUG - perform_temporal_analysis returned None
+2024-07-12 08:55:46,064 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataLoader', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:49,921 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:49,936 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:49,951 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:49,967 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:49,984 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,009 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,023 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,037 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,052 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,065 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,080 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,093 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,108 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,122 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,137 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,152 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,166 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,174 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,181 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,188 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,196 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,204 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,211 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:50,218 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 08:55:52,731 - Logger_Analysis - DEBUG - Calling the perform_temporal_analysis with args (<analysis_controller.AnalysisController object at 0x00000216FF1F7290>,) and kwargs {}
+2024-07-12 08:55:52,731 - Logger_Analysis - DEBUG - Calling the load_data with args (<data_loader.DataLoader object at 0x00000216A52F7440>,) and kwargs {}
+2024-07-12 08:55:53,858 - Logger_Analysis - DEBUG - load_data returned         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns]
+2024-07-12 08:55:53,877 - Logger_Analysis - DEBUG - Calling the analyze_trends_over_time with args (<data_processor.DataProcessor object at 0x00000216A52F7920>,         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns]) and kwargs {}
+2024-07-12 08:55:54,675 - Logger_Analysis - ERROR - Error in analyze_trends_over_time: [Errno 2] No such file or directory: 'D:\\Python\\Week-10\\11 July\\Project_Analysis\\Experimental\\Reports\\visualizations\\Daily_Steps_Trend.png'
+Traceback (most recent call last):
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\data_processor.py", line 54, in analyze_trends_over_time
+    self.plot_utils.plot_line_chart(steps_daily.index, steps_daily.values, 'Date', 'Steps', 'Daily Steps Trend')
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\plot_utils.py", line 30, in plot_line_chart
+    plt.savefig(f'Reports/visualizations/{title.replace(" ", "_")}.png')
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\pyplot.py", line 1228, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\figure.py", line 3395, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\backend_bases.py", line 2204, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\backend_bases.py", line 2054, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\backends\backend_agg.py", line 496, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\backends\backend_agg.py", line 445, in _print_pil
+    mpl.image.imsave(
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\image.py", line 1676, in imsave
+    image.save(fname, **pil_kwargs)
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\PIL\Image.py", line 2563, in save
+    fp = builtins.open(filename, "w+b")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Python\\Week-10\\11 July\\Project_Analysis\\Experimental\\Reports\\visualizations\\Daily_Steps_Trend.png'
+2024-07-12 08:55:54,748 - Logger_Analysis - DEBUG - perform_temporal_analysis returned None
+2024-07-12 10:30:28,482 - Logger_Analysis - DEBUG - Calling the perform_comparative_analysis with args (<analysis_controller.AnalysisController object at 0x00000216FF1F7290>,) and kwargs {}
+2024-07-12 10:30:28,490 - Logger_Analysis - DEBUG - Calling the load_data with args (<data_loader.DataLoader object at 0x00000216A52F7440>,) and kwargs {}
+2024-07-12 10:30:29,515 - Logger_Analysis - DEBUG - load_data returned         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns]
+2024-07-12 10:30:29,532 - Logger_Analysis - DEBUG - Calling the compare_groups with args (<data_processor.DataProcessor object at 0x00000216A52F7920>,         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns]) and kwargs {}
+2024-07-12 10:30:29,965 - Logger_Analysis - ERROR - Error in compare_groups: [Errno 2] No such file or directory: 'D:\\Python\\Week-10\\11 July\\Project_Analysis\\Experimental\\Reports\\visualizations\\average_calories_by_workout_type.png'
+Traceback (most recent call last):
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\data_processor.py", line 83, in compare_groups
+    plt.savefig('Reports/visualizations/average_calories_by_workout_type.png')
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\pyplot.py", line 1228, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\figure.py", line 3395, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\backend_bases.py", line 2204, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\backend_bases.py", line 2054, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\backends\backend_agg.py", line 496, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\backends\backend_agg.py", line 445, in _print_pil
+    mpl.image.imsave(
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\image.py", line 1676, in imsave
+    image.save(fname, **pil_kwargs)
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\PIL\Image.py", line 2563, in save
+    fp = builtins.open(filename, "w+b")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Python\\Week-10\\11 July\\Project_Analysis\\Experimental\\Reports\\visualizations\\average_calories_by_workout_type.png'
+2024-07-12 10:30:29,981 - Logger_Analysis - DEBUG - perform_comparative_analysis returned None
+2024-07-12 10:30:43,975 - Logger_Analysis - DEBUG - Calling the perform_spatial_analysis with args (<analysis_controller.AnalysisController object at 0x00000216FF1F7290>,) and kwargs {}
+2024-07-12 10:30:43,976 - Logger_Analysis - DEBUG - Calling the load_data with args (<data_loader.DataLoader object at 0x00000216A52F7440>,) and kwargs {}
+2024-07-12 10:30:44,863 - Logger_Analysis - DEBUG - load_data returned         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns]
+2024-07-12 10:30:44,871 - Logger_Analysis - DEBUG - Calling the analyze_location_based_insights with args (<data_processor.DataProcessor object at 0x00000216A52F7920>,         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns]) and kwargs {}
+2024-07-12 10:30:45,163 - Logger_Analysis - ERROR - Error in analyze_location_based_insights: [Errno 2] No such file or directory: 'D:\\Python\\Week-10\\11 July\\Project_Analysis\\Experimental\\Reports\\visualizations\\average_steps_by_location.png'
+Traceback (most recent call last):
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\data_processor.py", line 116, in analyze_location_based_insights
+    plt.savefig('Reports/visualizations/average_steps_by_location.png')
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\pyplot.py", line 1228, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\figure.py", line 3395, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\backend_bases.py", line 2204, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\backend_bases.py", line 2054, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\backends\backend_agg.py", line 496, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\backends\backend_agg.py", line 445, in _print_pil
+    mpl.image.imsave(
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\matplotlib\image.py", line 1676, in imsave
+    image.save(fname, **pil_kwargs)
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\.exvenv\Lib\site-packages\PIL\Image.py", line 2563, in save
+    fp = builtins.open(filename, "w+b")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Python\\Week-10\\11 July\\Project_Analysis\\Experimental\\Reports\\visualizations\\average_steps_by_location.png'
+2024-07-12 10:30:45,181 - Logger_Analysis - DEBUG - perform_spatial_analysis returned None
+2024-07-12 10:32:19,538 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataLoader', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-12 10:32:19,538 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>']
+2024-07-12 10:32:19,538 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>']
+2024-07-12 10:32:19,539 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>']
+2024-07-12 10:32:19,539 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>']
+2024-07-12 10:32:19,539 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>']
+2024-07-12 10:32:19,539 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>']
+2024-07-12 10:32:19,539 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>']
+2024-07-12 10:32:19,539 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>']
+2024-07-12 10:32:19,540 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>']
+2024-07-12 10:32:19,540 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>']
+2024-07-12 10:32:19,540 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>']
+2024-07-12 10:32:19,540 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>']
+2024-07-12 10:32:19,540 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>']
+2024-07-12 10:32:19,540 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>']
+2024-07-12 10:32:19,541 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>']
+2024-07-12 10:32:19,541 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>']
+2024-07-12 10:32:19,541 - Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>']
+2024-07-12 10:32:19,541 - Logger_Analysis - DEBUG - Calling the load_data with args (<__main__.DataProcessor object at 0x00000240FDDACB90>,) and kwargs {}
+2024-07-12 10:32:19,541 - Logger_Analysis - DEBUG - Calling the load_data with args (<data_loader.DataLoader object at 0x00000240FDDAD2B0>,) and kwargs {}
+2024-07-12 10:32:20,441 - Logger_Analysis - DEBUG - load_data returned         user_id        date  steps  ...  weather_conditions  location     mood
+0           468  2023-01-01   4530  ...               Clear      Park    Tired
+1           879  2023-01-01  11613  ...                 Fog      Park    Happy
+2           152  2023-01-01  27335  ...                Snow      Park  Neutral
+3           311  2023-01-01  13459  ...                Rain    Office    Tired
+4           759  2023-01-01  15378  ...                Rain    Office  Neutral
+...         ...         ...    ...  ...                 ...       ...      ...
+999995      294  2025-09-26  21883  ...                 Fog     Other    Tired
+999996      114  2025-09-26  15451  ...               Clear      Park    Tired
+999997       85  2025-09-26  17912  ...                 Fog       Gym  Neutral
+999998      109  2025-09-26  10072  ...                Snow       Gym    Tired
+999999      893  2025-09-26  29516  ...               Clear      Home    Tired
+
+[1000000 rows x 12 columns]
+2024-07-12 10:32:20,448 - Logger_Analysis - DEBUG - load_data returned         user_id        date  steps  ...  weather_conditions  location     mood
+0           468  2023-01-01   4530  ...               Clear      Park    Tired
+1           879  2023-01-01  11613  ...                 Fog      Park    Happy
+2           152  2023-01-01  27335  ...                Snow      Park  Neutral
+3           311  2023-01-01  13459  ...                Rain    Office    Tired
+4           759  2023-01-01  15378  ...                Rain    Office  Neutral
+...         ...         ...    ...  ...                 ...       ...      ...
+999995      294  2025-09-26  21883  ...                 Fog     Other    Tired
+999996      114  2025-09-26  15451  ...               Clear      Park    Tired
+999997       85  2025-09-26  17912  ...                 Fog       Gym  Neutral
+999998      109  2025-09-26  10072  ...                Snow       Gym    Tired
+999999      893  2025-09-26  29516  ...               Clear      Home    Tired
+
+[1000000 rows x 12 columns]
+2024-07-12 10:32:20,455 - Logger_Analysis - DEBUG - Calling the preprocess_data with args (<__main__.DataProcessor object at 0x00000240FDDACB90>,         user_id        date  steps  ...  weather_conditions  location     mood
+0           468  2023-01-01   4530  ...               Clear      Park    Tired
+1           879  2023-01-01  11613  ...                 Fog      Park    Happy
+2           152  2023-01-01  27335  ...                Snow      Park  Neutral
+3           311  2023-01-01  13459  ...                Rain    Office    Tired
+4           759  2023-01-01  15378  ...                Rain    Office  Neutral
+...         ...         ...    ...  ...                 ...       ...      ...
+999995      294  2025-09-26  21883  ...                 Fog     Other    Tired
+999996      114  2025-09-26  15451  ...               Clear      Park    Tired
+999997       85  2025-09-26  17912  ...                 Fog       Gym  Neutral
+999998      109  2025-09-26  10072  ...                Snow       Gym    Tired
+999999      893  2025-09-26  29516  ...               Clear      Home    Tired
+
+[1000000 rows x 12 columns]) and kwargs {}
+2024-07-12 10:32:20,749 - Logger_Analysis - DEBUG - preprocess_data returned         user_id       date  steps  ...  weather_conditions  location     mood
+0           468 2023-01-01   4530  ...               Clear      Park    Tired
+1           879 2023-01-01  11613  ...                 Fog      Park    Happy
+2           152 2023-01-01  27335  ...                Snow      Park  Neutral
+3           311 2023-01-01  13459  ...                Rain    Office    Tired
+4           759 2023-01-01  15378  ...                Rain    Office  Neutral
+...         ...        ...    ...  ...                 ...       ...      ...
+999995      294 2025-09-26  21883  ...                 Fog     Other    Tired
+999996      114 2025-09-26  15451  ...               Clear      Park    Tired
+999997       85 2025-09-26  17912  ...                 Fog       Gym  Neutral
+999998      109 2025-09-26  10072  ...                Snow       Gym    Tired
+999999      893 2025-09-26  29516  ...               Clear      Home    Tired
+
+[1000000 rows x 12 columns]
+2024-07-12 10:32:20,755 - Logger_Analysis - DEBUG - Calling the calculate_basic_statistics with args (<__main__.DataProcessor object at 0x00000240FDDACB90>,         user_id       date  steps  ...  weather_conditions  location     mood
+0           468 2023-01-01   4530  ...               Clear      Park    Tired
+1           879 2023-01-01  11613  ...                 Fog      Park    Happy
+2           152 2023-01-01  27335  ...                Snow      Park  Neutral
+3           311 2023-01-01  13459  ...                Rain    Office    Tired
+4           759 2023-01-01  15378  ...                Rain    Office  Neutral
+...         ...        ...    ...  ...                 ...       ...      ...
+999995      294 2025-09-26  21883  ...                 Fog     Other    Tired
+999996      114 2025-09-26  15451  ...               Clear      Park    Tired
+999997       85 2025-09-26  17912  ...                 Fog       Gym  Neutral
+999998      109 2025-09-26  10072  ...                Snow       Gym    Tired
+999999      893 2025-09-26  29516  ...               Clear      Home    Tired
+
+[1000000 rows x 12 columns]) and kwargs {}
+2024-07-12 10:32:21,084 - Logger_Analysis - DEBUG - calculate_basic_statistics returned None
+2024-07-12 10:32:21,090 - Logger_Analysis - DEBUG - Calling the plot_data_distribution with args (<__main__.DataProcessor object at 0x00000240FDDACB90>,         user_id       date  steps  ...  weather_conditions  location     mood
+0           468 2023-01-01   4530  ...               Clear      Park    Tired
+1           879 2023-01-01  11613  ...                 Fog      Park    Happy
+2           152 2023-01-01  27335  ...                Snow      Park  Neutral
+3           311 2023-01-01  13459  ...                Rain    Office    Tired
+4           759 2023-01-01  15378  ...                Rain    Office  Neutral
+...         ...        ...    ...  ...                 ...       ...      ...
+999995      294 2025-09-26  21883  ...                 Fog     Other    Tired
+999996      114 2025-09-26  15451  ...               Clear      Park    Tired
+999997       85 2025-09-26  17912  ...                 Fog       Gym  Neutral
+999998      109 2025-09-26  10072  ...                Snow       Gym    Tired
+999999      893 2025-09-26  29516  ...               Clear      Home    Tired
+
+[1000000 rows x 12 columns]) and kwargs {}
+2024-07-12 10:32:29,158 - Logger_Analysis - ERROR - Error in plot_data_distribution: [Errno 2] No such file or directory: 'D:\\Python\\Week-10\\11 July\\Project_Analysis\\Experimental\\Reports\\visualizations\\user_id_histogram.png'
+Traceback (most recent call last):
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\data_processor.py", line 46, in plot_data_distribution
+    self.plot_utils.plot_histogram(data, col)
+  File "D:\Python\Week-10\11 July\Project_Analysis\Experimental\plot_utils.py", line 17, in plot_histogram
+    plt.savefig(f'Reports/visualizations/{column}_histogram.png')
+  File "C:\Users\joshi.aayush\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\pyplot.py", line 1134, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\joshi.aayush\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\figure.py", line 3390, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+  File "C:\Users\joshi.aayush\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\backend_bases.py", line 2193, in print_figure
+    result = print_method(
+             ^^^^^^^^^^^^^
+  File "C:\Users\joshi.aayush\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\backend_bases.py", line 2043, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ^^^^^
+  File "C:\Users\joshi.aayush\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\backends\backend_agg.py", line 497, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+  File "C:\Users\joshi.aayush\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\backends\backend_agg.py", line 446, in _print_pil
+    mpl.image.imsave(
+  File "C:\Users\joshi.aayush\AppData\Local\Programs\Python\Python312\Lib\site-packages\matplotlib\image.py", line 1656, in imsave
+    image.save(fname, **pil_kwargs)
+  File "C:\Users\joshi.aayush\AppData\Local\Programs\Python\Python312\Lib\site-packages\PIL\Image.py", line 2456, in save
+    fp = builtins.open(filename, "w+b")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\Python\\Week-10\\11 July\\Project_Analysis\\Experimental\\Reports\\visualizations\\user_id_histogram.png'

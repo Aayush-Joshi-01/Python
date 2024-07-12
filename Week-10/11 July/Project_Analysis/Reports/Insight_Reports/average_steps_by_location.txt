@@ -1,0 +1,3 @@
+Spatial Analysis: Average Steps by Location
+
+Analyzing average steps across different locations...

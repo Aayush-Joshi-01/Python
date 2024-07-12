@@ -1,0 +1,3 @@
+Spatial Analysis: Activities by Location
+
+Mapping activities based on location...

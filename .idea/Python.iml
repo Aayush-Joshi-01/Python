@@ -4,6 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Week-5/07 June/Prods/Assignment/BMS" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Week-5/07 June/Prods/Assignment/BMS-v2" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/Week-10/11 July/Project_Analysis/.venv" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

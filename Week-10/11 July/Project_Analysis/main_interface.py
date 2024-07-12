@@ -1,5 +1,5 @@
 import sys
-from ..Controller.analysis_controller import AnalysisController
+from Controller.analysis_controller import AnalysisController
 
 
 class Interface:

@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-from plot_utils import PlotUtils
+from .plot_utils import PlotUtils
 from Utils.data_utils import DataUtils  # Import DataUtils
 
 

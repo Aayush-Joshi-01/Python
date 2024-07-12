@@ -1,6 +1,6 @@
 from Models.data_loader import DataLoader
 from Models.data_processor import DataProcessor
-from Utils.plot_utils import PlotUtils
+from Models.plot_utils import PlotUtils
 
 
 class AnalysisController:
