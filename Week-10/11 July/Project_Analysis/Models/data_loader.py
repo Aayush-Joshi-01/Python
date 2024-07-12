@@ -7,10 +7,20 @@ class DataLoader:
 
     def load_data(self):
         try:
-            # Load CSV into pandas DataFrame
-            df = pd.read_csv(self.file_path)
+            # Get the number of rows in the file
+            with open(self.file_path, 'r') as f:
+                total_rows = sum(1 for line in f) - 1  # Subtract 1 for header
+
+            # Load CSV into pandas DataFrame with progress bar
+            df = pd.read_csv(self.file_path, chunksize=1000)  # Adjust chunksize as needed
+            chunks = []
+            for chunk in tqdm(df, total=total_rows // 1000, desc="Loading data"):  # Adjust total based on chunksize
+                chunks.append(chunk)
+
+            df = pd.concat(chunks, ignore_index=True)
             print(f"Data loaded successfully from {self.file_path}")
             return df
+
         except FileNotFoundError:
             print(f"Error: File not found at {self.file_path}")
             return None

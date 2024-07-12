@@ -29,14 +29,7 @@ This application is designed for performing various types of data analysis on a 
 
 ### Setup
 
-1. **Clone the repository:**
-
-   ```bash
-   git clone <repository_url>
-   cd Project_Analysis
-   ```
-
-2. **Create and activate virtual environment:**
+1. **Create and activate virtual environment:**
 
    ```bash
    # Create a virtual environment
@@ -49,7 +42,7 @@ This application is designed for performing various types of data analysis on a 
    source .venv/bin/activate
    ```
 
-3. **Install dependencies:**
+2. **Install dependencies:**
 
    ```bash
    pip install -r Utils/requirements.txt
@@ -60,7 +53,7 @@ This application is designed for performing various types of data analysis on a 
 1. **Run the CLI interface:**
 
    ```bash
-   python interface.py
+   python main_interface.py
    ```
 
 2. **Follow the prompts to select the type of analysis you want to perform:**
