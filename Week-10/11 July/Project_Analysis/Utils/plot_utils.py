@@ -1,12 +1,15 @@
 import matplotlib.pyplot as plt
 import seaborn as sns
 from Models.data_loader import DataLoader
+from Decorators.Logger_Analysis import logger_analysis
+
 
 class PlotUtils:
     def __init__(self):
         # Optionally, you can initialize settings for plotting here
         pass
 
+    @logger_analysis
     def plot_histogram(self, data, column):
         plt.figure(figsize=(8, 6))
         sns.histplot(data[column], kde=True)
@@ -17,6 +20,7 @@ class PlotUtils:
         plt.savefig(f'Reports/visualizations/{column}_histogram.png')
         plt.show()
 
+    @logger_analysis
     def plot_line_chart(self, x_data, y_data, x_label, y_label, title):
         plt.figure(figsize=(10, 6))
         plt.plot(x_data, y_data, marker='o', linestyle='-', color='b', label=y_label)
@@ -30,6 +34,7 @@ class PlotUtils:
         plt.savefig(f'Reports/visualizations/{title.replace(" ", "_")}.png')
         plt.show()
 
+    @logger_analysis
     def plot_bar_chart(self, x, y, x_label, y_label, title):
         plt.figure(figsize=(10, 6))
         plt.bar(x, y, color='skyblue')

@@ -1,6 +1,7 @@
 from Models.data_loader import DataLoader
 from Models.data_processor import DataProcessor
 from Utils.plot_utils import PlotUtils
+from Decorators.Logger_Analysis import logger_analysis
 
 
 class AnalysisController:
@@ -9,6 +10,8 @@ class AnalysisController:
         self.data_processor = DataProcessor()
         self.plot_utils = PlotUtils()
 
+
+    @logger_analysis
     def perform_descriptive_analysis(self):
         """
         Performs descriptive analysis on loaded data.
@@ -27,6 +30,7 @@ class AnalysisController:
         except Exception as e:
             print(f"Error performing descriptive analysis: {str(e)}")
 
+    @logger_analysis
     def perform_temporal_analysis(self):
         """
         Performs temporal analysis on loaded data.
@@ -45,6 +49,7 @@ class AnalysisController:
         except Exception as e:
             print(f"Error performing temporal analysis: {str(e)}")
 
+    @logger_analysis
     def perform_comparative_analysis(self):
         """
         Performs comparative analysis on loaded data.
@@ -67,6 +72,7 @@ class AnalysisController:
         except Exception as e:
             print(f"Error performing comparative analysis: {str(e)}")
 
+    @logger_analysis
     def perform_spatial_analysis(self):
         """
         Performs spatial analysis on loaded data.
@@ -85,6 +91,7 @@ class AnalysisController:
         except Exception as e:
             print(f"Error performing spatial analysis: {str(e)}")
 
+    @logger_analysis
     def perform_behavioral_analysis(self):
         """
         Performs behavioral analysis on loaded data.
@@ -103,6 +110,7 @@ class AnalysisController:
         except Exception as e:
             print(f"Error performing behavioral analysis: {str(e)}")
 
+    @logger_analysis
     def perform_health_metrics_analysis(self):
         """
         Performs health metrics analysis on loaded data.
@@ -121,6 +129,7 @@ class AnalysisController:
         except Exception as e:
             print(f"Error performing health metrics analysis: {str(e)}")
 
+    @logger_analysis
     def perform_predictive_analysis(self):
         """
         Performs predictive analysis on loaded data (optional).

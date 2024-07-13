@@ -2,12 +2,13 @@ import pandas as pd
 from sklearn.preprocessing import StandardScaler
 from sklearn.decomposition import PCA
 from Models.data_loader import DataLoader
-
+from Decorators.Logger_Analysis import logger_analysis
 
 class DataUtils:
     def __init__(self):
         pass
 
+    @logger_analysis
     def preprocess_data(self, data):
         # Example: Data preprocessing steps
         # Convert date column to datetime format
@@ -18,6 +19,7 @@ class DataUtils:
 
         return data
 
+    @logger_analysis
     def scale_data(self, data):
         # Example: Scaling numerical data
         numerical_cols = data.select_dtypes(include=['int', 'float']).columns
@@ -26,6 +28,7 @@ class DataUtils:
 
         return data
 
+    @logger_analysis
     def reduce_dimensionality(self, data):
         # Example: Reduce dimensionality using PCA (Principal Component Analysis)
         numerical_cols = data.select_dtypes(include=['int', 'float']).columns

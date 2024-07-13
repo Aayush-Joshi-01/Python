@@ -11,6 +11,7 @@ from sklearn.metrics import accuracy_score
 from Utils.plot_utils import PlotUtils
 from Utils.data_utils import DataUtils
 
+from Decorators.Logger_Analysis import logger_analysis
 
 class DataProcessor:
     def __init__(self):
@@ -20,18 +21,20 @@ class DataProcessor:
         self.hr_model = None
         self.mood_model = None
         self.label_encoders = {}
-
+    @logger_analysis
     def load_data(self):
         # Example: Load data using DataLoader (assumed to be implemented)
         from data_loader import DataLoader
         loader = DataLoader()
         return loader.load_data()
 
+    @logger_analysis
     def preprocess_data(self, data):
         # Preprocess data using DataUtils
         preprocessed_data = self.data_utils.preprocess_data(data)
         return preprocessed_data
 
+    @logger_analysis
     def calculate_basic_statistics(self, data):
         # Calculate basic statistics
         basic_stats = data.describe()
@@ -45,12 +48,14 @@ class DataProcessor:
         report_text = f"Basic Statistics:\n\n{basic_stats.to_string()}"
         self.save_report(report_text, 'basic_statistics')
 
+    @logger_analysis
     def plot_data_distribution(self, data):
         # Plot distributions for numerical columns
         numerical_cols = data.select_dtypes(include=['int', 'float']).columns
         for col in numerical_cols:
             self.plot_utils.plot_histogram(data, col)
 
+    @logger_analysis
     def analyze_trends_over_time(self, data):
         # Convert 'date' column to datetime
 
@@ -69,8 +74,7 @@ class DataProcessor:
         """
         self.save_report(report_text, 'monthly_steps_trend')
 
-
-
+    @logger_analysis
     def identify_seasonal_patterns(self, data):
         # Check if 'date' column exists
         data = data.reset_index()
@@ -110,8 +114,7 @@ class DataProcessor:
         """
         self.save_report(report_text, 'average_steps_by_season')
 
-
-
+    @logger_analysis
     def compare_groups(self, data):
         # Example: Compare average calories burned by workout type
         avg_calories_by_workout = data.groupby('workout_type')['calories_burned'].mean().sort_values() - data['calories_burned'].mean() 
@@ -132,6 +135,7 @@ class DataProcessor:
         """
         self.save_report(report_text, 'average_calories_by_workout_type')
 
+    @logger_analysis
     def correlation_analysis(self, data):
         # Example: Perform correlation analysis between numerical variables
         numerical_data = data.select_dtypes(include=['int', 'float'])
@@ -150,6 +154,7 @@ class DataProcessor:
         """
         self.save_report(report_text, 'correlation_analysis')
 
+    @logger_analysis
     def analyze_location_based_insights(self, data):
         # Example: Analyze activity levels across different locations
         avg_steps_by_location = data.groupby('location')['steps'].mean().sort_values() - data['steps'].mean()
@@ -169,6 +174,7 @@ class DataProcessor:
         """
         self.save_report(report_text, 'average_steps_by_location')
 
+    @logger_analysis
     def map_activities(self, data):
         # Example: Map activities based on location
         plt.figure(figsize=(12, 8))
@@ -187,6 +193,7 @@ class DataProcessor:
         {pd.pivot_table(data, values='steps', index='location', columns='workout_type', aggfunc='mean')}"""
         self.save_report(report_text, 'activities_by_location')
 
+    @logger_analysis
     def analyze_activity_patterns(self, data):
         # Example: Analyze daily activity patterns
         data['weekday'] = pd.to_datetime(data['date']).dt.day_name()
@@ -209,6 +216,7 @@ class DataProcessor:
         """
         self.save_report(report_text, 'average_steps_by_day')
 
+    @logger_analysis
     def analyze_impact_of_weather(self, data):
         # Example: Analyze impact of weather conditions on activity levels
         plt.figure(figsize=(10, 6))
@@ -225,6 +233,7 @@ class DataProcessor:
         # report_text = "Behavioral Analysis: Impact of Weather Conditions on Steps\n\nAnalyzing the impact of weather conditions on activity levels..."
         # self.save_report(report_text, 'impact_of_weather_on_steps')
 
+    @logger_analysis
     def study_health_impact_of_activity(self, data):
         # Example: Study health impact of activity on heart rate
         plt.figure(figsize=(10, 6))
@@ -242,6 +251,7 @@ class DataProcessor:
         # report_text = "Health Metrics Analysis: Health Impact of Activity on Heart Rate\n\nStudying the impact of activity on average heart rate..."
         # self.save_report(report_text, 'health_impact_of_activity')
 
+    @logger_analysis
     def analyze_heart_rate(self, data):
         # Example: Analyze average heart rate during different activities
         avg_heart_rate_by_activity = data.groupby('workout_type')['heart_rate_avg'].mean().sort_values()
@@ -262,7 +272,7 @@ class DataProcessor:
         """
         self.save_report(report_text, 'average_heart_rate_by_activity')
 
-
+    @logger_analysis
     def prediction_preprocess_data(self, data):
         label_encoders = {}
         # Convert 'date' column to datetime
@@ -285,6 +295,7 @@ class DataProcessor:
             label_encoders[column] = le
         return data, label_encoders
 
+    @logger_analysis
     def prediction_models(self, data):
         # Preprocess data
         self.data, self.label_encoders = self.prediction_preprocess_data(data)
@@ -315,6 +326,7 @@ class DataProcessor:
         accuracy = accuracy_score(y_test_mood, mood_predictions)
         print(f"Mood prediction accuracy: {accuracy:.2f}")
 
+    @logger_analysis
     def forecast_trends(self, data):
         # For simplicity, forecast trends can be based on the fitted models
         # Here you might want to analyze the historical data and predict future trends.
@@ -334,6 +346,7 @@ class DataProcessor:
         }
         print(forecasted_trends)
 
+    @logger_analysis
     def save_report(self, report_text, filename):
         # Save report as text file
         with open(f'Reports/insight_reports/{filename}.txt', 'w') as file:

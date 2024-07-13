@@ -8,6 +8,7 @@ class Interface:
     def __init__(self):
         self.controller = AnalysisController()
 
+    @logger_analysis
     def display_menu(self):
         print("\nWelcome to Data Analysis Application")
         print("===================================")
