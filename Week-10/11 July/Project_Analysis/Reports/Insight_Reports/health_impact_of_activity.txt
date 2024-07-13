@@ -1,3 +1,0 @@
-Health Metrics Analysis: Health Impact of Activity on Heart Rate
-
-Studying the impact of activity on average heart rate...

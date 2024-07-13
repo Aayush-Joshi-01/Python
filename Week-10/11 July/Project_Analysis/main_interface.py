@@ -1,6 +1,7 @@
 import sys
 from Controller.analysis_controller import AnalysisController
 from Decorators.Logger_Analysis import logger_analysis
+from Routes.analysis_url import route
 
 
 class Interface:
@@ -10,40 +11,33 @@ class Interface:
     def display_menu(self):
         print("\nWelcome to Data Analysis Application")
         print("===================================")
-        print("1. Descriptive Analysis")
-        print("2. Temporal Analysis")
-        print("3. Comparative Analysis")
-        print("4. Spatial Analysis")
-        print("5. Behavioral Analysis")
-        print("6. Health Metrics Analysis")
-        print("7. Predictive Analysis")
-        print("8. Exit")
+        print("/descriptive for descriptive analysis")
+        print("/comparative for comparative analysis")
+        print("/temporal for temporal analysis")
+        print("/spatial for spatial analysis")
+        print("/behavioral for behavioral analysis")
+        print("/health for health metrics analysis")
+        print("/predictive for predictive analysis")
+        print("/exit to exit the program")
 
     @logger_analysis
     def run(self):
+        self.display_menu()
         while True:
-            self.display_menu()
-            choice = input("Enter your choice (1-8): ").strip()
-
-            if choice == '1':
-                self.controller.perform_descriptive_analysis()
-            elif choice == '2':
-                self.controller.perform_temporal_analysis()
-            elif choice == '3':
-                self.controller.perform_comparative_analysis()
-            elif choice == '4':
-                self.controller.perform_spatial_analysis()
-            elif choice == '5':
-                self.controller.perform_behavioral_analysis()
-            elif choice == '6':
-                self.controller.perform_health_metrics_analysis()
-            elif choice == '7':
-                self.controller.perform_predictive_analysis()
-            elif choice == '8':
-                print("Exiting the program. Goodbye!")
+            choice = input(
+                "\nEnter your choice "
+                "(descriptive/comparative/temporal/spatial/behavioral/health/predictive/exit): "
+                           ).lower()
+            if choice in ['n', 'no', 'non', 'faux']:
+                print("Exiting the program...")
                 sys.exit(0)
-            else:
-                print("Invalid choice. Please enter a number from 1 to 8.")
+
+            route(choice.strip())
+            menu_flag = input("Do you want to see the menu again: ")
+            menu_flag = menu_flag.strip()
+            if menu_flag.lower() in ['y', 'yes', 'true', 'oui', 'vrai']:
+                self.display_menu()
+            
 
 
 if __name__ == "__main__":

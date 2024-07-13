@@ -1,3 +1,0 @@
-Behavioral Analysis: Impact of Weather Conditions on Steps
-
-Analyzing the impact of weather conditions on activity levels...

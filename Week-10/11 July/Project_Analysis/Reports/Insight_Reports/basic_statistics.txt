@@ -1,4 +1,6 @@
-Basic Statistics:
+2024-07-13 22:06:10.471333 
+ 
+ Basic Statistics:
 
               user_id           steps  calories_burned     distance_km  active_minutes     sleep_hours  heart_rate_avg
 count  1000000.000000  1000000.000000   1000000.000000  1000000.000000  1000000.000000  1000000.000000  1000000.000000

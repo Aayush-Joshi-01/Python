@@ -1,3 +1,15 @@
-Behavioral Analysis: Average Steps by Day of Week
+2024-07-13 22:13:07.158589 
+ 
+ Behavioral Analysis: Average Steps by Day of Week
 
 Analyzing average steps by day of the week...
+        weekday
+Monday       14995.332224
+Tuesday      15029.799406
+Wednesday    14997.504196
+Thursday     15010.319413
+Friday       14988.878608
+Saturday     15012.481211
+Sunday       15006.101322
+Name: steps, dtype: float64
+        

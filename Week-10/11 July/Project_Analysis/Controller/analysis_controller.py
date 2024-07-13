@@ -1,6 +1,6 @@
 from Models.data_loader import DataLoader
 from Models.data_processor import DataProcessor
-from Models.plot_utils import PlotUtils
+from Utils.plot_utils import PlotUtils
 
 
 class AnalysisController:
@@ -22,7 +22,7 @@ class AnalysisController:
             self.data_processor.calculate_basic_statistics(data)
 
             # Plot data distribution
-            self.plot_utils.plot_data_distribution(data)
+            self.data_processor.plot_data_distribution(data)
 
         except Exception as e:
             print(f"Error performing descriptive analysis: {str(e)}")
@@ -53,10 +53,14 @@ class AnalysisController:
             data = self.data_loader.load_data()
             if data is None:
                 raise Exception("Failed to load data.")
-
+            
             # Compare groups
             self.data_processor.compare_groups(data)
 
+            data = self.data_loader.load_data()
+            if data is None:
+                raise Exception("Failed to load data.")
+            
             # Analyze correlations
             self.data_processor.correlation_analysis(data)
 
@@ -127,7 +131,7 @@ class AnalysisController:
                 raise Exception("Failed to load data.")
 
             # Build prediction models
-            self.data_processor.build_prediction_models(data)
+            self.data_processor.prediction_models(data)
 
             # Forecast trends
             self.data_processor.forecast_trends(data)

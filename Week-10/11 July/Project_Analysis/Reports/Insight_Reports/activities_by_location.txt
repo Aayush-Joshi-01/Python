@@ -1,3 +1,13 @@
-Spatial Analysis: Activities by Location
+2024-07-13 22:12:14.678089 
+ 
+ Spatial Analysis: Activities by Location
 
 Mapping activities based on location...
+
+        workout_type       Cycling   Gym Workout       Running      Swimming       Walking          Yoga
+location                                                                                        
+Gym           14952.930587  14986.908685  15044.717474  15011.484322  15025.374225  15041.635890
+Home          14873.193269  15017.334493  14988.437713  14999.930559  15017.673933  14969.620013
+Office        14929.687414  14974.195848  14987.705634  15060.159037  15009.045817  15106.786741
+Other         14938.040732  15090.084013  15029.564705  15134.195451  14954.382697  15000.433349
+Park          15033.855330  15009.716173  15008.482868  14976.818412  15024.014750  15064.949288

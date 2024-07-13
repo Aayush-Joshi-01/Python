@@ -1,3 +1,0 @@
-Trends Over Time: Daily Steps Trend
-
-Analyzing trends in steps over time...
