@@ -4,6 +4,7 @@ from sklearn.decomposition import PCA
 from Models.data_loader import DataLoader
 from Decorators.Logger_Analysis import logger_analysis
 
+
 class DataUtils:
     def __init__(self):
         pass

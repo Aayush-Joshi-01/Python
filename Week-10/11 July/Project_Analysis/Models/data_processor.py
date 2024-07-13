@@ -13,14 +13,16 @@ from Utils.data_utils import DataUtils
 
 from Decorators.Logger_Analysis import logger_analysis
 
+
 class DataProcessor:
     def __init__(self):
         self.plot_utils = PlotUtils()
-        self.data_utils = DataUtils() 
+        self.data_utils = DataUtils()
         self.steps_model = None
         self.hr_model = None
         self.mood_model = None
         self.label_encoders = {}
+
     @logger_analysis
     def load_data(self):
         # Example: Load data using DataLoader (assumed to be implemented)
@@ -66,7 +68,8 @@ class DataProcessor:
         steps_monthly = data['steps'].resample('ME').sum()  # Resample monthly and sum steps
 
         # Plot monthly steps trend
-        self.plot_utils.plot_line_chart(steps_monthly.index, steps_monthly.values, 'Month', 'Steps', 'Monthly Steps Trend')
+        self.plot_utils.plot_line_chart(steps_monthly.index, steps_monthly.values, 'Month', 'Steps',
+                                        'Monthly Steps Trend')
 
         # Generate report
         report_text = f"""Trends Over Time: Monthly Steps Trend\n\nAnalyzing trends in steps over time...
@@ -83,7 +86,7 @@ class DataProcessor:
 
         # Convert 'date' column to datetime
         data['date'] = pd.to_datetime(data['date'], errors='coerce')
-        
+
         # Drop rows with NaT in 'date' due to conversion errors
         data.dropna(subset=['date'], inplace=True)
 
@@ -94,18 +97,18 @@ class DataProcessor:
             'Summer': [5, 6, 7, 8],
             'Fall': [9, 10]
         }
-        
+
         # Create a new column for the season
         data['season'] = data['date'].dt.month.map(
             lambda x: next((season for season, months in seasons.items() if x in months), None)
-            )
-        
+        )
+
         # Calculate average steps per season
         seasonal_avg_steps = data.groupby('season')['steps'].mean()
 
         # Plot seasonal average steps
         self.plot_utils.plot_bar_chart(seasonal_avg_steps.index, seasonal_avg_steps.values, 'Season', 'Average Steps',
-                                        'Average Steps by Season')
+                                       'Average Steps by Season')
 
         # Generate report
         report_text = f"""
@@ -117,7 +120,8 @@ class DataProcessor:
     @logger_analysis
     def compare_groups(self, data):
         # Example: Compare average calories burned by workout type
-        avg_calories_by_workout = data.groupby('workout_type')['calories_burned'].mean().sort_values() - data['calories_burned'].mean() 
+        avg_calories_by_workout = data.groupby('workout_type')['calories_burned'].mean().sort_values() - data[
+            'calories_burned'].mean()
         plt.figure(figsize=(10, 6))
         sns.barplot(x=avg_calories_by_workout.index, y=avg_calories_by_workout.values)
         plt.title('Average Calories Burned by Workout Type')
@@ -229,9 +233,9 @@ class DataProcessor:
         plt.savefig('Reports/visualizations/impact_of_weather_on_steps.png')
         plt.show()
 
-        # Generate report
-        # report_text = "Behavioral Analysis: Impact of Weather Conditions on Steps\n\nAnalyzing the impact of weather conditions on activity levels..."
-        # self.save_report(report_text, 'impact_of_weather_on_steps')
+        # Generate report report_text = "Behavioral Analysis: Impact of Weather Conditions on Steps\n\nAnalyzing the
+        # impact of weather conditions on activity levels..." self.save_report(report_text,
+        # 'impact_of_weather_on_steps')
 
     @logger_analysis
     def study_health_impact_of_activity(self, data):
@@ -247,9 +251,8 @@ class DataProcessor:
         plt.savefig('Reports/visualizations/health_impact_of_activity.png')
         plt.show()
 
-        # Generate report
-        # report_text = "Health Metrics Analysis: Health Impact of Activity on Heart Rate\n\nStudying the impact of activity on average heart rate..."
-        # self.save_report(report_text, 'health_impact_of_activity')
+        # Generate report report_text = "Health Metrics Analysis: Health Impact of Activity on Heart Rate\n\nStudying
+        # the impact of activity on average heart rate..." self.save_report(report_text, 'health_impact_of_activity')
 
     @logger_analysis
     def analyze_heart_rate(self, data):
@@ -286,7 +289,8 @@ class DataProcessor:
             'Summer': [6, 7, 8],
             'Fall': [9, 10, 11]
         }
-        data['season'] = data['date'].dt.month.map(lambda x: next((season for season, months in seasons.items() if x in months), None))
+        data['season'] = data['date'].dt.month.map(
+            lambda x: next((season for season, months in seasons.items() if x in months), None))
 
         # Encode categorical variables
         for column in ['weather_conditions', 'location', 'mood', 'season']:
@@ -306,8 +310,10 @@ class DataProcessor:
         target_mood = self.data['mood']
 
         # Split the data for steps and heart rate
-        X_train, X_test, y_train_steps, y_test_steps = train_test_split(features, target_steps, test_size=0.2, random_state=42)
-        X_train_hr, X_test_hr, y_train_hr, y_test_hr = train_test_split(features, target_heart_rate, test_size=0.2, random_state=42)
+        X_train, X_test, y_train_steps, y_test_steps = train_test_split(features, target_steps, test_size=0.2,
+                                                                        random_state=42)
+        X_train_hr, X_test_hr, y_train_hr, y_test_hr = train_test_split(features, target_heart_rate, test_size=0.2,
+                                                                        random_state=42)
 
         # Fit Bayesian Ridge models
         self.steps_model = BayesianRidge()
@@ -317,7 +323,8 @@ class DataProcessor:
         self.hr_model.fit(X_train_hr, y_train_hr)
 
         # Fit Gaussian Naive Bayes model for mood
-        X_train_mood, X_test_mood, y_train_mood, y_test_mood = train_test_split(features, target_mood, test_size=0.2, random_state=42)
+        X_train_mood, X_test_mood, y_train_mood, y_test_mood = train_test_split(
+            features, target_mood, test_size=0.2, random_state=42)
         self.mood_model = GaussianNB()
         self.mood_model.fit(X_train_mood, y_train_mood)
 

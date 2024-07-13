@@ -2,6 +2,7 @@ import pandas as pd
 from tqdm import tqdm
 from Decorators.Logger_Analysis import logger_analysis
 
+
 class DataLoader:
     def __init__(self, file_path='Data/fitness_tracker_dataset.csv'):
         self.file_path = file_path

@@ -10,7 +10,6 @@ class AnalysisController:
         self.data_processor = DataProcessor()
         self.plot_utils = PlotUtils()
 
-
     @logger_analysis
     def perform_descriptive_analysis(self):
         """
@@ -58,14 +57,14 @@ class AnalysisController:
             data = self.data_loader.load_data()
             if data is None:
                 raise Exception("Failed to load data.")
-            
+
             # Compare groups
             self.data_processor.compare_groups(data)
 
             data = self.data_loader.load_data()
             if data is None:
                 raise Exception("Failed to load data.")
-            
+
             # Analyze correlations
             self.data_processor.correlation_analysis(data)
 

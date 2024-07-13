@@ -16,7 +16,7 @@ class Interface:
         print("/comparative for comparative analysis")
         print("/temporal for temporal analysis")
         print("/spatial for spatial analysis")
-        print("/behavioral for behavioral analysis")
+        print("/behavior for behavioral analysis")
         print("/health for health metrics analysis")
         print("/predictive for predictive analysis")
         print("/exit to exit the program")
@@ -28,7 +28,7 @@ class Interface:
             choice = input(
                 "\nEnter your choice "
                 "(descriptive/comparative/temporal/spatial/behavioral/health/predictive/exit): "
-                           ).lower()
+            ).lower()
             if choice in ['n', 'no', 'non', 'faux']:
                 print("Exiting the program...")
                 sys.exit(0)
@@ -38,7 +38,6 @@ class Interface:
             menu_flag = menu_flag.strip()
             if menu_flag.lower() in ['y', 'yes', 'true', 'oui', 'vrai']:
                 self.display_menu()
-            
 
 
 if __name__ == "__main__":

@@ -12,9 +12,9 @@ urlpatterns: Dict[str, Callable[..., Any]] = {
     '/predictive': AnalysisController().perform_predictive_analysis,
 }
 
+
 @logger_analysis
 def route(url: str, *args: Any, **kwargs: Any) -> Any:
-
     """
     Routes a URL to a view function.
 

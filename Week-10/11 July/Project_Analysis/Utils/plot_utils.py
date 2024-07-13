@@ -46,7 +46,6 @@ class PlotUtils:
         plt.tight_layout()  # Adjust layout
         plt.show()  # Display the plot
 
-
     # Add more plot types as needed for specific analyses
 
 
