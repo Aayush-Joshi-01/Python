@@ -9,8 +9,8 @@ class Interface:
     def __init__(self):
         self.controller = AnalysisController()
 
+
     @logger_analysis
-    @analysis_login_system
     def display_menu(self):
         print("\nWelcome to Data Analysis Application")
         print("===================================")
@@ -24,6 +24,7 @@ class Interface:
         print("/exit to exit the program")
 
     @logger_analysis
+    @analysis_login_system
     def run(self):
         self.display_menu()
         while True:
