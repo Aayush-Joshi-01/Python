@@ -3,6 +3,24 @@ from pymysql.cursors import DictCursor
 from typing import Callable, Any
 
 
+def create_db():
+    """
+    Creates the database if it does not exist.
+    """
+    connection = pymysql.connect(
+        host='localhost',
+        user='root',
+        password='root'
+    )
+    try:
+        with connection.cursor() as cursor:
+            cursor.execute("""
+                        CREATE DATABASE IF NOT EXISTS analysis_login
+                        """)
+        connection.commit()
+    finally:
+        connection.close()
+
 def get_db_connection():
     """
     Establishes and returns a connection to the MySQL database.
@@ -18,24 +36,18 @@ def get_db_connection():
     )
     return connection
 
+
 def initialize_db():
     """
     Initializes the database by creating the necessary tables if they do not exist.
     """
+    create_db()  # Create the database first
     connection = get_db_connection()
     try:
-
         with connection.cursor() as cursor:
-
-            # Create bank_management database
-            cursor.execute("""
-                        CREATE DATABASE IF NOT EXISTS analysis_login
-                        """)
-            connection.select_db('analysis_login')
-
             # Create accounts table
             cursor.execute("""
-            CREATE TABLE IF NOT EXISTS bank_management.login_accounts (
+            CREATE TABLE IF NOT EXISTS analysis_login.login_accounts (
                 username VARCHAR(20) PRIMARY KEY,
                 password VARCHAR(255),
                 role ENUM('DBA', 'BDA', 'DS', 'DE', 'DA')
@@ -44,6 +56,7 @@ def initialize_db():
         connection.commit()
     finally:
         connection.close()
+
 
 def analysis_login_system(func: Callable[..., Any]) -> Callable[..., Any]:
     """
@@ -55,7 +68,7 @@ def analysis_login_system(func: Callable[..., Any]) -> Callable[..., Any]:
     Returns: the main function to execute the code
     """
     def wrapper(*args: Any, **kwargs: Any) -> Any:
-        choice = input("Do you want to sign-in or signup: ")
+        choice = input("Do you want to sign-in or signup or exit: ")
         while True:
             if choice.strip().lower() in ['signin', 'sign-in']:
                 username = input("Enter the username: ")
@@ -63,7 +76,7 @@ def analysis_login_system(func: Callable[..., Any]) -> Callable[..., Any]:
                 connection = get_db_connection()
                 try:
                     with connection.cursor() as cursor:
-                        cursor.execute("SELECT * FROM bank_management.login_accounts WHERE username = %s AND password = %s", (username.strip(), password))
+                        cursor.execute("SELECT * FROM analysis_login.login_accounts WHERE username = %s AND password = %s", (username.strip(), password))
                         user = cursor.fetchone()
                         if user:
                             print("You are logged-in")
@@ -96,8 +109,13 @@ def analysis_login_system(func: Callable[..., Any]) -> Callable[..., Any]:
                         print("Account created successfully!")
                 finally:
                     connection.close()
+                    choice = input("Do you want to sign-in or signup: ")
+                    continue
+            elif choice.strip().lower() == 'exit':
+                print("Exiting the program...")
+                break
             else:
-                print("Invalid choice. Please enter 'signin' or 'signup'.")
+                print("Invalid choice. Please enter 'signin' or 'signup' or 'exit.")
                 choice = input("Do you want to sign-in or signup: ")
                 continue
         
