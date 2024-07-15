@@ -1,0 +1,15 @@
+2024-07-13 22:15:18.585745 
+ 
+ Health Metrics Analysis: Average Heart Rate by Activity Type
+        
+
+Analyzing average heart rate during different activities...
+        workout_type
+Walking        119.211505
+Yoga           119.392081
+Cycling        119.415498
+Swimming       119.443226
+Running        119.603282
+Gym Workout    119.674435
+Name: heart_rate_avg, dtype: float64
+        

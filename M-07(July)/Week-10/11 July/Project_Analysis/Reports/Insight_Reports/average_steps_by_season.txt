@@ -1,0 +1,13 @@
+2024-07-13 22:09:36.054809 
+ 
+ 
+        Seasonal Patterns: Average Steps by Season
+
+Identifying seasonal patterns in steps...
+        season
+Fall      15030.011723
+Spring    15006.404137
+Summer    14996.029482
+Winter    15005.394967
+Name: steps, dtype: float64
+        

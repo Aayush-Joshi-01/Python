@@ -1,0 +1,57 @@
+import numpy as np
+import matplotlib.pyplot as plt
+from typing import Dict
+from Titanic_Analysis.load_data import data_structuring
+
+
+class Demographic_Controller:
+
+    @staticmethod
+    def passenger_count_by_class(arr: np.ndarray) -> Dict[int, int]:
+        """
+        Calculate the count of passengers by passenger class.
+        """
+        class_counts = np.bincount(arr['pclass'])  # Count occurrences of each passenger class
+        passenger_count_by_class: Dict[int, int] = {}
+        for pclass in np.unique(arr['pclass']):
+            passenger_count_by_class[int(pclass)] = int(class_counts[pclass])
+        return passenger_count_by_class  # Return dictionary of passenger counts by class
+
+    @staticmethod
+    def gender_distribution(arr: np.ndarray) -> Dict[str, int]:
+        """
+        Calculate the distribution of passengers by gender.
+        """
+        gender_counts = dict(zip(*np.unique(arr['sex'], return_counts=True)))  # Count occurrences of each gender
+        return gender_counts  # Return dictionary of gender distribution
+
+    @staticmethod
+    def age_distribution(arr: np.ndarray) -> None:
+        """
+        Display a histogram showing the age distribution of passengers.
+        """
+        plt.hist(arr['age'], bins=20, edgecolor='black')  # Plot histogram of passenger ages
+        plt.xlabel('Age')
+        plt.ylabel('Frequency')
+        plt.title('Age Distribution of Passengers')
+        plt.show()  # Display the plot
+
+    @staticmethod
+    def embarkation_port_analysis(arr: np.ndarray) -> Dict[str, int]:
+        """
+        Analyze the count of passengers embarked from each port.
+        """
+        embarkation_port_counts = dict(zip(*np.unique(arr['embarked'], return_counts=True)))
+        # Count occurrences of each embarkation port
+        return embarkation_port_counts  # Return dictionary of embarkation port counts
+
+
+if __name__ == '__main__':
+    data = data_structuring()  # Load Titanic dataset using data_structuring function
+    controller = Demographic_Controller()  # Create an instance of Demographic_Controller
+
+    # Print various demographic statistics using methods from Demographic_Controller
+    print("Passenger count by class:", controller.passenger_count_by_class(data))
+    print("Gender distribution:", controller.gender_distribution(data))
+    controller.age_distribution(data)
+    print("Embarkation port analysis:", controller.embarkation_port_analysis(data))

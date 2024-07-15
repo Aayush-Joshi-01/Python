@@ -1,0 +1,10 @@
+{
+  "110000": [
+    {
+      "transaction_type": "create_account",
+      "amount": 10000.0,
+      "date": "2024-05-31 00:58:01.046080",
+      "target_account": null
+    }
+  ]
+}
