@@ -2,6 +2,7 @@ import sys
 from Controller.analysis_controller import AnalysisController
 from Decorators.Logger_Analysis import logger_analysis
 from Routes.analysis_url import route
+from Decorators.Login_Analysis import analysis_login_system
 
 
 class Interface:
@@ -9,6 +10,7 @@ class Interface:
         self.controller = AnalysisController()
 
     @logger_analysis
+    @analysis_login_system
     def display_menu(self):
         print("\nWelcome to Data Analysis Application")
         print("===================================")
