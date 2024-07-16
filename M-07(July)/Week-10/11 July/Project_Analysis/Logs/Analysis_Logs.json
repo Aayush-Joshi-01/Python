@@ -1512,3 +1512,197 @@ pymysql.err.ProgrammingError: (1146, "Table 'bank_management.login_accounts' doe
 2024-07-15 14:00:27,415 - Decorators.Logger_Analysis - DEBUG - map_activities returned None
 2024-07-15 14:00:27,448 - Decorators.Logger_Analysis - DEBUG - perform_spatial_analysis returned None
 2024-07-15 14:00:27,448 - Decorators.Logger_Analysis - DEBUG - route returned None
+2024-07-16 11:45:16,177 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataLoader', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,295 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'PlotUtils', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,310 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'PlotUtils', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,341 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'PlotUtils', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,453 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataUtils', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,485 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataUtils', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,500 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataUtils', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,516 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,516 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,531 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,549 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,564 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,564 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,580 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,595 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,595 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,611 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,629 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,644 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,651 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,666 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,672 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,682 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,692 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,710 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,713 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,721 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,723 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,733 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,734 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,743 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,743 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'AnalysisController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:18,772 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-16 11:45:19,017 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'Interface', '<module>']
+2024-07-16 11:45:19,017 - Decorators.Logger_Analysis - DEBUG - function calls: ['logger_analysis', 'Interface', '<module>']
+2024-07-16 11:45:19,017 - Decorators.Logger_Analysis - DEBUG - Calling the wrapper with args (<__main__.Interface object at 0x0000020AC8F71AF0>,) and kwargs {}
+2024-07-16 11:45:30,186 - Decorators.Logger_Analysis - DEBUG - Calling the display_menu with args (<__main__.Interface object at 0x0000020AC8F71AF0>,) and kwargs {}
+2024-07-16 11:45:30,195 - Decorators.Logger_Analysis - DEBUG - display_menu returned None
+2024-07-16 11:45:43,491 - Decorators.Logger_Analysis - DEBUG - Calling the route with args ('/descriptive',) and kwargs {}
+2024-07-16 11:45:43,491 - Decorators.Logger_Analysis - DEBUG - Calling the perform_descriptive_analysis with args (<Controller.analysis_controller.AnalysisController object at 0x0000020AC70551F0>,) and kwargs {}
+2024-07-16 11:45:43,491 - Decorators.Logger_Analysis - DEBUG - Calling the load_data with args (<Models.data_loader.DataLoader object at 0x0000020AC8D58DA0>,) and kwargs {}
+2024-07-16 11:45:48,722 - Decorators.Logger_Analysis - DEBUG - load_data returned         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns]
+2024-07-16 11:45:48,738 - Decorators.Logger_Analysis - DEBUG - Calling the calculate_basic_statistics with args (<Models.data_processor.DataProcessor object at 0x0000020AC8F3E3F0>,         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns]) and kwargs {}
+2024-07-16 11:45:49,096 - Decorators.Logger_Analysis - DEBUG - Calling the save_report with args (<Models.data_processor.DataProcessor object at 0x0000020AC8F3E3F0>, 'Basic Statistics:\n\n              user_id           steps  calories_burned     distance_km  active_minutes     sleep_hours  heart_rate_avg\ncount  1000000.000000  1000000.000000   1000000.000000  1000000.000000  1000000.000000  1000000.000000  1000000.000000\nmean       499.550302    15005.767061      2750.008148        9.994465      719.418241        6.000228      119.458316\nstd        288.166608     8659.195341       721.473950        5.774298      415.894771        3.463977       34.654034\nmin          1.000000        0.000000      1500.000000        0.000000        0.000000        0.000000       60.000000\n25%        250.000000     7492.000000      2125.517500        4.990000      359.000000        3.000000       89.000000\n50%        499.000000    15020.000000      2748.310000        9.990000      719.000000        6.000000      119.000000\n75%        749.000000    22507.000000      3375.190000       14.990000     1080.000000        9.000000      149.000000\nmax        999.000000    29999.000000      4000.000000       20.000000     1439.000000       12.000000      179.000000', 'basic_statistics') and kwargs {}
+2024-07-16 11:45:49,102 - Decorators.Logger_Analysis - DEBUG - save_report returned None
+2024-07-16 11:45:49,102 - Decorators.Logger_Analysis - DEBUG - calculate_basic_statistics returned None
+2024-07-16 11:45:49,111 - Decorators.Logger_Analysis - DEBUG - Calling the plot_data_distribution with args (<Models.data_processor.DataProcessor object at 0x0000020AC8F3E3F0>,         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns]) and kwargs {}
+2024-07-16 11:45:49,189 - Decorators.Logger_Analysis - DEBUG - Calling the plot_histogram with args (<Utils.plot_utils.PlotUtils object at 0x0000020AC8F3DF70>,         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns], 'user_id') and kwargs {}
+2024-07-16 11:46:02,661 - Decorators.Logger_Analysis - DEBUG - plot_histogram returned None
+2024-07-16 11:46:02,678 - Decorators.Logger_Analysis - DEBUG - Calling the plot_histogram with args (<Utils.plot_utils.PlotUtils object at 0x0000020AC8F3DF70>,         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns], 'steps') and kwargs {}
+2024-07-16 11:46:21,858 - Decorators.Logger_Analysis - DEBUG - plot_histogram returned None
+2024-07-16 11:46:21,888 - Decorators.Logger_Analysis - DEBUG - Calling the plot_histogram with args (<Utils.plot_utils.PlotUtils object at 0x0000020AC8F3DF70>,         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns], 'calories_burned') and kwargs {}
+2024-07-16 11:47:19,153 - Decorators.Logger_Analysis - DEBUG - plot_histogram returned None
+2024-07-16 11:47:19,176 - Decorators.Logger_Analysis - DEBUG - Calling the plot_histogram with args (<Utils.plot_utils.PlotUtils object at 0x0000020AC8F3DF70>,         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns], 'distance_km') and kwargs {}
+2024-07-16 11:51:16,654 - Decorators.Logger_Analysis - DEBUG - plot_histogram returned None
+2024-07-16 11:51:16,673 - Decorators.Logger_Analysis - DEBUG - Calling the plot_histogram with args (<Utils.plot_utils.PlotUtils object at 0x0000020AC8F3DF70>,         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns], 'active_minutes') and kwargs {}
+2024-07-16 11:51:27,403 - Decorators.Logger_Analysis - DEBUG - plot_histogram returned None
+2024-07-16 11:51:27,438 - Decorators.Logger_Analysis - DEBUG - Calling the plot_histogram with args (<Utils.plot_utils.PlotUtils object at 0x0000020AC8F3DF70>,         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns], 'sleep_hours') and kwargs {}
+2024-07-16 11:51:38,183 - Decorators.Logger_Analysis - DEBUG - plot_histogram returned None
+2024-07-16 11:51:38,206 - Decorators.Logger_Analysis - DEBUG - Calling the plot_histogram with args (<Utils.plot_utils.PlotUtils object at 0x0000020AC8F3DF70>,         user_id        date  steps  calories_burned  distance_km  active_minutes  sleep_hours  heart_rate_avg workout_type weather_conditions location     mood
+0           468  2023-01-01   4530          2543.02        16.10             613          1.5             176      Walking              Clear     Park    Tired
+1           879  2023-01-01  11613          1720.76         8.10             352          6.3             128      Cycling                Fog     Park    Happy
+2           152  2023-01-01  27335          1706.35         3.57             236          6.7             134         Yoga               Snow     Park  Neutral
+3           311  2023-01-01  13459          2912.38         6.41            1329         11.6             116     Swimming               Rain   Office    Tired
+4           759  2023-01-01  15378          3344.51        17.88              52          7.4              84     Swimming               Rain   Office  Neutral
+...         ...         ...    ...              ...          ...             ...          ...             ...          ...                ...      ...      ...
+999995      294  2025-09-26  21883          1711.42         4.62             124          7.9             174      Running                Fog    Other    Tired
+999996      114  2025-09-26  15451          3961.63         1.93            1316          7.4             161      Cycling              Clear     Park    Tired
+999997       85  2025-09-26  17912          3604.77         5.81             187          7.1              74     Swimming                Fog      Gym  Neutral
+999998      109  2025-09-26  10072          2724.34         7.42            1203          6.0              74     Swimming               Snow      Gym    Tired
+999999      893  2025-09-26  29516          3713.99         6.70             421          5.2             116         Yoga              Clear     Home    Tired
+
+[1000000 rows x 12 columns], 'heart_rate_avg') and kwargs {}
+2024-07-16 11:52:40,445 - Decorators.Logger_Analysis - DEBUG - plot_histogram returned None
+2024-07-16 11:52:40,445 - Decorators.Logger_Analysis - DEBUG - plot_data_distribution returned None
+2024-07-16 11:52:40,505 - Decorators.Logger_Analysis - DEBUG - perform_descriptive_analysis returned None
+2024-07-16 11:52:40,510 - Decorators.Logger_Analysis - DEBUG - route returned None
