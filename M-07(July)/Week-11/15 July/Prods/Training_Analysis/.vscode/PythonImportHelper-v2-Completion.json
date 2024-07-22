@@ -168,7 +168,7 @@
         "documentation": {}
     },
     {
-        "label": "logger_analysis",
+        "label": "analysis_logger",
         "importPath": "Decorators.Logger_Analysis",
         "description": "Decorators.Logger_Analysis",
         "isExtraImport": true,
@@ -747,7 +747,7 @@
         "kind": 6,
         "importPath": "main_interface",
         "description": "main_interface",
-        "peekOfCode": "class Interface:\n    def __init__(self):\n        self.controller = AnalysisController()\n    @logger_analysis\n    def display_menu(self):\n        print(\"\\nWelcome to Data Analysis Application\")\n        print(\"===================================\")\n        print(\"/descriptive for descriptive analysis\")\n        print(\"/comparative for comparative analysis\")\n        print(\"/temporal for temporal analysis\")",
+        "peekOfCode": "class Interface:\nif __name__ == \"__main__\":\n    app = Interface()\n    app.run()",
         "detail": "main_interface",
         "documentation": {}
     }
