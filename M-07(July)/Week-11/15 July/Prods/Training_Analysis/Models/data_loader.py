@@ -1,13 +1,13 @@
 import pandas as pd
 from tqdm import tqdm
-from Decorators.Logger_Analysis import logger_analysis
+from Decorators.Logger_Analysis import analysis_logger
 
 
 class DataLoader:
-    def __init__(self, file_path='Data/fitness_tracker_dataset.csv'):
+    def __init__(self, file_path='Data/cleaned_data.csv'):
         self.file_path = file_path
 
-    @logger_analysis
+    @analysis_logger
     def load_data(self):
         try:
             # Get the number of rows in the file

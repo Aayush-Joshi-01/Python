@@ -17,7 +17,7 @@ file_handler.setFormatter(formatter)
 logger.addHandler(file_handler)
 
 
-def logger_analysis(func: Callable[..., Any]) -> Callable[..., Any]:
+def analysis_logger(func: Callable[..., Any]) -> Callable[..., Any]:
     """
     A decorator to log function calls with arguments, results, and nested function calls.
     """
@@ -42,7 +42,7 @@ def logger_analysis(func: Callable[..., Any]) -> Callable[..., Any]:
 
 
 if __name__ == '__main__':
-    @logger_analysis
+    @analysis_logger
     def add(a: int, b: int) -> int:
         return a + b
 
