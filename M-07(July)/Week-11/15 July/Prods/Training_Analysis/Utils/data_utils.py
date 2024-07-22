@@ -1,53 +1,75 @@
 import pandas as pd
-from sklearn.preprocessing import StandardScaler
-from sklearn.decomposition import PCA
+import numpy as np
+from Decorators.Logger_Analysis import analysis_logger
 from Models.data_loader import DataLoader
-from Decorators.Logger_Analysis import logger_analysis
 
 
-class DataUtils:
-    def __init__(self):
-        pass
+@analysis_logger
+def clean_data(df: pd.DataFrame) -> pd.DataFrame:
+    """
+    Cleans the input DataFrame by handling missing values, removing duplicates,
+    standardizing column formats, cleaning skills, and generating random scores.
 
-    @logger_analysis
-    def preprocess_data(self, data):
-        # Example: Data preprocessing steps
-        # Convert date column to datetime format
-        data['date'] = pd.to_datetime(data['date'])
+    Args:
+        df (pd.DataFrame): The DataFrame to clean.
 
-        # Handle missing values (if any)
-        data.fillna(0, inplace=True)  # Replace NaN with 0 (this is a simplistic example)
+    Returns:
+        pd.DataFrame: The cleaned DataFrame.
+    """
+    
+    # Handle missing values
+    df.fillna(method='ffill', inplace=True)  # Forward fill to handle missing values
 
-        return data
+    # Remove duplicates
+    df.drop_duplicates(inplace=True)
 
-    @logger_analysis
-    def scale_data(self, data):
-        # Example: Scaling numerical data
-        numerical_cols = data.select_dtypes(include=['int', 'float']).columns
-        scaler = StandardScaler()
-        data[numerical_cols] = scaler.fit_transform(data[numerical_cols])
+    # Standardize column names (convert to lower case)
+    df.columns = [col.lower().replace(' ', '_') for col in df.columns]
 
-        return data
+    # Clean and create a list of unique skills for each row in 'current_skills' column
+    if 'current_skills' in df.columns:
+        current_skills_column = df['current_skills']
+        cleaned_skills = current_skills_column.str.split(r'\s*\+\s*|\s*,\s*|\s*and\s*|\s*;\s*|\s*\|\s*').explode().str.strip()
+        unique_skills = cleaned_skills.unique()
+        df['current_skills'] = cleaned_skills.groupby(cleaned_skills.index).agg(list)
 
-    @logger_analysis
-    def reduce_dimensionality(self, data):
-        # Example: Reduce dimensionality using PCA (Principal Component Analysis)
-        numerical_cols = data.select_dtypes(include=['int', 'float']).columns
-        pca = PCA(n_components=2)
-        principal_components = pca.fit_transform(data[numerical_cols])
-        principal_df = pd.DataFrame(data=principal_components, columns=['PC1', 'PC2'])
-        data = pd.concat([data, principal_df], axis=1)
-        return data
+    # Example: Convert date columns to datetime format
+    if 'date_column' in df.columns:
+        df['date_column'] = pd.to_datetime(df['date_column'], errors='coerce')
 
+    # Example: Standardize text columns to lower case
+    text_columns = ['name', 'upgraded_skills', 'training_type']
+    for col in text_columns:
+        if col in df.columns:
+            df[col] = df[col].str.lower().str.strip()
+
+    print("Data cleaned successfully.")
+    return df
+
+@analysis_logger
+def generate_random_scores(df: pd.DataFrame, score_columns: list = ['pre_assessment_score', 'final_score']) -> pd.DataFrame:
+    """
+    Generates random scores for specified columns in the DataFrame.
+
+    Args:
+        df (pd.DataFrame): The DataFrame to update.
+        score_columns (list): List of column names for which to generate random scores.
+
+    Returns:
+        pd.DataFrame: The updated DataFrame with random scores.
+    """
+    
+    for column in score_columns:
+        df[column] = np.random.randint(0, 101, size=len(df))
+
+    print(f"Random scores generated for columns: {score_columns}.")
+    return df
 
 if __name__ == "__main__":
-    # Example usage (optional)
-
+    # Example usage
     loader = DataLoader()
     data = loader.load_data()
     if data is not None:
-        utils = DataUtils()
-        preprocessed_data = utils.preprocess_data(data)
-        scaled_data = utils.scale_data(preprocessed_data)
-        reduced_data = utils.reduce_dimensionality(scaled_data)
-        print(reduced_data.head())
+        cleaned_data = clean_data(data)
+        cleaned_data_with_scores = generate_random_scores(cleaned_data)
+        print(cleaned_data_with_scores.head())  # Print first few rows of cleaned data with random scores
