@@ -16,10 +16,6 @@ def clean_data(df: pd.DataFrame) -> pd.DataFrame:
     Returns:
         pd.DataFrame: The cleaned DataFrame.
     """
-    
-    # Handle missing values
-    df.fillna(method='ffill', inplace=True)  # Forward fill to handle missing values
-
     # Remove duplicates
     df.drop_duplicates(inplace=True)
 

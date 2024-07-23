@@ -14,6 +14,11 @@ Training_Analysis/
 ├── Decorators/
 │   ├── Logger_Analysis.py
 │   ├── Login_Analysis.py
+│
+├── Reports/
+│   ├── Visualizations/
+│   ├── CSV_Reports/
+│   ├── Text_Reports/
 │ 
 ├── Utils/
 │   ├── data_utils.py
