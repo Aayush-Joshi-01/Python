@@ -72,110 +72,6 @@
         "documentation": {}
     },
     {
-        "label": "DataLoader",
-        "importPath": "Models.data_loader",
-        "description": "Models.data_loader",
-        "isExtraImport": true,
-        "detail": "Models.data_loader",
-        "documentation": {}
-    },
-    {
-        "label": "DataLoader",
-        "importPath": "Models.data_loader",
-        "description": "Models.data_loader",
-        "isExtraImport": true,
-        "detail": "Models.data_loader",
-        "documentation": {}
-    },
-    {
-        "label": "DataLoader",
-        "importPath": "Models.data_loader",
-        "description": "Models.data_loader",
-        "isExtraImport": true,
-        "detail": "Models.data_loader",
-        "documentation": {}
-    },
-    {
-        "label": "DataProcessor",
-        "importPath": "Models.data_processor",
-        "description": "Models.data_processor",
-        "isExtraImport": true,
-        "detail": "Models.data_processor",
-        "documentation": {}
-    },
-    {
-        "label": "PlotUtils",
-        "importPath": "Utils.plot_utils",
-        "description": "Utils.plot_utils",
-        "isExtraImport": true,
-        "detail": "Utils.plot_utils",
-        "documentation": {}
-    },
-    {
-        "label": "PlotUtils",
-        "importPath": "Utils.plot_utils",
-        "description": "Utils.plot_utils",
-        "isExtraImport": true,
-        "detail": "Utils.plot_utils",
-        "documentation": {}
-    },
-    {
-        "label": "analysis_logger",
-        "importPath": "Decorators.Logger_Analysis",
-        "description": "Decorators.Logger_Analysis",
-        "isExtraImport": true,
-        "detail": "Decorators.Logger_Analysis",
-        "documentation": {}
-    },
-    {
-        "label": "analysis_logger",
-        "importPath": "Decorators.Logger_Analysis",
-        "description": "Decorators.Logger_Analysis",
-        "isExtraImport": true,
-        "detail": "Decorators.Logger_Analysis",
-        "documentation": {}
-    },
-    {
-        "label": "analysis_logger",
-        "importPath": "Decorators.Logger_Analysis",
-        "description": "Decorators.Logger_Analysis",
-        "isExtraImport": true,
-        "detail": "Decorators.Logger_Analysis",
-        "documentation": {}
-    },
-    {
-        "label": "logger_analysis",
-        "importPath": "Decorators.Logger_Analysis",
-        "description": "Decorators.Logger_Analysis",
-        "isExtraImport": true,
-        "detail": "Decorators.Logger_Analysis",
-        "documentation": {}
-    },
-    {
-        "label": "logger_analysis",
-        "importPath": "Decorators.Logger_Analysis",
-        "description": "Decorators.Logger_Analysis",
-        "isExtraImport": true,
-        "detail": "Decorators.Logger_Analysis",
-        "documentation": {}
-    },
-    {
-        "label": "logger_analysis",
-        "importPath": "Decorators.Logger_Analysis",
-        "description": "Decorators.Logger_Analysis",
-        "isExtraImport": true,
-        "detail": "Decorators.Logger_Analysis",
-        "documentation": {}
-    },
-    {
-        "label": "analysis_logger",
-        "importPath": "Decorators.Logger_Analysis",
-        "description": "Decorators.Logger_Analysis",
-        "isExtraImport": true,
-        "detail": "Decorators.Logger_Analysis",
-        "documentation": {}
-    },
-    {
         "label": "logging",
         "kind": 6,
         "isExtraImport": true,
@@ -301,46 +197,27 @@
         "documentation": {}
     },
     {
-        "label": "datetime",
-        "kind": 6,
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
         "isExtraImport": true,
-        "importPath": "datetime",
-        "description": "datetime",
-        "detail": "datetime",
+        "detail": "Decorators.Logger_Analysis",
         "documentation": {}
     },
     {
-        "label": "date",
-        "importPath": "datetime",
-        "description": "datetime",
+        "label": "logger_analysis",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
         "isExtraImport": true,
-        "detail": "datetime",
+        "detail": "Decorators.Logger_Analysis",
         "documentation": {}
     },
     {
-        "label": "matplotlib.pyplot",
-        "kind": 6,
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
         "isExtraImport": true,
-        "importPath": "matplotlib.pyplot",
-        "description": "matplotlib.pyplot",
-        "detail": "matplotlib.pyplot",
-        "documentation": {}
-    },
-    {
-        "label": "seaborn",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "seaborn",
-        "description": "seaborn",
-        "detail": "seaborn",
-        "documentation": {}
-    },
-    {
-        "label": "DataUtils",
-        "importPath": "Utils.data_utils",
-        "description": "Utils.data_utils",
-        "isExtraImport": true,
-        "detail": "Utils.data_utils",
+        "detail": "Decorators.Logger_Analysis",
         "documentation": {}
     },
     {
@@ -352,43 +229,20 @@
         "documentation": {}
     },
     {
-        "label": "AnalysisController",
-        "importPath": "Controller.analysis_controller",
-        "description": "Controller.analysis_controller",
+        "label": "numpy",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "Controller.analysis_controller",
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
         "documentation": {}
     },
     {
-        "label": "StandardScaler",
-        "importPath": "sklearn.preprocessing",
-        "description": "sklearn.preprocessing",
+        "label": "DataLoader",
+        "importPath": "Models.data_loader",
+        "description": "Models.data_loader",
         "isExtraImport": true,
-        "detail": "sklearn.preprocessing",
-        "documentation": {}
-    },
-    {
-        "label": "PCA",
-        "importPath": "sklearn.decomposition",
-        "description": "sklearn.decomposition",
-        "isExtraImport": true,
-        "detail": "sklearn.decomposition",
-        "documentation": {}
-    },
-    {
-        "label": "route",
-        "importPath": "Routes.analysis_url",
-        "description": "Routes.analysis_url",
-        "isExtraImport": true,
-        "detail": "Routes.analysis_url",
-        "documentation": {}
-    },
-    {
-        "label": "analysis_login_system",
-        "importPath": "Decorators.Login_Analysis",
-        "description": "Decorators.Login_Analysis",
-        "isExtraImport": true,
-        "detail": "Decorators.Login_Analysis",
+        "detail": "Models.data_loader",
         "documentation": {}
     },
     {
@@ -644,15 +498,6 @@
         "documentation": {}
     },
     {
-        "label": "AnalysisController",
-        "kind": 6,
-        "importPath": "Controller.analysis_controller",
-        "description": "Controller.analysis_controller",
-        "peekOfCode": "class AnalysisController:\n    def __init__(self):\n        self.data_loader = DataLoader()\n        self.data_processor = DataProcessor()\n        self.plot_utils = PlotUtils()\nif __name__ == \"__main__\":\n    controller = AnalysisController()",
-        "detail": "Controller.analysis_controller",
-        "documentation": {}
-    },
-    {
         "label": "analysis_logger",
         "kind": 2,
         "importPath": "Decorators.Logger_Analysis",
@@ -707,15 +552,6 @@
         "documentation": {}
     },
     {
-        "label": "DataProcessor",
-        "kind": 6,
-        "importPath": "Models.data_processor",
-        "description": "Models.data_processor",
-        "peekOfCode": "class DataProcessor:\n    def __init__(self):\n        self.plot_utils = PlotUtils()\n        self.data_utils = DataUtils()\n        self.steps_model = None\n        self.hr_model = None\n        self.mood_model = None\n        self.label_encoders = {}\n    @analysis_logger\n    def load_data(self):",
-        "detail": "Models.data_processor",
-        "documentation": {}
-    },
-    {
         "label": "route",
         "kind": 2,
         "importPath": "Routes.analysis_url",
@@ -725,30 +561,21 @@
         "documentation": {}
     },
     {
-        "label": "DataUtils",
-        "kind": 6,
+        "label": "clean_data",
+        "kind": 2,
         "importPath": "Utils.data_utils",
         "description": "Utils.data_utils",
-        "peekOfCode": "class DataUtils:\n    def __init__(self):\n        pass\n    @logger_analysis\n    def preprocess_data(self, data):\n        # Example: Data preprocessing steps\n        # Convert date column to datetime format\n        data['date'] = pd.to_datetime(data['date'])\n        # Handle missing values (if any)\n        data.fillna(0, inplace=True)  # Replace NaN with 0 (this is a simplistic example)",
+        "peekOfCode": "def clean_data(df: pd.DataFrame) -> pd.DataFrame:\n    \"\"\"\n    Cleans the input DataFrame by handling missing values, removing duplicates,\n    standardizing column formats, cleaning skills, and generating random scores.\n    Args:\n        df (pd.DataFrame): The DataFrame to clean.\n    Returns:\n        pd.DataFrame: The cleaned DataFrame.\n    \"\"\"\n    # Handle missing values",
         "detail": "Utils.data_utils",
         "documentation": {}
     },
     {
-        "label": "PlotUtils",
-        "kind": 6,
-        "importPath": "Utils.plot_utils",
-        "description": "Utils.plot_utils",
-        "peekOfCode": "class PlotUtils:\n    def __init__(self):\n        # Optionally, you can initialize settings for plotting here\n        pass\n    @logger_analysis\n    def plot_histogram(self, data, column):\n        plt.figure(figsize=(8, 6))\n        sns.histplot(data[column], kde=True)\n        plt.title(f'Histogram of {column}')\n        plt.xlabel(column)",
-        "detail": "Utils.plot_utils",
-        "documentation": {}
-    },
-    {
-        "label": "Interface",
-        "kind": 6,
-        "importPath": "main_interface",
-        "description": "main_interface",
-        "peekOfCode": "class Interface:\nif __name__ == \"__main__\":\n    app = Interface()\n    app.run()",
-        "detail": "main_interface",
+        "label": "generate_random_scores",
+        "kind": 2,
+        "importPath": "Utils.data_utils",
+        "description": "Utils.data_utils",
+        "peekOfCode": "def generate_random_scores(df: pd.DataFrame, score_columns: list = ['pre_assessment_score', 'final_score']) -> pd.DataFrame:\n    \"\"\"\n    Generates random scores for specified columns in the DataFrame.\n    Args:\n        df (pd.DataFrame): The DataFrame to update.\n        score_columns (list): List of column names for which to generate random scores.\n    Returns:\n        pd.DataFrame: The updated DataFrame with random scores.\n    \"\"\"\n    for column in score_columns:",
+        "detail": "Utils.data_utils",
         "documentation": {}
     }
 ]
