@@ -5,9 +5,10 @@ import os
 
 from Models.data_loader import DataLoader
 
+
 class DataProcessor:
-    def __init__(self, df: pd.DataFrame):
-        self.df = DataLoader().load_data()
+    def __init__(self, df):
+        self.df = df
         self.reports_path = 'Reports/'
 
     def save_plot(self, plot_func, plot_name):
@@ -20,7 +21,7 @@ class DataProcessor:
             print(f"Plot saved to {plot_path}")
         else:
             plot_func()
-    
+
     def save_report(self, report_func, report_name):
         if input(f"Do you want to save the report '{report_name}'? (y/n): ").lower() == 'y':
             report_dir = os.path.join(self.reports_path, 'CSV_Reports')
@@ -30,7 +31,7 @@ class DataProcessor:
             print(f"Report saved to {report_path}")
         else:
             print("Report not saved.")
-    
+
     def group_by_competency(self):
         return self.df.explode('Current Skills').groupby('Current Skills')
 
@@ -63,12 +64,6 @@ class DataProcessor:
 
     def training_resource_count_by_name(self):
         return self.df['Training Name'].value_counts()
-
-    def total_training_attended(self):
-        return self.df.shape[0]
-
-    def competency_training_attended(self, competency):
-        return self.df[self.df['Current Skills'].str.contains(competency, case=False, na=False)]
 
     def top_performers_by_score(self, score_column):
         return self.df.loc[self.df.groupby('Name')[score_column].idxmax()]

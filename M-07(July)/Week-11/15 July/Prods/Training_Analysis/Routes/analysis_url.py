@@ -1,9 +1,14 @@
 from typing import Any, Callable, Dict, Optional
-
+from Controller.analysis_controller import DataProcessorController
 
 urlpatterns: Dict[str, Callable[..., Any]] = {
-
+    "/grouping": DataProcessorController().perfrom_basic_grouping,
+    "/adv_grouping": DataProcessorController().perfrom_advanced_grouping,
+    "/general_reports": DataProcessorController().generate_general_reports,
+    "/generate_specific_reports": DataProcessorController().generate_specific_reports,
+    "/generate_growth_reports": DataProcessorController().generate_growth_reports,
 }
+
 
 def route(url: str, *args: Any, **kwargs: Any) -> Any:
     """
