@@ -1,15 +1,17 @@
 from typing import Any, Callable, Dict, Optional
 from Controller.analysis_controller import DataProcessorController
+from Decorators.Logger_Analysis import analysis_logger
+
 
 urlpatterns: Dict[str, Callable[..., Any]] = {
-    "/grouping": DataProcessorController().perfrom_basic_grouping,
-    "/adv_grouping": DataProcessorController().perfrom_advanced_grouping,
-    "/general_reports": DataProcessorController().generate_general_reports,
+    "/grouping": DataProcessorController().perform_basic_grouping,
+    "/adv_grouping": DataProcessorController().perform_advanced_grouping,
+    "/general_report": DataProcessorController().generate_general_reports,
     "/generate_specific_reports": DataProcessorController().generate_specific_reports,
     "/generate_growth_reports": DataProcessorController().generate_growth_reports,
 }
 
-
+@analysis_logger
 def route(url: str, *args: Any, **kwargs: Any) -> Any:
     """
     Routes a URL to a view function.

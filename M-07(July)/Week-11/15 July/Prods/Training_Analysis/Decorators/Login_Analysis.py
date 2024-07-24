@@ -1,8 +1,9 @@
 import pymysql
 from pymysql.cursors import DictCursor
 from typing import Callable, Any
+from Decorators.Logger_Analysis import analysis_logger
 
-
+@analysis_logger
 def create_db():
     """
     Creates the database if it does not exist.
@@ -21,6 +22,7 @@ def create_db():
     finally:
         connection.close()
 
+@analysis_logger
 def get_db_connection():
     """
     Establishes and returns a connection to the MySQL database.
@@ -36,7 +38,7 @@ def get_db_connection():
     )
     return connection
 
-
+@analysis_logger
 def initialize_db():
     """
     Initializes the database by creating the necessary tables if they do not exist.
@@ -57,7 +59,7 @@ def initialize_db():
     finally:
         connection.close()
 
-
+@analysis_logger
 def analysis_login_system(func: Callable[..., Any]) -> Callable[..., Any]:
     """
     A decorator that checks if the user is logged in before calling the decorated function.

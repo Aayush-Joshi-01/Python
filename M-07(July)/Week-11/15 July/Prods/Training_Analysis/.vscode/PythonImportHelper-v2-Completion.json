@@ -121,6 +121,94 @@
         "documentation": {}
     },
     {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "show_data",
+        "importPath": "Controller.group_viewer",
+        "description": "Controller.group_viewer",
+        "isExtraImport": true,
+        "detail": "Controller.group_viewer",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Logger_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Logger_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Logger_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Logger_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Logger_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Logger_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Logger_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Logger_Analysis",
+        "documentation": {}
+    },
+    {
         "label": "logging",
         "kind": 6,
         "isExtraImport": true,
@@ -173,6 +261,14 @@
     },
     {
         "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
         "importPath": "typing",
         "description": "typing",
         "isExtraImport": true,
@@ -237,30 +333,6 @@
         "documentation": {}
     },
     {
-        "label": "analysis_logger",
-        "importPath": "Decorators.Logger_Analysis",
-        "description": "Decorators.Logger_Analysis",
-        "isExtraImport": true,
-        "detail": "Decorators.Logger_Analysis",
-        "documentation": {}
-    },
-    {
-        "label": "analysis_logger",
-        "importPath": "Decorators.Logger_Analysis",
-        "description": "Decorators.Logger_Analysis",
-        "isExtraImport": true,
-        "detail": "Decorators.Logger_Analysis",
-        "documentation": {}
-    },
-    {
-        "label": "analysis_logger",
-        "importPath": "Decorators.Logger_Analysis",
-        "description": "Decorators.Logger_Analysis",
-        "isExtraImport": true,
-        "detail": "Decorators.Logger_Analysis",
-        "documentation": {}
-    },
-    {
         "label": "matplotlib.pyplot",
         "kind": 6,
         "isExtraImport": true,
@@ -276,6 +348,14 @@
         "importPath": "seaborn",
         "description": "seaborn",
         "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "DataProcessorController",
+        "importPath": "Controller.analysis_controller",
+        "description": "Controller.analysis_controller",
+        "isExtraImport": true,
+        "detail": "Controller.analysis_controller",
         "documentation": {}
     },
     {
@@ -301,6 +381,22 @@
         "description": "Utils.data_utils",
         "isExtraImport": true,
         "detail": "Utils.data_utils",
+        "documentation": {}
+    },
+    {
+        "label": "route",
+        "importPath": "Routes.analysis_url",
+        "description": "Routes.analysis_url",
+        "isExtraImport": true,
+        "detail": "Routes.analysis_url",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_login_system",
+        "importPath": "Decorators.Login_Analysis",
+        "description": "Decorators.Login_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Login_Analysis",
         "documentation": {}
     },
     {
@@ -560,8 +656,17 @@
         "kind": 6,
         "importPath": "Controller.analysis_controller",
         "description": "Controller.analysis_controller",
-        "peekOfCode": "class DataProcessorController:\n    def __init__(self, df: pd.DataFrame):\n        self.processor = DataProcessor(df)\n    def perform_basic_grouping(self):\n        print(\"Performing basic grouping operations...\")\n        self.processor.group_by_skill()\n        self.processor.group_by_grade()\n        self.processor.group_by_allocation()\n        self.processor.group_by_project()\n        self.processor.group_by_place()",
+        "peekOfCode": "class DataProcessorController:\n    def __init__(self):\n        self.data = None\n        self.model = None\n    @analysis_logger\n    def perform_basic_grouping(self):\n        self.data = DataLoader().load_data()\n        self.model = DataProcessor(self.data)\n        print(\"Performing basic grouping operations...\\n\")\n        grouped_data = self.model.group_by_skill()",
         "detail": "Controller.analysis_controller",
+        "documentation": {}
+    },
+    {
+        "label": "show_data",
+        "kind": 2,
+        "importPath": "Controller.group_viewer",
+        "description": "Controller.group_viewer",
+        "peekOfCode": "def show_data(grouped_data: pd.DataFrame, type_name: str, columns: list[str]=[]) -> None:\n    print(f\"Showing Data Grouped by {type_name}: .... \")\n    print(grouped_data.head().set_index('S.No')[columns])",
+        "detail": "Controller.group_viewer",
         "documentation": {}
     },
     {
@@ -614,7 +719,7 @@
         "kind": 6,
         "importPath": "Models.data_loader",
         "description": "Models.data_loader",
-        "peekOfCode": "class DataLoader:\n    def __init__(self, file_path='Data/cleaned_data.csv'):\n        self.file_path = file_path\n    @analysis_logger\n    def load_data(self):\n        try:\n            # Get the number of rows in the file\n            with open(self.file_path, 'r') as f:\n                total_rows = sum(1 for line in f) - 1  # Subtract 1 for header\n            # Load CSV into pandas DataFrame with progress bar",
+        "peekOfCode": "class DataLoader:\n    def __init__(self, file_path='Data/cleaned_data.csv'):\n        self.file_path = file_path\n    # @analysis_logger\n    def load_data(self):\n        try:\n            # Get the number of rows in the file\n            with open(self.file_path, 'r') as f:\n                total_rows = sum(1 for line in f) - 1  # Subtract 1 for header\n            # Load CSV into pandas DataFrame with progress bar",
         "detail": "Models.data_loader",
         "documentation": {}
     },
@@ -623,7 +728,7 @@
         "kind": 6,
         "importPath": "Models.data_processor",
         "description": "Models.data_processor",
-        "peekOfCode": "class DataProcessor:\n    def __init__(self, df: pd.DataFrame):\n        self.df = DataLoader().load_data()\n        self.reports_path = 'Reports/'\n    def save_plot(self, plot_func, plot_name):\n        if input(f\"Do you want to save the plot '{plot_name}'? (y/n): \").lower() == 'y':\n            plot_dir = os.path.join(self.reports_path, 'Visualizations')\n            os.makedirs(plot_dir, exist_ok=True)\n            plot_path = os.path.join(plot_dir, f\"{plot_name}.png\")\n            plot_func()",
+        "peekOfCode": "class DataProcessor:\n    def __init__(self, df):\n        self.df = df\n        self.reports_path = 'Reports/'\n    @analysis_logger\n    def save_plot(self, plot_func: Callable, plot_name: str) -> None:\n        if input(f\"Do you want to save the plot '{plot_name}'? (y/n): \").lower() == 'y':\n            plot_dir = os.path.join(self.reports_path, 'Visualizations')\n            os.makedirs(plot_dir, exist_ok=True)\n            plot_path = os.path.join(plot_dir, f\"{plot_name}.png\")",
         "detail": "Models.data_processor",
         "documentation": {}
     },
@@ -731,7 +836,7 @@
         "kind": 2,
         "importPath": "main_interface",
         "description": "main_interface",
-        "peekOfCode": "def menu():\n    print(\"\\nMenu:\")\n    print(\"1. Perform Basic Grouping\")\n    print(\"2. Perform Advanced Grouping\")\n    print(\"3. Generate General Reports\")\n    print(\"4. Generate Specific Reports\")\n    print(\"5. Generate Growth Reports\")\n    print(\"6. Exit\")\ndef main():\n    df = DataLoader().load_data()  # Load your DataFrame",
+        "peekOfCode": "def menu():\n    print(\"\\nMenu:\")\n    print(\"/grouping for data grouping\")\n    print(\"/adv_grouping for advanced grouping operations\")\n    print(\"/general_report for generating general reports\")\n    print(\"/generate_specific_reports for generating spefic reports\")\n    print(\"/generate_growth_reports for growth reports\")\n    print(\"/exit, /faux, /out, /no to exit the program\")\n@analysis_login_system\n@analysis_logger",
         "detail": "main_interface",
         "documentation": {}
     },
@@ -740,7 +845,7 @@
         "kind": 2,
         "importPath": "main_interface",
         "description": "main_interface",
-        "peekOfCode": "def main():\n    df = DataLoader().load_data()  # Load your DataFrame\n    controller = DataProcessorController(df)\n    while True:\n        menu()\n        choice = input(\"Enter your choice (1-6): \")\n        if choice == '1':\n            controller.perform_basic_grouping()\n        elif choice == '2':\n            controller.perform_advanced_grouping()",
+        "peekOfCode": "def main():\n    while True:\n        menu()\n        choice = input(\"Enter your choice with /: \")\n        if choice.strip().lower() in [\"exit\", \"out\", \"no\", \"faux\"]:\n            break\n        elif choice.strip().lower() == \"/generate_specific_reports\":\n            status = input(\"Enter status (or leave blank): \")\n            score_column = input(\"Enter score column (or leave blank): \")\n            skill = input(\"Enter skill (or leave blank): \")",
         "detail": "main_interface",
         "documentation": {}
     }
