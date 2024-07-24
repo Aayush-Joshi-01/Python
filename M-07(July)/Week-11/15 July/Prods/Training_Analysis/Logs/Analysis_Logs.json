@@ -102,3 +102,270 @@
 2024-07-24 12:49:25,720 - Decorators.Logger_Analysis - DEBUG - Calling the get_db_connection with args () and kwargs {}
 2024-07-24 12:49:25,739 - Decorators.Logger_Analysis - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x0000022700F316D0>
 2024-07-24 12:49:25,751 - Decorators.Logger_Analysis - DEBUG - Calling the main with args () and kwargs {}
+2024-07-24 12:51:46,261 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,278 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,286 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,301 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,306 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,306 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,327 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,327 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,344 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,359 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,359 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,375 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,375 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,391 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,391 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,406 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,422 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,422 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,438 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,438 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,453 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,453 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,469 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,485 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,485 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,500 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,509 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,519 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,529 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,540 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,550 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,558 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,568 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,570 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,584 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,593 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,601 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,611 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,622 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessor', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,640 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,640 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessorController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,655 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessorController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,655 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessorController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,655 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessorController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,671 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', 'DataProcessorController', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,671 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,718 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,734 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,734 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,740 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', '<module>', '_call_with_frames_removed', 'exec_module', '_load_unlocked', '_find_and_load_unlocked', '_find_and_load', '<module>']
+2024-07-24 12:51:46,740 - Decorators.Logger_Analysis - DEBUG - function calls: ['analysis_logger', '<module>']
+2024-07-24 12:51:46,740 - Decorators.Logger_Analysis - DEBUG - Calling the analysis_login_system with args (<function main at 0x00000210E5FC5260>,) and kwargs {}
+2024-07-24 12:51:46,740 - Decorators.Logger_Analysis - DEBUG - analysis_login_system returned <function analysis_login_system.<locals>.wrapper at 0x00000210E5FC51C0>
+2024-07-24 12:52:07,914 - Decorators.Logger_Analysis - DEBUG - Calling the get_db_connection with args () and kwargs {}
+2024-07-24 12:52:07,943 - Decorators.Logger_Analysis - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x00000210E5F51880>
+2024-07-24 12:52:19,099 - Decorators.Logger_Analysis - DEBUG - Calling the get_db_connection with args () and kwargs {}
+2024-07-24 12:52:19,119 - Decorators.Logger_Analysis - DEBUG - get_db_connection returned <pymysql.connections.Connection object at 0x00000210E5F517C0>
+2024-07-24 12:52:19,125 - Decorators.Logger_Analysis - DEBUG - Calling the main with args () and kwargs {}
+2024-07-24 12:52:25,037 - Decorators.Logger_Analysis - DEBUG - Calling the route with args ('/grouping',) and kwargs {}
+2024-07-24 12:52:25,037 - Decorators.Logger_Analysis - DEBUG - Calling the perform_basic_grouping with args (<Controller.analysis_controller.DataProcessorController object at 0x00000210D23F7F20>,) and kwargs {}
+2024-07-24 12:52:25,146 - Decorators.Logger_Analysis - DEBUG - Calling the group_by_skill with args (<Models.data_processor.DataProcessor object at 0x00000210E57EFF20>,) and kwargs {}
+2024-07-24 12:52:25,146 - Decorators.Logger_Analysis - DEBUG - group_by_skill returned <pandas.core.groupby.generic.DataFrameGroupBy object at 0x00000210E5D5CB00>
+2024-07-24 12:52:25,146 - Decorators.Logger_Analysis - DEBUG - Calling the show_data with args () and kwargs {'grouped_data': <pandas.core.groupby.generic.DataFrameGroupBy object at 0x00000210E5D5CB00>, 'type_name': 'Group By Skill', 'columns': ['Name', 'Emp ID', 'Current Skills', 'Current location']}
+2024-07-24 12:52:25,193 - Decorators.Logger_Analysis - DEBUG - show_data returned None
+2024-07-24 12:52:25,193 - Decorators.Logger_Analysis - DEBUG - Calling the group_by_grade with args (<Models.data_processor.DataProcessor object at 0x00000210E57EFF20>,) and kwargs {}
+2024-07-24 12:52:25,193 - Decorators.Logger_Analysis - DEBUG - group_by_grade returned <pandas.core.groupby.generic.DataFrameGroupBy object at 0x00000210E5B11A30>
+2024-07-24 12:52:25,193 - Decorators.Logger_Analysis - DEBUG - Calling the show_data with args () and kwargs {'grouped_data': <pandas.core.groupby.generic.DataFrameGroupBy object at 0x00000210E5B11A30>, 'type_name': 'Group By Grade', 'columns': ['Name', 'Emp ID', 'Grade', 'Current location', 'Project']}
+2024-07-24 12:52:25,210 - Decorators.Logger_Analysis - DEBUG - show_data returned None
+2024-07-24 12:52:25,210 - Decorators.Logger_Analysis - DEBUG - Calling the group_by_allocation with args (<Models.data_processor.DataProcessor object at 0x00000210E57EFF20>,) and kwargs {}
+2024-07-24 12:52:25,210 - Decorators.Logger_Analysis - DEBUG - group_by_allocation returned <pandas.core.groupby.generic.DataFrameGroupBy object at 0x00000210E5D5CB00>
+2024-07-24 12:52:25,210 - Decorators.Logger_Analysis - DEBUG - Calling the show_data with args () and kwargs {'grouped_data': <pandas.core.groupby.generic.DataFrameGroupBy object at 0x00000210E5D5CB00>, 'type_name': 'Group By Allocation', 'columns': ['Name', 'Emp ID', 'Current Allocation', 'Status']}
+2024-07-24 12:52:25,229 - Decorators.Logger_Analysis - DEBUG - show_data returned None
+2024-07-24 12:52:25,229 - Decorators.Logger_Analysis - DEBUG - Calling the group_by_project with args (<Models.data_processor.DataProcessor object at 0x00000210E57EFF20>,) and kwargs {}
+2024-07-24 12:52:25,229 - Decorators.Logger_Analysis - DEBUG - group_by_project returned <pandas.core.groupby.generic.DataFrameGroupBy object at 0x00000210E59C6CF0>
+2024-07-24 12:52:25,229 - Decorators.Logger_Analysis - DEBUG - Calling the show_data with args () and kwargs {'grouped_data': <pandas.core.groupby.generic.DataFrameGroupBy object at 0x00000210E59C6CF0>, 'type_name': 'Group By Project', 'columns': ['Name', 'Emp ID', 'Current Allocation', 'Status', 'Project']}
+2024-07-24 12:52:25,261 - Decorators.Logger_Analysis - DEBUG - show_data returned None
+2024-07-24 12:52:25,261 - Decorators.Logger_Analysis - DEBUG - Calling the group_by_place with args (<Models.data_processor.DataProcessor object at 0x00000210E57EFF20>,) and kwargs {}
+2024-07-24 12:52:25,268 - Decorators.Logger_Analysis - DEBUG - group_by_place returned <pandas.core.groupby.generic.DataFrameGroupBy object at 0x00000210E655B440>
+2024-07-24 12:52:25,268 - Decorators.Logger_Analysis - DEBUG - Calling the show_data with args () and kwargs {'grouped_data': <pandas.core.groupby.generic.DataFrameGroupBy object at 0x00000210E655B440>, 'type_name': 'Group By Place'}
+2024-07-24 12:52:25,276 - Decorators.Logger_Analysis - DEBUG - show_data returned None
+2024-07-24 12:52:25,276 - Decorators.Logger_Analysis - DEBUG - Calling the group_by_training_status with args (<Models.data_processor.DataProcessor object at 0x00000210E57EFF20>,) and kwargs {}
+2024-07-24 12:52:25,276 - Decorators.Logger_Analysis - ERROR - Error in group_by_training_status: No axis named Name for object type DataFrame
+Traceback (most recent call last):
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\.venv\Lib\site-packages\pandas\core\generic.py", line 576, in _get_axis_number
+    return cls._AXIS_TO_AXIS_NUMBER[axis]
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'Name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Models\data_processor.py", line 73, in group_by_training_status
+    return self.df.count('Name').groupby('Status')
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\.venv\Lib\site-packages\pandas\core\frame.py", line 11420, in count
+    axis = self._get_axis_number(axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\.venv\Lib\site-packages\pandas\core\generic.py", line 578, in _get_axis_number
+    raise ValueError(f"No axis named {axis} for object type {cls.__name__}")
+ValueError: No axis named Name for object type DataFrame
+2024-07-24 12:52:25,308 - Decorators.Logger_Analysis - ERROR - Error in perform_basic_grouping: No axis named Name for object type DataFrame
+Traceback (most recent call last):
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\.venv\Lib\site-packages\pandas\core\generic.py", line 576, in _get_axis_number
+    return cls._AXIS_TO_AXIS_NUMBER[axis]
+           ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+KeyError: 'Name'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Controller\analysis_controller.py", line 29, in perform_basic_grouping
+    grouped_data = self.model.group_by_training_status()
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Models\data_processor.py", line 73, in group_by_training_status
+    return self.df.count('Name').groupby('Status')
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\.venv\Lib\site-packages\pandas\core\frame.py", line 11420, in count
+    axis = self._get_axis_number(axis)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\.venv\Lib\site-packages\pandas\core\generic.py", line 578, in _get_axis_number
+    raise ValueError(f"No axis named {axis} for object type {cls.__name__}")
+ValueError: No axis named Name for object type DataFrame
+2024-07-24 12:52:25,308 - Decorators.Logger_Analysis - DEBUG - route returned None
+2024-07-24 12:52:43,006 - Decorators.Logger_Analysis - DEBUG - Calling the route with args ('/general_report',) and kwargs {}
+2024-07-24 12:52:43,006 - Decorators.Logger_Analysis - DEBUG - Calling the generate_general_reports with args (<Controller.analysis_controller.DataProcessorController object at 0x00000210E5F508C0>,) and kwargs {}
+2024-07-24 12:52:43,072 - Decorators.Logger_Analysis - DEBUG - Calling the plot_group_by_competency with args (<Models.data_processor.DataProcessor object at 0x00000210E5FC25D0>,) and kwargs {}
+2024-07-24 12:52:43,072 - Decorators.Logger_Analysis - DEBUG - Calling the group_by_competency with args (<Models.data_processor.DataProcessor object at 0x00000210E5FC25D0>,) and kwargs {}
+2024-07-24 12:52:43,089 - Decorators.Logger_Analysis - DEBUG - group_by_competency returned <pandas.core.groupby.generic.DataFrameGroupBy object at 0x00000210E5F53A10>
+2024-07-24 12:52:43,089 - Decorators.Logger_Analysis - DEBUG - Calling the save_plot with args (<Models.data_processor.DataProcessor object at 0x00000210E5FC25D0>, <function DataProcessor.plot_group_by_competency.<locals>.<lambda> at 0x00000210E2961120>, 'Group_by_Competency') and kwargs {}
+2024-07-24 12:53:08,344 - Decorators.Logger_Analysis - DEBUG - save_plot returned None
+2024-07-24 12:53:08,351 - Decorators.Logger_Analysis - DEBUG - plot_group_by_competency returned None
+2024-07-24 12:53:08,351 - Decorators.Logger_Analysis - DEBUG - Calling the plot_group_by_skill with args (<Models.data_processor.DataProcessor object at 0x00000210E5FC25D0>,) and kwargs {}
+2024-07-24 12:53:08,351 - Decorators.Logger_Analysis - DEBUG - Calling the group_by_skill with args (<Models.data_processor.DataProcessor object at 0x00000210E5FC25D0>,) and kwargs {}
+2024-07-24 12:53:08,355 - Decorators.Logger_Analysis - DEBUG - group_by_skill returned <pandas.core.groupby.generic.DataFrameGroupBy object at 0x00000210E5D32330>
+2024-07-24 12:53:08,359 - Decorators.Logger_Analysis - DEBUG - Calling the save_plot with args (<Models.data_processor.DataProcessor object at 0x00000210E5FC25D0>, <function DataProcessor.plot_group_by_skill.<locals>.<lambda> at 0x00000210E2961120>, 'Group_by_Skill') and kwargs {}
+2024-07-24 12:53:14,431 - Decorators.Logger_Analysis - DEBUG - save_plot returned None
+2024-07-24 12:53:14,431 - Decorators.Logger_Analysis - DEBUG - plot_group_by_skill returned None
+2024-07-24 12:53:14,431 - Decorators.Logger_Analysis - DEBUG - Calling the plot_group_by_grade with args (<Models.data_processor.DataProcessor object at 0x00000210E5FC25D0>,) and kwargs {}
+2024-07-24 12:53:14,431 - Decorators.Logger_Analysis - DEBUG - Calling the group_by_grade with args (<Models.data_processor.DataProcessor object at 0x00000210E5FC25D0>,) and kwargs {}
+2024-07-24 12:53:14,439 - Decorators.Logger_Analysis - DEBUG - group_by_grade returned <pandas.core.groupby.generic.DataFrameGroupBy object at 0x00000210E5AFC680>
+2024-07-24 12:53:14,439 - Decorators.Logger_Analysis - DEBUG - Calling the save_plot with args (<Models.data_processor.DataProcessor object at 0x00000210E5FC25D0>, <function DataProcessor.plot_group_by_grade.<locals>.<lambda> at 0x00000210E2961120>, 'Group_by_Grade') and kwargs {}
+2024-07-24 12:53:18,683 - Decorators.Logger_Analysis - DEBUG - save_plot returned None
+2024-07-24 12:53:18,683 - Decorators.Logger_Analysis - DEBUG - plot_group_by_grade returned None
+2024-07-24 12:53:18,683 - Decorators.Logger_Analysis - DEBUG - Calling the plot_group_by_allocation with args (<Models.data_processor.DataProcessor object at 0x00000210E5FC25D0>,) and kwargs {}
+2024-07-24 12:53:18,683 - Decorators.Logger_Analysis - DEBUG - Calling the group_by_allocation with args (<Models.data_processor.DataProcessor object at 0x00000210E5FC25D0>,) and kwargs {}
+2024-07-24 12:53:18,683 - Decorators.Logger_Analysis - DEBUG - group_by_allocation returned <pandas.core.groupby.generic.DataFrameGroupBy object at 0x00000210E69BFCE0>
+2024-07-24 12:53:18,685 - Decorators.Logger_Analysis - DEBUG - Calling the save_plot with args (<Models.data_processor.DataProcessor object at 0x00000210E5FC25D0>, <function DataProcessor.plot_group_by_allocation.<locals>.<lambda> at 0x00000210E96877E0>, 'Group_by_Allocation') and kwargs {}
+2024-07-24 12:53:28,293 - Decorators.Logger_Analysis - ERROR - Error in save_plot: [WinError 233] No process is on the other end of the pipe
+Traceback (most recent call last):
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Models\data_processor.py", line 20, in save_plot
+    if input(f"Do you want to save the plot '{plot_name}'? (y/n): ").lower() == 'y':
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 233] No process is on the other end of the pipe
+2024-07-24 12:53:28,293 - Decorators.Logger_Analysis - ERROR - Error in plot_group_by_allocation: [WinError 233] No process is on the other end of the pipe
+Traceback (most recent call last):
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Models\data_processor.py", line 149, in plot_group_by_allocation
+    self.save_plot(lambda: sns.barplot(x=grouped.index, y=grouped.values),
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Models\data_processor.py", line 20, in save_plot
+    if input(f"Do you want to save the plot '{plot_name}'? (y/n): ").lower() == 'y':
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 233] No process is on the other end of the pipe
+2024-07-24 12:53:28,293 - Decorators.Logger_Analysis - ERROR - Error in generate_general_reports: [WinError 233] No process is on the other end of the pipe
+Traceback (most recent call last):
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Controller\analysis_controller.py", line 52, in generate_general_reports
+    self.model.plot_group_by_allocation()
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Models\data_processor.py", line 149, in plot_group_by_allocation
+    self.save_plot(lambda: sns.barplot(x=grouped.index, y=grouped.values),
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Models\data_processor.py", line 20, in save_plot
+    if input(f"Do you want to save the plot '{plot_name}'? (y/n): ").lower() == 'y':
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 233] No process is on the other end of the pipe
+2024-07-24 12:53:28,293 - Decorators.Logger_Analysis - ERROR - Error in route: [WinError 233] No process is on the other end of the pipe
+Traceback (most recent call last):
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Routes\analysis_url.py", line 33, in route
+    return view(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Controller\analysis_controller.py", line 52, in generate_general_reports
+    self.model.plot_group_by_allocation()
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Models\data_processor.py", line 149, in plot_group_by_allocation
+    self.save_plot(lambda: sns.barplot(x=grouped.index, y=grouped.values),
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Models\data_processor.py", line 20, in save_plot
+    if input(f"Do you want to save the plot '{plot_name}'? (y/n): ").lower() == 'y':
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 233] No process is on the other end of the pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Routes\analysis_url.py", line 36, in route
+    print(e)
+OSError: [WinError 233] No process is on the other end of the pipe
+2024-07-24 12:53:28,301 - Decorators.Logger_Analysis - ERROR - Error in main: [WinError 233] No process is on the other end of the pipe
+Traceback (most recent call last):
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Routes\analysis_url.py", line 33, in route
+    return view(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Controller\analysis_controller.py", line 52, in generate_general_reports
+    self.model.plot_group_by_allocation()
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Models\data_processor.py", line 149, in plot_group_by_allocation
+    self.save_plot(lambda: sns.barplot(x=grouped.index, y=grouped.values),
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Models\data_processor.py", line 20, in save_plot
+    if input(f"Do you want to save the plot '{plot_name}'? (y/n): ").lower() == 'y':
+       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+OSError: [WinError 233] No process is on the other end of the pipe
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\main_interface.py", line 29, in main
+    route(choice)
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Decorators\Logger_Analysis.py", line 29, in wrapper
+    result: Any = func(*args, **kwargs)
+                  ^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Python_Training\M-07(July)\Week-11\15 July\Prods\Training_Analysis\Routes\analysis_url.py", line 36, in route
+    print(e)
+OSError: [WinError 233] No process is on the other end of the pipe
