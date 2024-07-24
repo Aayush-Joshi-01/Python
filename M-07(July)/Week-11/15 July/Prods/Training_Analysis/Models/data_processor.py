@@ -70,7 +70,7 @@ class DataProcessor:
 
     @analysis_logger
     def group_by_training_status(self):
-        return self.df.count('Name').groupby('Status')
+        return self.df.groupby('Status')
 
     @analysis_logger
     def group_by_training_type(self):
