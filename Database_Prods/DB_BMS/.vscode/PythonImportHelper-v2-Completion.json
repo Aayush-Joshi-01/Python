@@ -1,0 +1,579 @@
+[
+    {
+        "label": "pymysql",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pymysql",
+        "description": "pymysql",
+        "detail": "pymysql",
+        "documentation": {}
+    },
+    {
+        "label": "DictCursor",
+        "importPath": "pymysql.cursors",
+        "description": "pymysql.cursors",
+        "isExtraImport": true,
+        "detail": "pymysql.cursors",
+        "documentation": {}
+    },
+    {
+        "label": "logger_v",
+        "importPath": "Database_Prods.DB_BMS.decorators.generate_logs",
+        "description": "Database_Prods.DB_BMS.decorators.generate_logs",
+        "isExtraImport": true,
+        "detail": "Database_Prods.DB_BMS.decorators.generate_logs",
+        "documentation": {}
+    },
+    {
+        "label": "logger_v",
+        "importPath": "Database_Prods.DB_BMS.decorators.generate_logs",
+        "description": "Database_Prods.DB_BMS.decorators.generate_logs",
+        "isExtraImport": true,
+        "detail": "Database_Prods.DB_BMS.decorators.generate_logs",
+        "documentation": {}
+    },
+    {
+        "label": "logger_v",
+        "importPath": "Database_Prods.DB_BMS.decorators.generate_logs",
+        "description": "Database_Prods.DB_BMS.decorators.generate_logs",
+        "isExtraImport": true,
+        "detail": "Database_Prods.DB_BMS.decorators.generate_logs",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "functools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "functools",
+        "description": "functools",
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "BankController",
+        "importPath": "Database_Prods.DB_BMS.controllers.bank_controller",
+        "description": "Database_Prods.DB_BMS.controllers.bank_controller",
+        "isExtraImport": true,
+        "detail": "Database_Prods.DB_BMS.controllers.bank_controller",
+        "documentation": {}
+    },
+    {
+        "label": "TransactionController",
+        "importPath": "Database_Prods.DB_BMS.controllers.transaction_controller",
+        "description": "Database_Prods.DB_BMS.controllers.transaction_controller",
+        "isExtraImport": true,
+        "detail": "Database_Prods.DB_BMS.controllers.transaction_controller",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_db",
+        "importPath": "Database_Prods.DB_BMS.db.database",
+        "description": "Database_Prods.DB_BMS.db.database",
+        "isExtraImport": true,
+        "detail": "Database_Prods.DB_BMS.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db_connection",
+        "importPath": "Database_Prods.DB_BMS.db.database",
+        "description": "Database_Prods.DB_BMS.db.database",
+        "isExtraImport": true,
+        "detail": "Database_Prods.DB_BMS.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_db",
+        "importPath": "Database_Prods.DB_BMS.db.database",
+        "description": "Database_Prods.DB_BMS.db.database",
+        "isExtraImport": true,
+        "detail": "Database_Prods.DB_BMS.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "get_db_connection",
+        "importPath": "Database_Prods.DB_BMS.db.database",
+        "description": "Database_Prods.DB_BMS.db.database",
+        "isExtraImport": true,
+        "detail": "Database_Prods.DB_BMS.db.database",
+        "documentation": {}
+    },
+    {
+        "label": "InsufficientFundsError",
+        "importPath": "Database_Prods.DB_BMS.exceptions.custom_exceptions",
+        "description": "Database_Prods.DB_BMS.exceptions.custom_exceptions",
+        "isExtraImport": true,
+        "detail": "Database_Prods.DB_BMS.exceptions.custom_exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "AccountNotFoundError",
+        "importPath": "Database_Prods.DB_BMS.exceptions.custom_exceptions",
+        "description": "Database_Prods.DB_BMS.exceptions.custom_exceptions",
+        "isExtraImport": true,
+        "detail": "Database_Prods.DB_BMS.exceptions.custom_exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InsufficientFundsError",
+        "importPath": "Database_Prods.DB_BMS.exceptions.custom_exceptions",
+        "description": "Database_Prods.DB_BMS.exceptions.custom_exceptions",
+        "isExtraImport": true,
+        "detail": "Database_Prods.DB_BMS.exceptions.custom_exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "importPath": "Database_Prods.DB_BMS.models.account",
+        "description": "Database_Prods.DB_BMS.models.account",
+        "isExtraImport": true,
+        "detail": "Database_Prods.DB_BMS.models.account",
+        "documentation": {}
+    },
+    {
+        "label": "Log",
+        "importPath": "Database_Prods.DB_BMS.models.log",
+        "description": "Database_Prods.DB_BMS.models.log",
+        "isExtraImport": true,
+        "detail": "Database_Prods.DB_BMS.models.log",
+        "documentation": {}
+    },
+    {
+        "label": "Transaction",
+        "importPath": "Database_Prods.DB_BMS.models.transaction",
+        "description": "Database_Prods.DB_BMS.models.transaction",
+        "isExtraImport": true,
+        "detail": "Database_Prods.DB_BMS.models.transaction",
+        "documentation": {}
+    },
+    {
+        "label": "login_banking_system",
+        "importPath": "Database_Prods.DB_BMS.decorators.login_decorator",
+        "description": "Database_Prods.DB_BMS.decorators.login_decorator",
+        "isExtraImport": true,
+        "detail": "Database_Prods.DB_BMS.decorators.login_decorator",
+        "documentation": {}
+    },
+    {
+        "label": "route",
+        "importPath": "Database_Prods.DB_BMS.routes.url",
+        "description": "Database_Prods.DB_BMS.routes.url",
+        "isExtraImport": true,
+        "detail": "Database_Prods.DB_BMS.routes.url",
+        "documentation": {}
+    },
+    {
+        "label": "BankController",
+        "kind": 6,
+        "importPath": "controllers.bank_controller",
+        "description": "controllers.bank_controller",
+        "peekOfCode": "class BankController:\n    @staticmethod\n    @logger_v\n    def create_account(account_number: str, name: str, ifsc_code: str, branch_name: str, state: str,\n                       district: str, country: str, account_type: str, initial_balance: float) -> None:\n        \"\"\"\n        Creates a new account with the provided details.\n        :param account_number: The account number.\n        :param name: The name of the account holder.\n        :param ifsc_code: The IFSC code of the bank branch.",
+        "detail": "controllers.bank_controller",
+        "documentation": {}
+    },
+    {
+        "label": "TransactionController",
+        "kind": 6,
+        "importPath": "controllers.transaction_controller",
+        "description": "controllers.transaction_controller",
+        "peekOfCode": "class TransactionController:\n    @staticmethod\n    def deposit(account_number: str, amount: float) -> None:\n        \"\"\"\n        Deposits the specified amount into the account.\n        :param account_number: The account number.\n        :param amount: The amount to deposit.\n        \"\"\"\n        try:\n            Transaction.deposit(account_number, amount)",
+        "detail": "controllers.transaction_controller",
+        "documentation": {}
+    },
+    {
+        "label": "get_db_connection",
+        "kind": 2,
+        "importPath": "db.database",
+        "description": "db.database",
+        "peekOfCode": "def get_db_connection():\n    \"\"\"\n    Establishes and returns a connection to the MySQL database.\n    :return: Connection object to the MySQL database.\n    \"\"\"\n    connection = pymysql.connect(\n        host='localhost',\n        user='root',\n        password='root',\n        database='bank_management',",
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_db",
+        "kind": 2,
+        "importPath": "db.database",
+        "description": "db.database",
+        "peekOfCode": "def initialize_db():\n    \"\"\"\n    Initializes the database by creating the necessary tables if they do not exist.\n    \"\"\"\n    connection = get_db_connection()\n    try:\n        with connection.cursor() as cursor:\n            # Create bank_management database\n            cursor.execute(\"\"\"\n                        CREATE DATABASE IF NOT EXISTS bank_management",
+        "detail": "db.database",
+        "documentation": {}
+    },
+    {
+        "label": "logger_v",
+        "kind": 2,
+        "importPath": "decorators.generate_logs",
+        "description": "decorators.generate_logs",
+        "peekOfCode": "def logger_v(func: Callable[..., Any]) -> Callable[..., Any]:\n    \"\"\"\n    A decorator to log function calls with arguments, results, and nested function calls.\n    \"\"\"\n    @functools.wraps(func)\n    def wrapper(*args: Any, **kwargs: Any) -> Any:\n        logger.debug(f'Calling the {func.__name__} with args {args} and kwargs {kwargs}')\n        try:\n            result: Any = func(*args, **kwargs)\n            logger.debug(f'{func.__name__} returned {result}')",
+        "detail": "decorators.generate_logs",
+        "documentation": {}
+    },
+    {
+        "label": "login_banking_system",
+        "kind": 2,
+        "importPath": "decorators.login_decorator",
+        "description": "decorators.login_decorator",
+        "peekOfCode": "def login_banking_system(func: Callable[..., Any]) -> Callable[..., Any]:\n    \"\"\"\n    A decorator that checks if the user is logged in before calling the decorated function.\n    Args:\n        func: The function to decorate.\n    Returns: the main function to execute the code\n    \"\"\"\n    def wrapper(*args: Any, **kwargs: Any) -> Any:\n        username = input(\"Enter the admin Username: \")\n        password = input(\"Enter the admin Password: \")",
+        "detail": "decorators.login_decorator",
+        "documentation": {}
+    },
+    {
+        "label": "AccountError",
+        "kind": 6,
+        "importPath": "exceptions.custom_exceptions",
+        "description": "exceptions.custom_exceptions",
+        "peekOfCode": "class AccountError(Exception):\n    \"\"\"\n    Base class for all account-related exceptions.\n    \"\"\"\n    def __init__(self, message) -> None:\n        self.message = message\n        print(self.message)\n        super().__init__(message)\n    pass\nclass AccountNotFoundError(AccountError):",
+        "detail": "exceptions.custom_exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "AccountNotFoundError",
+        "kind": 6,
+        "importPath": "exceptions.custom_exceptions",
+        "description": "exceptions.custom_exceptions",
+        "peekOfCode": "class AccountNotFoundError(AccountError):\n    \"\"\"\n    Raised when an account is not found.\n    Attributes:\n        message (str): The error message.\n    \"\"\"\n    def __init__(self, message: str) -> None:\n        self.message = message\n        super().__init__(message)\nclass InsufficientFundsError(AccountError):",
+        "detail": "exceptions.custom_exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InsufficientFundsError",
+        "kind": 6,
+        "importPath": "exceptions.custom_exceptions",
+        "description": "exceptions.custom_exceptions",
+        "peekOfCode": "class InsufficientFundsError(AccountError):\n    \"\"\"\n    Raised when an account does not have sufficient funds.\n    Attributes:\n        message (str): The error message.\n    \"\"\"\n    def __init__(self, message: str) -> None:\n        self.message = message\n        super().__init__(message)\nclass AccountAlreadyExistsError(AccountError):",
+        "detail": "exceptions.custom_exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "AccountAlreadyExistsError",
+        "kind": 6,
+        "importPath": "exceptions.custom_exceptions",
+        "description": "exceptions.custom_exceptions",
+        "peekOfCode": "class AccountAlreadyExistsError(AccountError):\n    \"\"\"\n    Raised when an account with the same account number already exists.\n    Attributes:\n        message (str): The error message.\n    \"\"\"\n    def __init__(self, message: str) -> None:\n        self.message = message\n        super().__init__(message)\nclass InvalidInitialBalanceError(AccountError):",
+        "detail": "exceptions.custom_exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "InvalidInitialBalanceError",
+        "kind": 6,
+        "importPath": "exceptions.custom_exceptions",
+        "description": "exceptions.custom_exceptions",
+        "peekOfCode": "class InvalidInitialBalanceError(AccountError):\n    \"\"\"\n    Raised when the initial balance of an account is invalid.\n    Attributes:\n        message (str): The error message.\n    \"\"\"\n    def __init__(self, message: str) -> None:\n        self.message = message\n        super().__init__(message)",
+        "detail": "exceptions.custom_exceptions",
+        "documentation": {}
+    },
+    {
+        "label": "Account",
+        "kind": 6,
+        "importPath": "models.account",
+        "description": "models.account",
+        "peekOfCode": "class Account:\n    def __init__(self, account_number: str, name: str, ifsc_code: str, branch_name: str, state: str,\n                 district: str, country: str, account_type: str, balance: float):\n        self.account_number = account_number\n        self.name = name\n        self.ifsc_code = ifsc_code\n        self.branch_name = branch_name\n        self.state = state\n        self.district = district\n        self.country = country",
+        "detail": "models.account",
+        "documentation": {}
+    },
+    {
+        "label": "Log",
+        "kind": 6,
+        "importPath": "models.log",
+        "description": "models.log",
+        "peekOfCode": "class Log:\n    def __init__(self, action: str, account_number: str, amount: float, target_account: str = None, error: str = None):\n        self.action = action\n        self.account_number = account_number\n        self.amount = amount\n        self.target_account = target_account\n        self.error = error\n    @staticmethod\n    @logger_v\n    def log_action(action: str, account_number: str = None, amount: float = None, target_account: str = None,",
+        "detail": "models.log",
+        "documentation": {}
+    },
+    {
+        "label": "Transaction",
+        "kind": 6,
+        "importPath": "models.transaction",
+        "description": "models.transaction",
+        "peekOfCode": "class Transaction:\n    def __init__(self, account_number: str, transaction_type: str, amount: float, target_account: str = None):\n        self.account_number = account_number\n        self.transaction_type = transaction_type\n        self.amount = amount\n        self.target_account = target_account\n    @staticmethod\n    @logger_v\n    def deposit(account_number: str, amount: float) -> None:\n        \"\"\"",
+        "detail": "models.transaction",
+        "documentation": {}
+    },
+    {
+        "label": "route",
+        "kind": 2,
+        "importPath": "routes.url",
+        "description": "routes.url",
+        "peekOfCode": "def route(url: str, *args: Any, **kwargs: Any) -> Any:\n    \"\"\"\n    Routes a URL to a view function.\n    Args:\n        url (str): The URL to route.\n        *args: Variable length arguments to pass to the view function.\n        **kwargs: Variable keyword arguments to pass to the view function.\n    Raises:\n        Exception: If the URL is not found.\n    Returns:",
+        "detail": "routes.url",
+        "documentation": {}
+    },
+    {
+        "label": "setup_database",
+        "kind": 2,
+        "importPath": "tests.test_controllers",
+        "description": "tests.test_controllers",
+        "peekOfCode": "def setup_database():\n    initialize_db()\n    yield\n    connection = get_db_connection()\n    with connection.cursor() as cursor:\n        cursor.execute(\"DROP TABLE logs\")\n        cursor.execute(\"DROP TABLE transactions\")\n        cursor.execute(\"DROP TABLE accounts\")\n    initialize_db()\n    connection.close()",
+        "detail": "tests.test_controllers",
+        "documentation": {}
+    },
+    {
+        "label": "setup_teardown",
+        "kind": 2,
+        "importPath": "tests.test_controllers",
+        "description": "tests.test_controllers",
+        "peekOfCode": "def setup_teardown():\n    connection = get_db_connection()\n    with connection.cursor() as cursor:\n        cursor.execute(\"DELETE FROM transactions\")\n        cursor.execute(\"DELETE FROM accounts\")\n        cursor.execute(\"DELETE FROM logs\")\n        connection.commit()\n    yield\n@pytest.mark.success\ndef test_create_account_controller(setup_database):",
+        "detail": "tests.test_controllers",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_account_controller",
+        "kind": 2,
+        "importPath": "tests.test_controllers",
+        "description": "tests.test_controllers",
+        "peekOfCode": "def test_create_account_controller(setup_database):\n    BankController.create_account(\"1002\", \"Jane Doe\", \"IFSC002\",\n                                  \"Branch2\", \"State2\", \"District2\", \"Country2\",\n                                  \"savings\", 9000.0)\n    account = BankController.get_account_details(\"1002\")\n    assert account is not None\n    assert account.account_number == \"1002\"\n    assert account.balance == 9000.0\n@pytest.mark.success\ndef test_debit_controller(setup_database):",
+        "detail": "tests.test_controllers",
+        "documentation": {}
+    },
+    {
+        "label": "test_debit_controller",
+        "kind": 2,
+        "importPath": "tests.test_controllers",
+        "description": "tests.test_controllers",
+        "peekOfCode": "def test_debit_controller(setup_database):\n    BankController.create_account(\"1001\", \"John Doe\", \"IFSC001\",\n                                  \"Main Branch\", \"State1\", \"District1\", \"Country1\",\n                                  \"savings\", 10000.0)\n    TransactionController.debit(\"1001\", 2000.0)\n    account = BankController.get_account_details(\"1001\")\n    assert account.balance == 8000.0\n@pytest.mark.failure\ndef test_debit_insufficient_funds_controller(setup_database):\n    BankController.create_account(\"1003\", \"John Doe\", \"IFSC001\",",
+        "detail": "tests.test_controllers",
+        "documentation": {}
+    },
+    {
+        "label": "test_debit_insufficient_funds_controller",
+        "kind": 2,
+        "importPath": "tests.test_controllers",
+        "description": "tests.test_controllers",
+        "peekOfCode": "def test_debit_insufficient_funds_controller(setup_database):\n    BankController.create_account(\"1003\", \"John Doe\", \"IFSC001\",\n                                  \"Main Branch\", \"State1\", \"District1\", \"Country1\",\n                                  \"savings\", 10000.0)\n    with pytest.raises(InsufficientFundsError):\n        TransactionController.debit(\"1003\", 12000.0)\n@pytest.mark.success\ndef test_credit_controller(setup_database):\n    BankController.create_account(\"1004\", \"John Doe\", \"IFSC001\",\n                                  \"Main Branch\", \"State1\", \"District1\", \"Country1\",",
+        "detail": "tests.test_controllers",
+        "documentation": {}
+    },
+    {
+        "label": "test_credit_controller",
+        "kind": 2,
+        "importPath": "tests.test_controllers",
+        "description": "tests.test_controllers",
+        "peekOfCode": "def test_credit_controller(setup_database):\n    BankController.create_account(\"1004\", \"John Doe\", \"IFSC001\",\n                                  \"Main Branch\", \"State1\", \"District1\", \"Country1\",\n                                  \"savings\", 10000.0)\n    TransactionController.credit(\"1004\", 2000.0)\n    account = BankController.get_account_details(\"1004\")\n    assert account.balance == 12000.0\n@pytest.mark.success\ndef test_transfer_controller(setup_database):\n    BankController.create_account(\"1007\", \"John Doe\", \"IFSC001\",",
+        "detail": "tests.test_controllers",
+        "documentation": {}
+    },
+    {
+        "label": "test_transfer_controller",
+        "kind": 2,
+        "importPath": "tests.test_controllers",
+        "description": "tests.test_controllers",
+        "peekOfCode": "def test_transfer_controller(setup_database):\n    BankController.create_account(\"1007\", \"John Doe\", \"IFSC001\",\n                                  \"Main Branch\", \"State1\", \"District1\", \"Country1\",\n                                  \"savings\", 10000.0)\n    BankController.create_account(\"1008\", \"Jake Doe\", \"IFSC003\",\n                                  \"Branch3\", \"State3\", \"District3\", \"Country3\",\n                                  \"savings\", 7000.0)\n    BankController.transfer(\"1007\", \"1008\", 2000.0)\n    sender = BankController.get_account_details(\"1007\")\n    receiver = BankController.get_account_details(\"1008\")",
+        "detail": "tests.test_controllers",
+        "documentation": {}
+    },
+    {
+        "label": "test_transfer_insufficient_funds_controller",
+        "kind": 2,
+        "importPath": "tests.test_controllers",
+        "description": "tests.test_controllers",
+        "peekOfCode": "def test_transfer_insufficient_funds_controller(setup_database):\n    BankController.create_account(\"1009\", \"John Doe\", \"IFSC001\",\n                                  \"Main Branch\", \"State1\", \"District1\", \"Country1\",\n                                  \"savings\", 10000.0)\n    BankController.create_account(\"1010\", \"Jake Doe\", \"IFSC003\",\n                                  \"Branch3\", \"State3\", \"District3\", \"Country3\",\n                                  \"savings\", 9000.0)\n    with pytest.raises(InsufficientFundsError):\n        BankController.transfer(\"1009\", \"1010\", 15000.0)\n@pytest.mark.failure",
+        "detail": "tests.test_controllers",
+        "documentation": {}
+    },
+    {
+        "label": "test_transfer_account_not_found_controller",
+        "kind": 2,
+        "importPath": "tests.test_controllers",
+        "description": "tests.test_controllers",
+        "peekOfCode": "def test_transfer_account_not_found_controller(setup_database):\n    BankController.create_account(\"1011\", \"John Doe\", \"IFSC001\",\n                                  \"Main Branch\", \"State1\", \"District1\", \"Country1\",\n                                  \"savings\", 10000.0)\n    with pytest.raises(AccountNotFoundError):\n        BankController.transfer(\"10100\", \"101010\", 2000.0)\n@pytest.mark.success\ndef test_view_transactions_controller(setup_database):\n    BankController.create_account(\"1012\", \"John Doe\", \"IFSC001\",\n                                  \"Main Branch\", \"State1\", \"District1\", \"Country1\",",
+        "detail": "tests.test_controllers",
+        "documentation": {}
+    },
+    {
+        "label": "test_view_transactions_controller",
+        "kind": 2,
+        "importPath": "tests.test_controllers",
+        "description": "tests.test_controllers",
+        "peekOfCode": "def test_view_transactions_controller(setup_database):\n    BankController.create_account(\"1012\", \"John Doe\", \"IFSC001\",\n                                  \"Main Branch\", \"State1\", \"District1\", \"Country1\",\n                                  \"savings\", 10000.0)\n    BankController.deposit(\"1012\", 1000.0)\n    BankController.debit(\"1012\", 500.0)\n    transactions = BankController.view_transactions(\"1012\")\n    assert len(transactions) == 2\n    assert transactions[0]['type'] == 'deposit'\n    assert transactions[0]['amount'] == 1000.0",
+        "detail": "tests.test_controllers",
+        "documentation": {}
+    },
+    {
+        "label": "test_view_transactions_account_not_found_controller",
+        "kind": 2,
+        "importPath": "tests.test_controllers",
+        "description": "tests.test_controllers",
+        "peekOfCode": "def test_view_transactions_account_not_found_controller(setup_database):\n    with pytest.raises(AccountNotFoundError):\n        BankController.view_transactions(\"5\")",
+        "detail": "tests.test_controllers",
+        "documentation": {}
+    },
+    {
+        "label": "setup_database",
+        "kind": 2,
+        "importPath": "tests.test_models",
+        "description": "tests.test_models",
+        "peekOfCode": "def setup_database():\n    initialize_db()\n    yield\n    connection = get_db_connection()\n    connection.close()\n@pytest.fixture(autouse=True)\ndef setup_teardown():\n    connection = get_db_connection()\n    with connection.cursor() as cursor:\n        cursor.execute(\"DELETE FROM transactions\")",
+        "detail": "tests.test_models",
+        "documentation": {}
+    },
+    {
+        "label": "setup_teardown",
+        "kind": 2,
+        "importPath": "tests.test_models",
+        "description": "tests.test_models",
+        "peekOfCode": "def setup_teardown():\n    connection = get_db_connection()\n    with connection.cursor() as cursor:\n        cursor.execute(\"DELETE FROM transactions\")\n        cursor.execute(\"DELETE FROM accounts\")\n        cursor.execute(\"DELETE FROM logs\")\n        connection.commit()\n    yield\n@pytest.mark.success\ndef test_create_account(setup_database):",
+        "detail": "tests.test_models",
+        "documentation": {}
+    },
+    {
+        "label": "test_create_account",
+        "kind": 2,
+        "importPath": "tests.test_models",
+        "description": "tests.test_models",
+        "peekOfCode": "def test_create_account(setup_database):\n    try:\n        account = Account(\"1002\", \"Jane Doe\", \"IFSC002\", \"Branch2\",\n                          \"State2\", \"District2\", \"Country2\", \"savings\",\n                          10000.0)\n        account.create_account(\"1002\", \"Jane Doe\", \"IFSC002\", \"Branch2\",\n                               \"State2\", \"District2\", \"Country2\", \"savings\",\n                               10000.0)\n        assert account is not None\n        assert account.account_number == \"1002\"",
+        "detail": "tests.test_models",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_account",
+        "kind": 2,
+        "importPath": "tests.test_models",
+        "description": "tests.test_models",
+        "peekOfCode": "def test_get_account(setup_database):\n    try:\n        Account.create_account(\"1001\", \"John Doe\", \"IFSC001\", \"Main Branch\",\n                               \"State1\", \"District1\", \"Country1\",\n                               \"savings\", 10000.0)\n        fetched_account = Account.load_account(\"1001\")\n        assert fetched_account is not None\n        assert fetched_account.name == \"John Doe\"\n        print(\"test_get_account passed\")\n    except AssertionError as e:",
+        "detail": "tests.test_models",
+        "documentation": {}
+    },
+    {
+        "label": "test_debit",
+        "kind": 2,
+        "importPath": "tests.test_models",
+        "description": "tests.test_models",
+        "peekOfCode": "def test_debit(setup_database):\n    try:\n        account = Account(\"1001\", \"John Doe\", \"IFSC001\", \"Main Branch\",\n                          \"State1\", \"District1\", \"Country1\",\n                          \"savings\", 10000.0)\n        account.create_account(\"1001\", \"John Doe\", \"IFSC001\", \"Main Branch\",\n                               \"State1\", \"District1\", \"Country1\", \"savings\",\n                               10000.0)\n        Transaction.debit(\"1001\", 2000.0)\n        updated_account = account.load_account(account.account_number)",
+        "detail": "tests.test_models",
+        "documentation": {}
+    },
+    {
+        "label": "test_debit_insufficient_funds",
+        "kind": 2,
+        "importPath": "tests.test_models",
+        "description": "tests.test_models",
+        "peekOfCode": "def test_debit_insufficient_funds(setup_database):\n    account = Account(\"1001\", \"John Doe\", \"IFSC001\", \"Main Branch\",\n                      \"State1\", \"District1\", \"Country1\",\n                      \"savings\", 10000.0)\n    account.create_account(\"1001\", \"John Doe\", \"IFSC001\", \"Main Branch\",\n                           \"State1\", \"District1\", \"Country1\", \"savings\",\n                           10000.0)\n    with pytest.raises(InsufficientFundsError):\n        Transaction.debit(account.account_number, 12000.0)\n    print(\"test_debit_insufficient_funds passed\")",
+        "detail": "tests.test_models",
+        "documentation": {}
+    },
+    {
+        "label": "test_credit",
+        "kind": 2,
+        "importPath": "tests.test_models",
+        "description": "tests.test_models",
+        "peekOfCode": "def test_credit(setup_database):\n    try:\n        account = Account(\"1001\", \"John Doe\", \"IFSC001\", \"Main Branch\",\n                          \"State1\", \"District1\", \"Country1\",\n                          \"savings\", 10000.0)\n        account.create_account(\"1001\", \"John Doe\", \"IFSC001\", \"Main Branch\",\n                               \"State1\", \"District1\", \"Country1\", \"savings\",\n                               10000.0)\n        Transaction.credit(account.account_number, 2000.0)\n        account = account.load_account(account.account_number)",
+        "detail": "tests.test_models",
+        "documentation": {}
+    },
+    {
+        "label": "test_transfer",
+        "kind": 2,
+        "importPath": "tests.test_models",
+        "description": "tests.test_models",
+        "peekOfCode": "def test_transfer(setup_database):\n    try:\n        sender = Account(\"1001\", \"John Doe\", \"IFSC001\", \"Main Branch\", \"State1\", \"District1\", \"Country1\",\n                         \"savings\", 10000.0)\n        receiver = Account(\"1003\", \"Jake Doe\", \"IFSC003\", \"Branch3\", \"State3\", \"District3\", \"Country3\",\n                           \"savings\", 10000.0)\n        sender.create_account(\"1001\", \"John Doe\", \"IFSC001\", \"Main Branch\", \"State1\", \"District1\", \"Country1\",\n                              \"savings\", 10000.0)\n        receiver.create_account(\"1003\", \"Jake Doe\", \"IFSC003\", \"Branch3\", \"State3\", \"District3\", \"Country3\",\n                                \"savings\", 10000.0)",
+        "detail": "tests.test_models",
+        "documentation": {}
+    },
+    {
+        "label": "test_view_transactions",
+        "kind": 2,
+        "importPath": "tests.test_models",
+        "description": "tests.test_models",
+        "peekOfCode": "def test_view_transactions(setup_database):\n    try:\n        account = Account(\"1001\", \"John Doe\", \"IFSC001\", \"Main Branch\", \"State1\", \"District1\", \"Country1\",\n                          \"savings\", 10000.0)\n        Account.create_account(\"1001\", \"John Doe\", \"IFSC001\", \"Main Branch\", \"State1\", \"District1\", \"Country1\",\n                               \"savings\", 10000.0)\n        Transaction.credit(\"1001\", 1000.0)\n        Transaction.debit(\"1001\", 500.0)\n        transactions = Transaction.get_all(account.account_number)\n        assert len(transactions) == 2",
+        "detail": "tests.test_models",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "views.interface",
+        "description": "views.interface",
+        "peekOfCode": "def main() -> None:\n    try:\n        while True:\n            print(\n                \"1: Create Account\\n2: Deposit\\n3: Debit\\n4: Credit\\n5: Get Account Details\\n6: Transfer\\n7: View \"\n                \"Transactions\\n8: Get Logs\\n9: Exit\")\n            choice: str = input(\"Enter choice: \")\n            if choice == \"1\":\n                account_number: str = input(\"Enter new account number: \")\n                name: str = input(\"Enter name: \")",
+        "detail": "views.interface",
+        "documentation": {}
+    }
+]

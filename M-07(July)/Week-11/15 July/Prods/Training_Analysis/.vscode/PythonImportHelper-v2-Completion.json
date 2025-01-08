@@ -1,0 +1,537 @@
+[
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "Models.data_loader",
+        "description": "Models.data_loader",
+        "isExtraImport": true,
+        "detail": "Models.data_loader",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "Models.data_loader",
+        "description": "Models.data_loader",
+        "isExtraImport": true,
+        "detail": "Models.data_loader",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "Models.data_loader",
+        "description": "Models.data_loader",
+        "isExtraImport": true,
+        "detail": "Models.data_loader",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "importPath": "Models.data_loader",
+        "description": "Models.data_loader",
+        "isExtraImport": true,
+        "detail": "Models.data_loader",
+        "documentation": {}
+    },
+    {
+        "label": "DataProcessor",
+        "importPath": "Models.data_processor",
+        "description": "Models.data_processor",
+        "isExtraImport": true,
+        "detail": "Models.data_processor",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "show_data",
+        "importPath": "Controller.group_viewer",
+        "description": "Controller.group_viewer",
+        "isExtraImport": true,
+        "detail": "Controller.group_viewer",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Logger_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Logger_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Logger_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Logger_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Logger_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Logger_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Logger_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_logger",
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Logger_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "functools",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "functools",
+        "description": "functools",
+        "detail": "functools",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "inspect",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "inspect",
+        "description": "inspect",
+        "detail": "inspect",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Any",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Callable",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "pymysql",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pymysql",
+        "description": "pymysql",
+        "detail": "pymysql",
+        "documentation": {}
+    },
+    {
+        "label": "DictCursor",
+        "importPath": "pymysql.cursors",
+        "description": "pymysql.cursors",
+        "isExtraImport": true,
+        "detail": "pymysql.cursors",
+        "documentation": {}
+    },
+    {
+        "label": "tqdm",
+        "importPath": "tqdm",
+        "description": "tqdm",
+        "isExtraImport": true,
+        "detail": "tqdm",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "DataProcessorController",
+        "importPath": "Controller.analysis_controller",
+        "description": "Controller.analysis_controller",
+        "isExtraImport": true,
+        "detail": "Controller.analysis_controller",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "clean_data",
+        "importPath": "Utils.data_utils",
+        "description": "Utils.data_utils",
+        "isExtraImport": true,
+        "detail": "Utils.data_utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_random_scores",
+        "importPath": "Utils.data_utils",
+        "description": "Utils.data_utils",
+        "isExtraImport": true,
+        "detail": "Utils.data_utils",
+        "documentation": {}
+    },
+    {
+        "label": "route",
+        "importPath": "Routes.analysis_url",
+        "description": "Routes.analysis_url",
+        "isExtraImport": true,
+        "detail": "Routes.analysis_url",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_login_system",
+        "importPath": "Decorators.Login_Analysis",
+        "description": "Decorators.Login_Analysis",
+        "isExtraImport": true,
+        "detail": "Decorators.Login_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "DataProcessorController",
+        "kind": 6,
+        "importPath": "Controller.analysis_controller",
+        "description": "Controller.analysis_controller",
+        "peekOfCode": "class DataProcessorController:\n    def __init__(self):\n        self.data = None\n        self.model = None\n    @analysis_logger\n    def perform_basic_grouping(self):\n        self.data = DataLoader().load_data()\n        self.model = DataProcessor(self.data)\n        print(\"Performing basic grouping operations...\\n\")\n        grouped_data = self.model.group_by_skill()",
+        "detail": "Controller.analysis_controller",
+        "documentation": {}
+    },
+    {
+        "label": "show_data",
+        "kind": 2,
+        "importPath": "Controller.group_viewer",
+        "description": "Controller.group_viewer",
+        "peekOfCode": "def show_data(grouped_data: pd.DataFrame, type_name: str, columns: list[str]=[]) -> None:\n    print(f\"Showing Data Grouped by {type_name}: .... \")\n    print(grouped_data.head().set_index('S.No')[columns])",
+        "detail": "Controller.group_viewer",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_logger",
+        "kind": 2,
+        "importPath": "Decorators.Logger_Analysis",
+        "description": "Decorators.Logger_Analysis",
+        "peekOfCode": "def analysis_logger(func: Callable[..., Any]) -> Callable[..., Any]:\n    \"\"\"\n    A decorator to log function calls with arguments, results, and nested function calls.\n    \"\"\"\n    @functools.wraps(func)\n    def wrapper(*args: Any, **kwargs: Any) -> Any:\n        logger.debug(f'Calling the {func.__name__} with args {args} and kwargs {kwargs}')\n        try:\n            result: Any = func(*args, **kwargs)\n            logger.debug(f'{func.__name__} returned {result}')",
+        "detail": "Decorators.Logger_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "create_db",
+        "kind": 2,
+        "importPath": "Decorators.Login_Analysis",
+        "description": "Decorators.Login_Analysis",
+        "peekOfCode": "def create_db():\n    \"\"\"\n    Creates the database if it does not exist.\n    \"\"\"\n    connection = pymysql.connect(\n        host='localhost',\n        user='root',\n        password='root'\n    )\n    try:",
+        "detail": "Decorators.Login_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "get_db_connection",
+        "kind": 2,
+        "importPath": "Decorators.Login_Analysis",
+        "description": "Decorators.Login_Analysis",
+        "peekOfCode": "def get_db_connection():\n    \"\"\"\n    Establishes and returns a connection to the MySQL database.\n    :return: Connection object to the MySQL database.\n    \"\"\"\n    connection = pymysql.connect(\n        host='localhost',\n        user='root',\n        password='root',\n        database='analysis_login',",
+        "detail": "Decorators.Login_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "initialize_db",
+        "kind": 2,
+        "importPath": "Decorators.Login_Analysis",
+        "description": "Decorators.Login_Analysis",
+        "peekOfCode": "def initialize_db():\n    \"\"\"\n    Initializes the database by creating the necessary tables if they do not exist.\n    \"\"\"\n    create_db()  # Create the database first\n    connection = get_db_connection()\n    try:\n        with connection.cursor() as cursor:\n            # Create accounts table\n            cursor.execute(\"\"\"",
+        "detail": "Decorators.Login_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "analysis_login_system",
+        "kind": 2,
+        "importPath": "Decorators.Login_Analysis",
+        "description": "Decorators.Login_Analysis",
+        "peekOfCode": "def analysis_login_system(func: Callable[..., Any]) -> Callable[..., Any]:\n    \"\"\"\n    A decorator that checks if the user is logged in before calling the decorated function.\n    Args:\n        func: The function to decorate.\n    Returns: the main function to execute the code\n    \"\"\"\n    def wrapper(*args: Any, **kwargs: Any) -> Any:\n        choice = input(\"Do you want to sign-in or signup or exit: \")\n        while True:",
+        "detail": "Decorators.Login_Analysis",
+        "documentation": {}
+    },
+    {
+        "label": "DataLoader",
+        "kind": 6,
+        "importPath": "Models.data_loader",
+        "description": "Models.data_loader",
+        "peekOfCode": "class DataLoader:\n    def __init__(self, file_path='Data/cleaned_data.csv'):\n        self.file_path = file_path\n    # @analysis_logger\n    def load_data(self):\n        try:\n            # Get the number of rows in the file\n            with open(self.file_path, 'r') as f:\n                total_rows = sum(1 for line in f) - 1  # Subtract 1 for header\n            # Load CSV into pandas DataFrame with progress bar",
+        "detail": "Models.data_loader",
+        "documentation": {}
+    },
+    {
+        "label": "DataProcessor",
+        "kind": 6,
+        "importPath": "Models.data_processor",
+        "description": "Models.data_processor",
+        "peekOfCode": "class DataProcessor:\n    def __init__(self, df):\n        self.df = df\n        self.reports_path = 'Reports/'\n    @analysis_logger\n    def save_plot(self, plot_func: Callable, plot_name: str) -> None:\n        if input(f\"Do you want to save the plot '{plot_name}'? (y/n): \").lower() == 'y':\n            plot_dir = os.path.join(self.reports_path, 'Visualizations')\n            os.makedirs(plot_dir, exist_ok=True)\n            plot_path = os.path.join(plot_dir, f\"{plot_name}.png\")",
+        "detail": "Models.data_processor",
+        "documentation": {}
+    },
+    {
+        "label": "route",
+        "kind": 2,
+        "importPath": "Routes.analysis_url",
+        "description": "Routes.analysis_url",
+        "peekOfCode": "def route(url: str, *args: Any, **kwargs: Any) -> Any:\n    \"\"\"\n    Routes a URL to a view function.\n    Args:\n        url (str): The URL to route.\n        *args: Variable length arguments to pass to the view function.\n        **kwargs: Variable keyword arguments to pass to the view function.\n    Raises:\n        Exception: If the URL is not found.\n    Returns:",
+        "detail": "Routes.analysis_url",
+        "documentation": {}
+    },
+    {
+        "label": "clean_data",
+        "kind": 2,
+        "importPath": "Utils.data_utils",
+        "description": "Utils.data_utils",
+        "peekOfCode": "def clean_data(df: pd.DataFrame) -> pd.DataFrame:\n    \"\"\"\n    Cleans the input DataFrame by handling missing values, removing duplicates,\n    standardizing column formats, cleaning skills, and generating random scores.\n    Args:\n        df (pd.DataFrame): The DataFrame to clean.\n    Returns:\n        pd.DataFrame: The cleaned DataFrame.\n    \"\"\"\n    # Remove duplicates",
+        "detail": "Utils.data_utils",
+        "documentation": {}
+    },
+    {
+        "label": "generate_random_scores",
+        "kind": 2,
+        "importPath": "Utils.data_utils",
+        "description": "Utils.data_utils",
+        "peekOfCode": "def generate_random_scores(df: pd.DataFrame, score_columns: list = ['pre_assessment_score', 'final_score']) -> pd.DataFrame:\n    \"\"\"\n    Generates random scores for specified columns in the DataFrame.\n    Args:\n        df (pd.DataFrame): The DataFrame to update.\n        score_columns (list): List of column names for which to generate random scores.\n    Returns:\n        pd.DataFrame: The updated DataFrame with random scores.\n    \"\"\"\n    for column in score_columns:",
+        "detail": "Utils.data_utils",
+        "documentation": {}
+    },
+    {
+        "label": "plot_group_by_competency",
+        "kind": 2,
+        "importPath": "Utils.plot_utils",
+        "description": "Utils.plot_utils",
+        "peekOfCode": "def plot_group_by_competency(df: pd.DataFrame, save: bool = False) -> None:\n    grouped = df.explode('current_skills').groupby('current_skills')['name'].count().sort_values(ascending=False)\n    plt.figure(figsize=(12, 8))\n    sns.barplot(x=grouped.values, y=grouped.index, palette=\"viridis\")\n    plt.xlabel('Count')\n    plt.ylabel('Current Skills')\n    plt.title('Count of Associates by Competency')\n    plt.tight_layout()\n    if save:\n        plt.savefig(os.path.join(visualization_dir, 'group_by_competency.png'))",
+        "detail": "Utils.plot_utils",
+        "documentation": {}
+    },
+    {
+        "label": "plot_group_by_grade",
+        "kind": 2,
+        "importPath": "Utils.plot_utils",
+        "description": "Utils.plot_utils",
+        "peekOfCode": "def plot_group_by_grade(df: pd.DataFrame, save: bool = False) -> None:\n    grouped = df.groupby('grade')['name'].count().sort_values(ascending=False)\n    plt.figure(figsize=(10, 6))\n    sns.barplot(x=grouped.index, y=grouped.values, palette=\"viridis\")\n    plt.xlabel('Grade')\n    plt.ylabel('Count')\n    plt.title('Count of Associates by Grade')\n    plt.tight_layout()\n    if save:\n        plt.savefig(os.path.join(visualization_dir, 'group_by_grade.png'))",
+        "detail": "Utils.plot_utils",
+        "documentation": {}
+    },
+    {
+        "label": "plot_group_by_training_status",
+        "kind": 2,
+        "importPath": "Utils.plot_utils",
+        "description": "Utils.plot_utils",
+        "peekOfCode": "def plot_group_by_training_status(df: pd.DataFrame, save: bool = False) -> None:\n    grouped = df.groupby('training_status')['name'].count().sort_values(ascending=False)\n    plt.figure(figsize=(10, 6))\n    sns.barplot(x=grouped.index, y=grouped.values, palette=\"viridis\")\n    plt.xlabel('Training Status')\n    plt.ylabel('Count')\n    plt.title('Count of Associates by Training Status')\n    plt.tight_layout()\n    if save:\n        plt.savefig(os.path.join(visualization_dir, 'group_by_training_status.png'))",
+        "detail": "Utils.plot_utils",
+        "documentation": {}
+    },
+    {
+        "label": "plot_group_by_training_type",
+        "kind": 2,
+        "importPath": "Utils.plot_utils",
+        "description": "Utils.plot_utils",
+        "peekOfCode": "def plot_group_by_training_type(df: pd.DataFrame, save: bool = False) -> None:\n    grouped = df.groupby('training_type')['name'].count().sort_values(ascending=False)\n    plt.figure(figsize=(10, 6))\n    sns.barplot(x=grouped.index, y=grouped.values, palette=\"viridis\")\n    plt.xlabel('Training Type')\n    plt.ylabel('Count')\n    plt.title('Count of Associates by Training Type')\n    plt.tight_layout()\n    if save:\n        plt.savefig(os.path.join(visualization_dir, 'group_by_training_type.png'))",
+        "detail": "Utils.plot_utils",
+        "documentation": {}
+    },
+    {
+        "label": "plot_group_by_upgraded_skills",
+        "kind": 2,
+        "importPath": "Utils.plot_utils",
+        "description": "Utils.plot_utils",
+        "peekOfCode": "def plot_group_by_upgraded_skills(df: pd.DataFrame, save: bool = False) -> None:\n    grouped = df.explode('upgraded_skills').groupby('upgraded_skills')['name'].count().sort_values(ascending=False)\n    plt.figure(figsize=(12, 8))\n    sns.barplot(x=grouped.values, y=grouped.index, palette=\"viridis\")\n    plt.xlabel('Count')\n    plt.ylabel('Upgraded Skills')\n    plt.title('Count of Associates by Upgraded Skills')\n    plt.tight_layout()\n    if save:\n        plt.savefig(os.path.join(visualization_dir, 'group_by_upgraded_skills.png'))",
+        "detail": "Utils.plot_utils",
+        "documentation": {}
+    },
+    {
+        "label": "plot_training_record_by_status",
+        "kind": 2,
+        "importPath": "Utils.plot_utils",
+        "description": "Utils.plot_utils",
+        "peekOfCode": "def plot_training_record_by_status(df: pd.DataFrame, save: bool = False) -> None:\n    grouped = df.groupby('status')['name'].count().sort_values(ascending=False)\n    plt.figure(figsize=(10, 6))\n    sns.barplot(x=grouped.index, y=grouped.values, palette=\"viridis\")\n    plt.xlabel('Training Record Status')\n    plt.ylabel('Count')\n    plt.title('Training Record Count by Status')\n    plt.tight_layout()\n    if save:\n        plt.savefig(os.path.join(visualization_dir, 'training_record_by_status.png'))",
+        "detail": "Utils.plot_utils",
+        "documentation": {}
+    },
+    {
+        "label": "plot_top_performers_by_score",
+        "kind": 2,
+        "importPath": "Utils.plot_utils",
+        "description": "Utils.plot_utils",
+        "peekOfCode": "def plot_top_performers_by_score(df: pd.DataFrame, score_column: str = 'final_score', save: bool = False) -> None:\n    top_performers = df.sort_values(by=score_column, ascending=False).head(10)\n    plt.figure(figsize=(12, 8))\n    sns.barplot(x=top_performers[score_column], y=top_performers['name'], palette=\"viridis\")\n    plt.xlabel('Score')\n    plt.ylabel('Name')\n    plt.title(f'Top 10 Performers by {score_column.replace(\"_\", \" \").title()}')\n    plt.tight_layout()\n    if save:\n        plt.savefig(os.path.join(visualization_dir, f'top_performers_by_{score_column}.png'))",
+        "detail": "Utils.plot_utils",
+        "documentation": {}
+    },
+    {
+        "label": "visualization_dir",
+        "kind": 5,
+        "importPath": "Utils.plot_utils",
+        "description": "Utils.plot_utils",
+        "peekOfCode": "visualization_dir = 'Reports/Visualizations/'\n# Ensure the directory exists\nos.makedirs(visualization_dir, exist_ok=True)\n@analysis_logger\ndef plot_group_by_competency(df: pd.DataFrame, save: bool = False) -> None:\n    grouped = df.explode('current_skills').groupby('current_skills')['name'].count().sort_values(ascending=False)\n    plt.figure(figsize=(12, 8))\n    sns.barplot(x=grouped.values, y=grouped.index, palette=\"viridis\")\n    plt.xlabel('Count')\n    plt.ylabel('Current Skills')",
+        "detail": "Utils.plot_utils",
+        "documentation": {}
+    },
+    {
+        "label": "menu",
+        "kind": 2,
+        "importPath": "main_interface",
+        "description": "main_interface",
+        "peekOfCode": "def menu():\n    print(\"\\nMenu:\")\n    print(\"/grouping for data grouping\")\n    print(\"/adv_grouping for advanced grouping operations\")\n    print(\"/general_report for generating general reports\")\n    print(\"/generate_specific_reports for generating spefic reports\")\n    print(\"/generate_growth_reports for growth reports\")\n    print(\"/exit, /faux, /out, /no to exit the program\")\n@analysis_login_system\n@analysis_logger",
+        "detail": "main_interface",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "main_interface",
+        "description": "main_interface",
+        "peekOfCode": "def main():\n    while True:\n        menu()\n        choice = input(\"Enter your choice with /: \")\n        if choice.strip().lower() in [\"exit\", \"out\", \"no\", \"faux\"]:\n            break\n        elif choice.strip().lower() == \"/generate_specific_reports\":\n            status = input(\"Enter status (or leave blank): \")\n            score_column = input(\"Enter score column (or leave blank): \")\n            skill = input(\"Enter skill (or leave blank): \")",
+        "detail": "main_interface",
+        "documentation": {}
+    }
+]
